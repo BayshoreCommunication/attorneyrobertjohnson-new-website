@@ -31,64 +31,33 @@ export const SITECONFIG = {
   ],
 
   footer: {
-    footer_logo: '/assets/site-logo/footer-logo.svg',
-    description:
-      'Accumsan volutpat ocurrersolet numquam accom modare quo et. Et vidit choro aliquid pro inani eir mod vituperata duo. Ut ludus vulputate quvartem accom modare eos novix error percipitur.',
     services: [
       {
-        day: 'Personal Injury',
-        time: '/personal-injury',
+        title: 'Personal Injury',
+        slug: '/personal-injury',
       },
       {
-        day: 'Car Accidents',
-        time: 'car-accidents',
+        title: 'Car Accidents',
+        slug: 'car-accidents',
       },
       {
-        day: 'Bicyle Accidents',
-        time: 'bicyle-accidents',
+        title: 'Bicyle Accidents',
+        slug: 'bicyle-accidents',
       },
       {
-        day: 'Dui Accidents',
-        time: 'dui-accidents',
+        title: 'Dui Accidents',
+        slug: 'dui-accidents',
       },
       {
-        day: 'Motocycle Accidents',
-        time: 'motocycle-accidents',
+        title: 'Motocycle Accidents',
+        slug: 'motocycle-accidents',
       },
       {
-        day: 'Wrongfull Death',
-        time: 'wrongfull-death',
+        title: 'Wrongfull Death',
+        slug: 'wrongfull-death',
       },
     ],
-
-    usefull_links: [
-      {
-        title: 'Home',
-        slug: '/',
-      },
-      {
-        title: 'About',
-        slug: '/about',
-      },
-      {
-        title: 'Services',
-        slug: '/services',
-      },
-      {
-        title: 'Services Area',
-        slug: '/services-area',
-      },
-
-      {
-        title: 'Blog',
-        slug: '/blog',
-      },
-      {
-        title: 'Contact',
-        slug: '/contact',
-      },
-    ],
-  }, 
+  },
   socialLinks: [
     {
       title: 'Facebook',
