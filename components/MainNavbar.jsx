@@ -20,7 +20,7 @@ const MainNavbar = () => {
     <Navbar
       // shouldHideOnScroll
       maxWidth='2xl'
-      className='flex bg-[#FFFFFF] bg-cover md:py-2 shadow-md border-t-2'
+      className='flex bg-[#FFFFFF] bg-cover md:py-2 shadow-md border-t-2 '
     >
       <NavbarContent className='md:hidden ml-0' justify='start'>
         <NavbarMenuToggle className='text-slate-900 ml-0' />
