@@ -5,6 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { IoMdMail } from "react-icons/io";
 import { useState } from "react";
+import MotionEffect from "@/components/motion/MotionEffect";
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -38,24 +39,35 @@ const ContactPage = () => {
         <SectionLayout bg="bg-[#F3F3F3]">
           <div>
             <div className="text-center">
-              <h3 className="mb-2 font-bold text-3xl">
-                HAVE QUESTIONS? GET IN TOUCH
-              </h3>
-              <div className="text-sm mb-6 lg:mb-12">
+              <MotionEffect effect={"fade-right"} duration={1500}>
+                <h3 className="mb-2 font-bold text-3xl">
+                  HAVE QUESTIONS? GET IN TOUCH
+                </h3>
+              </MotionEffect>
+
+              <MotionEffect
+                effect={"fade-left"}
+                duration={1500}
+                className="text-sm mb-6 lg:mb-12"
+              >
                 <p>
-                  Robert has over 19 years of valuable experience in the legal
+                  Robert has over 20 years of valuable experience in the legal
                   community and insurance industry.
                 </p>
                 <p>
                   He is not afraid to fight for justice for you and your family.
                 </p>
                 <p className="mt-2">Available 24/7 at (813) 540-3225</p>
-              </div>
+              </MotionEffect>
             </div>
           </div>
           <div className="flex flex-col lg:flex-row gap-14 items-center">
             <div className="flex flex-col gap-5 w-full lg:w-1/2">
-              <div className="bg-white shadow-medium hover:scale-[1.01] transition-all duration-500 ease-in-out py-7 px-8 rounded-md flex gap-3">
+              <MotionEffect
+                effect={"fade-up"}
+                duration={800}
+                className="bg-white shadow-medium hover:scale-[1.01] transition-all duration-500 ease-in-out py-7 px-8 rounded-md flex gap-3"
+              >
                 <FaLocationDot size={26} color="#0B5ED7" className="mt-1" />
                 <div>
                   <p className="font-medium text-lg">
@@ -63,15 +75,23 @@ const ContactPage = () => {
                   </p>
                   <p className="mt-2 text-gray-400 text-sm">Our Location</p>
                 </div>
-              </div>
-              <div className="bg-white shadow-medium hover:scale-[1.01] transition-all duration-500 ease-in-out py-7 px-8 rounded-md flex gap-3">
+              </MotionEffect>
+              <MotionEffect
+                effect={"fade-up"}
+                duration={1500}
+                className="bg-white shadow-medium hover:scale-[1.01] transition-all duration-500 ease-in-out py-7 px-8 rounded-md flex gap-3"
+              >
                 <BiSolidPhoneCall size={26} color="red" className="mt-1" />
                 <div>
                   <p className="font-medium text-lg">(813) 540-3225</p>
                   <p className="mt-2 text-gray-400 text-sm">Let’s Talk</p>
                 </div>
-              </div>
-              <div className="bg-white shadow-medium hover:scale-[1.01] transition-all duration-500 ease-in-out py-7 px-8 rounded-md flex gap-3">
+              </MotionEffect>
+              <MotionEffect
+                effect={"fade-up"}
+                duration={2000}
+                className="bg-white shadow-medium hover:scale-[1.01] transition-all duration-500 ease-in-out py-7 px-8 rounded-md flex gap-3"
+              >
                 <IoMdMail size={26} color="#0B5ED7" className="mt-1" />
                 <div>
                   <p className="font-medium text-lg">
@@ -79,9 +99,13 @@ const ContactPage = () => {
                   </p>
                   <p className="mt-2 text-gray-400 text-sm">Drop a Line</p>
                 </div>
-              </div>
+              </MotionEffect>
             </div>
-            <div className="w-full lg:w-1/2">
+            <MotionEffect
+              effect={"fade-left"}
+              duration={1500}
+              className="w-full lg:w-1/2"
+            >
               <form onSubmit={handleSubmit} className="">
                 <div className="flex flex-col gap-3">
                   <input
@@ -140,7 +164,7 @@ const ContactPage = () => {
                 Attorney Robert Johnson does not establish an attorney-client
                 relationship.
               </p>
-            </div>
+            </MotionEffect>
           </div>
         </SectionLayout>
       </section>
