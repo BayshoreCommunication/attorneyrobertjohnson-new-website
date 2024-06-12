@@ -45,7 +45,7 @@ const BlogSideBar = async () => {
                 <Link
                   key={index}
                   href={`/blog/${blog?.slug}`}
-                  className='bg-slate-200 text-slate-900 p-4 hover:bg-[#0B7788] hover:text-white rounded-md'
+                  className='bg-slate-200 text-slate-900 p-4 hover:bg-[#4B93FF] hover:text-white rounded-md'
                 >
                   <div className='flex items-center gap-x-2'>
                     <div className='h-[60px] w-[30%]'>

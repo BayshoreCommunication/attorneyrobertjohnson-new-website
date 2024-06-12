@@ -38,7 +38,7 @@ const page = async () => {
               <div className='flex items-center justify-center'>
                 <div className=''>
                   <h2
-                    className={`text-stone-950 font-bold text-5xl mt-5 mb-4 text-center`}
+                    className={`text-[#4B93FF] font-bold text-5xl mt-5 mb-4 text-center`}
                   >
                     Blogs
                   </h2>
@@ -81,7 +81,7 @@ const page = async () => {
                           <SecondaryButton
                             title={'Read More'}
                             href={`/blog/${blogs?.slug}`}
-                            style={'bg-[#0E758B] text-white'}
+                            style={'bg-[#4B93FF] text-white'}
                             radius={'sm'}
                           />
                         </div>

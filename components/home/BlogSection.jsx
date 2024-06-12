@@ -59,7 +59,7 @@ const BlogSection = async () => {
                       <SecondaryButton
                         title={'Read More'}
                         href={`/blog/${blogs?.slug}`}
-                        style={'bg-[#0E758B] text-white'}
+                        style={'bg-[#4B93FF] text-white'}
                         radius={'sm'}
                       />
                     </div>

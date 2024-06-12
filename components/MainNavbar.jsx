@@ -56,7 +56,7 @@ const MainNavbar = () => {
             <NavbarItem key={index}>
               <Link
                 href={nav.slug}
-                className={`flex text-slate-900 font-semibold text-lg hover:border-b-2 hover:border-solid hover:border-black ${pathname === nav.slug ? 'border-b-2 border-solid border-[#0B7788] text-[#0B7788]' : ''}`}
+                className={`flex text-slate-900 font-semibold text-lg hover:border-b-2 hover:border-solid hover:border-[#4B93FF] ${pathname === nav.slug ? 'border-b-2 border-solid border-[#4B93FF] text-[#4B93FF]' : ''}`}
               >
                 {nav.title}
               </Link>
@@ -69,7 +69,7 @@ const MainNavbar = () => {
         {SITECONFIG?.navMenuItem?.map((nav, index) => (
           <NavbarMenuItem key={`${nav}-${index}`} className='list-none'>
             <Link
-              className={`text-slate-900 font-semibold text-lg hover:border-b-2 hover:border-solid hover:border-black list-none ${pathname === nav.slug ? 'border-b-2 border-solid border-black' : ''}`}
+              className={`text-slate-900 font-semibold text-lg hover:border-b-2 hover:border-solid hover:border-[#4B93FF] list-none ${pathname === nav.slug ? 'border-b-2 border-solid border-[#4B93FF]' : ''}`}
               href={nav.slug}
               size='lg'
             >
