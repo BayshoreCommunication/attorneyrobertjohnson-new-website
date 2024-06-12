@@ -1,19 +1,19 @@
 import React from 'react';
 import SectionLayout from '../shared/SectionLayout';
+import { BiSolidPhoneCall } from 'react-icons/bi';
 import MotionEffect from '../motion/MotionEffect';
 import Link from 'next/link';
 import CardMotion from '../motion/CardMotion';
 import { areasOfPractice } from '@/config/areasOfPracticeData';
-import ServiceCard from '../services/ServiceCard';
 
 const AreasOfPractice = () => {
   return (
     <>
       <SectionLayout img="bg-[url('/images/areas-of-practice.jpg')] bg-cover bg-center">
-        <div className=''>
-          <div className='flex items-center justify-center'>
-            <div className=''>
-              <MotionEffect effect='fade-up' duration='2000'>
+        <div className="">
+          <div className="flex items-center justify-center">
+            <div className="">
+              <MotionEffect effect="fade-up" duration="2000">
                 <h2
                   className={`text-[#4B93FF] font-bold text-2xl md:text-4xl mt-5 mb-2 text-center`}
                 >
@@ -21,8 +21,8 @@ const AreasOfPractice = () => {
                 </h2>
               </MotionEffect>
 
-              <MotionEffect effect='fade-up' duration='2000'>
-                <p className='mb-4 text-lg text-slate-50 text-center mt-5 '>
+              <MotionEffect effect="fade-up" duration="2000">
+                <p className="mb-4 text-lg text-slate-50 text-center mt-5 ">
                   Robert has over 17 years of valuable experience in the legal
                   community and insurance industry.
                   <br /> He is not afraid to fight for justice for you and your
@@ -31,28 +31,29 @@ const AreasOfPractice = () => {
               </MotionEffect>
             </div>
           </div>
-
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-5 items-center justify-between mt-2 md:mt-8 mb-4'>
-            {areasOfPractice?.map((el, index) => (
-              <Link href={`/services/${el?.slug}`} key={index}>
-                <CardMotion
-                  whileInView={{
-                    opacity: 1,
-                    y: 0,
-                    transition: {
-                      duration: 1.1,
-                    },
-                  }}
-                  initial={{
-                    opacity: 0,
-                    y: 100,
-                  }}
-                >
-                  <ServiceCard serversData={el} />
-                </CardMotion>
-              </Link>
-            ))}
-          </div>
+          <SectionLayout bg='bg-white'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-5 items-center justify-between'>
+              {areasOfPractice?.map((el, index) => (
+                <Link href={`/services/${el?.slug}`}>
+                  <CardMotion
+                    whileInView={{
+                      opacity: 1,
+                      y: 0,
+                      transition: {
+                        duration: 1.1,
+                      },
+                    }}
+                    initial={{
+                      opacity: 0,
+                      y: 100,
+                    }}
+                  >
+                    <SideServicesCard serversData={el} />
+                  </CardMotion>
+                </Link>
+              ))}
+            </div>
+          </SectionLayout>
         </div>
       </SectionLayout>
     </>
