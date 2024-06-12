@@ -4,6 +4,7 @@ import BlogSection from '@/components/home/BlogSection';
 import ContactApex from '@/components/home/ContactApex';
 import FreeConsultation from '@/components/home/FreeConsultation';
 import HeroSection from '@/components/home/HeroSection';
+import ObligationSection from '@/components/home/ObligationSection';
 import PersonalInjury from '@/components/home/PersonalInjury';
 import WhyUs from '@/components/home/WhyUs';
 
@@ -14,11 +15,9 @@ export default function Home() {
       <PersonalInjury />
       <FreeConsultation />
       <AreasOfPractice />
-      {/* <TestimonialSection /> */}
-      <BlogSection />
-      <WhyUs />
-      <AboutUs />
+      <ObligationSection />
       <ContactApex />
+      <BlogSection />
     </main>
   );
 }

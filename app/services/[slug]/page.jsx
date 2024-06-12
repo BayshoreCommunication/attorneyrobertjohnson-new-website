@@ -1,146 +1,88 @@
-import PageHeroSection from "@/components/shared/PageHeroSection";
-import { serviceData } from "@/config/servicesData";
-import Image from "next/image";
-import Consultation from "@/components/shared/Consultation";
-import SectionLayoutBlog from "@/components/shared/SectionLayoutBlog";
-import Head from "next/head";
-import MotionEffect from "@/components/motion/MotionEffect";
+import React from 'react';
+import parse from 'html-react-parser';
+import SectionLayout from '@/components/shared/SectionLayout';
+import CardMotion from '@/components/motion/CardMotion';
+import { areasOfPractice } from '@/config/areasOfPracticeData';
 
-const page = async ({ params }) => {
-  const serviceDatas = serviceData?.filter(
-    (service) => service.slug === params.slug
+const css = `
+  h1{
+    font-size: 40px;
+    font-weight: 900;
+    padding-top: 10px;
+  }
+  h2{
+    padding-top: 10px;
+    font-size: 26px;
+    font-weight: 700;
+  }
+  p{
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+  ul{
+    list-style-type: disc;
+    margin-left: 30px;
+    
+  }
+  li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  br{
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+nav{
+  padding-top: 12px;
+}
+
+`;
+
+const page = ({ params }) => {
+  const areasOfPracticeDetails = areasOfPractice?.filter(
+    (service) => service.slug === params.slug,
   );
 
   return (
     <>
-      <Head>
-        <title>{serviceDatas[0]?.title}</title>
-        <meta
-          name="description"
-          content={`${serviceDatas[0]?.topBarDescription}`}
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
-      <div className="mt-0 md:mt-[130px]">
-        <PageHeroSection
-          heading={serviceDatas[0]?.title}
-          subheading={serviceDatas[0]?.topBarDescription}
-          image={`/image/${serviceDatas[0]?.topBarImage}`}
-          alt={"About Us Image"}
-          width={1000}
-          height={657}
-        />
+      <style>{css}</style>
+      <SectionLayout bg='bg-white'>
+        <CardMotion
+          whileInView={{
+            opacity: 1,
+            y: 0,
+            transition: {
+              duration: 1.1,
+            },
+          }}
+          initial={{
+            opacity: 0,
+            y: 100,
+          }}
+        >
+          <h2 className='mb-4 text-3xl font-bold tracking-normal text-left text-[#1B2639]'>
+            {areasOfPracticeDetails[0]?.title}
+          </h2>
 
-        <div className="">
-          {serviceDatas?.map((el, index) => (
-            <div className="" key={index}>
-              <SectionLayoutBlog>
-                <MotionEffect effect="fade-up" duration="2000">
-                  <div className="flex flex-col-reverse md:flex-row gap-x-12 items-center mb-0 md:mb-4 mt-12">
-                    <div className="w-full md:w-2/3">
-                      <h3 className="text-black text-left text-2xl font-semibold mb-2">
-                        {el?.mainHeading}
-                      </h3>
-                      <p className="font-normal text-[1rem] text-black mb-8">
-                        {el?.mainDescription}
-                      </p>
-                    </div>
+          <hr className='w-full h-[1px] mx-auto my-8 bg-[#1B2639] border-0 rounded md:my-5' />
 
-                    <div className="w-full md:w-1/3 mb-6 md:mb-0">
-                      <div className="w-full">
-                        <Image
-                          width={600}
-                          height={300}
-                          src={`/image/${el?.mainImage}`}
-                          alt={"blog-image"}
-                          className="object-cover w-full h-full"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </MotionEffect>
-              </SectionLayoutBlog>
+          <div className='grid gap-12 mb-10 gird-col-1 sm:grid-cols-3'>
+            {areasOfPracticeDetails?.map((services, index) => (
+              <div className='col-span-2'>
+                <div className='mt-5 text-base'>{parse(services?.details)}</div>
+              </div>
+            ))}
 
-              {el?.detailSections?.map((subEl, index) => (
-                <div key={index}>
-                  <SectionLayoutBlog>
-                    <MotionEffect effect="fade-up" duration="2000">
-                      <div className="flex flex-col-reverse md:flex-row gap-x-12 items-center mb-4 md:mt-12 mt-2">
-                        <div className="w-full md:w-1/3">
-                          <div className="w-full">
-                            <Image
-                              width={600}
-                              height={300}
-                              src={`/image/${subEl?.image}`}
-                              alt={"blog-image"}
-                              className="object-cover w-full h-full"
-                            />
-                          </div>
-                        </div>
-                        <div className="w-full md:w-2/3">
-                          <h3 className="text-black text-left text-2xl font-semibold mb-2">
-                            {subEl?.heading}
-                          </h3>
-                          <p className="font-normal text-[1rem] text-black mb-8">
-                            {subEl?.paragraph}
-                          </p>
-                        </div>
-                      </div>
-                    </MotionEffect>
-
-                    {/* <hr className='w-full border-t border-gray-500' /> */}
-                    {/* <div className='flex flex-col md:flex-row gap-x-0 md:gap-x-12 items-center mb-2 p-6 '>
-                      <div className='w-35%'>
-                        <div className='w-full'>
-                          <Image
-                            width={1800}
-                            height={300}
-                            src={`/image/${subEl?.image}`}
-                            alt={'blog-image'}
-                            className='bg-center bg-cover'
-                          />
-                        </div>
-                      </div>
-                      <div className='w-65%'>
-                        <h3 className='text-black text-left text-2xl font-semibold mb-2'>
-                          {subEl?.heading}
-                        </h3>
-
-                        <p className='font-normal text-[1rem] text-black mb-8 mt-4'>
-                          {subEl?.paragraph}
-                        </p>
-                      </div>
-                    </div> */}
-
-                    <div className="mt-10 mb-6 md:mb-0">
-                      <MotionEffect effect="fade-up" duration="2000">
-                        <div className="flex flex-col md:flex-row items-stretch gap-10">
-                          {subEl?.cards?.map((subCard, index) => (
-                            <div
-                              className="bg-[#EEF6F8] p-6 flex-1 flex flex-col"
-                              key={index}
-                            >
-                              <h3 className="text-black text-left text-2xl font-semibold mb-2">
-                                {subCard?.heading}
-                              </h3>
-                              <p className="font-normal text-[1rem] text-black mb-0">
-                                {subCard?.paragraph}
-                              </p>
-                            </div>
-                          ))}
-                        </div>
-                      </MotionEffect>
-                    </div>
-                  </SectionLayoutBlog>
-                </div>
+            {/* <div className='col-span-2 sm:col-span-1 h-[100%] md:h-[1600px] overflow-y-scroll overflow-x-hidden hidden md:block'>
+              {areasOfPractice?.map((el, index) => (
+                <Link href={`/services/${el?.slug}`}>
+                  <SideServicesCard serversData={el} />
+                </Link>
               ))}
-            </div>
-          ))}
-        </div>
-        <div className="mt-8">
-          <Consultation />
-        </div>
-      </div>
+            </div> */}
+          </div>
+        </CardMotion>
+      </SectionLayout>
     </>
   );
 };

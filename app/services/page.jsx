@@ -2,11 +2,11 @@ import React from 'react';
 import Image from 'next/image';
 import SectionLayout from '@/components/shared/SectionLayout';
 import SecondaryButton from '@/components/shared/SecondaryButton';
-import { serviceData } from '@/config/servicesData';
 import Consultation from '@/components/shared/Consultation';
 import PageHeroSection from '@/components/shared/PageHeroSection';
 import Head from 'next/head';
 import MotionEffect from '@/components/motion/MotionEffect';
+import { areasOfPractice } from '@/config/areasOfPracticeData';
 
 const page = () => {
   return (
@@ -33,7 +33,7 @@ const page = () => {
         <SectionLayout>
           <MotionEffect effect='fade-up' duration='2000'>
             <div className='overflow-hidden'>
-              {serviceData
+              {areasOfPractice
                 ?.filter((data, index) => index < 6)
                 ?.map((el, index) => (
                   <>

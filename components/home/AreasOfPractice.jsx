@@ -1,10 +1,10 @@
 import React from 'react';
 import SectionLayout from '../shared/SectionLayout';
-import { BiSolidPhoneCall } from 'react-icons/bi';
 import MotionEffect from '../motion/MotionEffect';
 import Link from 'next/link';
 import CardMotion from '../motion/CardMotion';
 import { areasOfPractice } from '@/config/areasOfPracticeData';
+import ServiceCard from '../services/ServiceCard';
 
 const AreasOfPractice = () => {
   return (
@@ -31,29 +31,28 @@ const AreasOfPractice = () => {
               </MotionEffect>
             </div>
           </div>
-          <SectionLayout bg='bg-white'>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-5 items-center justify-between'>
-              {areasOfPractice?.map((el, index) => (
-                <Link href={`/services/${el?.slug}`}>
-                  <CardMotion
-                    whileInView={{
-                      opacity: 1,
-                      y: 0,
-                      transition: {
-                        duration: 1.1,
-                      },
-                    }}
-                    initial={{
-                      opacity: 0,
-                      y: 100,
-                    }}
-                  >
-                    <SideServicesCard serversData={el} />
-                  </CardMotion>
-                </Link>
-              ))}
-            </div>
-          </SectionLayout>
+
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-5 items-center justify-between mt-2 md:mt-8 mb-4'>
+            {areasOfPractice?.map((el, index) => (
+              <Link href={`/services/${el?.slug}`} key={index}>
+                <CardMotion
+                  whileInView={{
+                    opacity: 1,
+                    y: 0,
+                    transition: {
+                      duration: 1.1,
+                    },
+                  }}
+                  initial={{
+                    opacity: 0,
+                    y: 100,
+                  }}
+                >
+                  <ServiceCard serversData={el} />
+                </CardMotion>
+              </Link>
+            ))}
+          </div>
         </div>
       </SectionLayout>
     </>

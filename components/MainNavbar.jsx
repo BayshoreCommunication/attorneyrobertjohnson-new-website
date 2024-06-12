@@ -12,7 +12,6 @@ import {
 import { usePathname } from 'next/navigation';
 import { SITECONFIG } from '@/config/site';
 import Image from 'next/image';
-import { serviceData } from '@/config/servicesData';
 
 const MainNavbar = () => {
   const pathname = usePathname();

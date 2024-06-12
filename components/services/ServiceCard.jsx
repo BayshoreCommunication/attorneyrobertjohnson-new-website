@@ -42,7 +42,7 @@ const ServiceCard = ({ serversData }) => {
           {serversData?.title}
         </h5>
         <p class='font-normal text-gray-700 dark:text-gray-400 line-clamp-2'>
-          {serversData?.sortTitle}
+          {serversData?.text}
         </p>
       </div>
     </motion.div>
