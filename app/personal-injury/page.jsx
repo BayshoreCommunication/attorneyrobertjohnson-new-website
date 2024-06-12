@@ -1,3 +1,4 @@
+import ContactUs from "@/components/shared/ContactUs";
 import SectionLayout from "@/components/shared/SectionLayout";
 import Image from "next/image";
 import React from "react";
@@ -78,7 +79,7 @@ const PersonInjuryPage = () => {
     },
   ];
   return (
-    <main>
+    <main className="pb-10">
       <section className="h-[64vh] bg-[url('/images/personal_injury_cover.png')] bg-cover flex items-center justify-center">
         <SectionLayout>
           <div className="flex flex-col items-center gap-3 text-white">
@@ -109,7 +110,7 @@ const PersonInjuryPage = () => {
       <SectionLayout>
         <div className="py-4">
           <div className="text-center">
-            <h3 className="mb-2 font-bold text-2xl">
+            <h3 className="mb-2 font-bold text-3xl">
               All Types of PERSONAL INJURIES
             </h3>
             <p className="text-sm mb-6 lg:mb-12">
@@ -136,7 +137,7 @@ const PersonInjuryPage = () => {
                 <div className="lg:w-1/2 flex flex-col gap-4">
                   <div>
                     <h6 className="text-2xl font-bold mb-1">{item.title}</h6>
-                    <div className="w-20 h-1 bg-[#4b93ff]"></div>
+                    <div className="w-28 h-1 bg-[#4b93ff]"></div>
                   </div>
                   {item.text.map((text, index) => (
                     <p key={index} className="text-sm sm:text-base">
@@ -149,6 +150,7 @@ const PersonInjuryPage = () => {
           </div>
         </div>
       </SectionLayout>
+      <ContactUs />
     </main>
   );
 };
