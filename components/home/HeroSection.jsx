@@ -13,7 +13,7 @@ const HeroSection = () => {
     visible,
   };
 
-  const text = '40+ YEARS OF COMBINED EXPERIENCE'.split(' ');
+  const text = '  Rob Johnson-Attorney At Law'.split(' ');
 
   return (
     <div className='relative'>
@@ -41,7 +41,19 @@ const HeroSection = () => {
                 variants={itemVariants}
                 className='text-[30px] md:text-[50px] font-[700] text-white text-center md:text-left leading-tight tracking-normal bg-[#4B93FF] p-6  rounded-md md:rounded-xl max-w-[800px]'
               >
-                Rob Johnson-Attorney At Law
+                {text.map((el, i) => (
+                  <motion.span
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{
+                      duration: 0.25,
+                      delay: i / 10,
+                    }}
+                    key={i}
+                  >
+                    {el}{' '}
+                  </motion.span>
+                ))}
               </motion.h1>
               <motion.p
                 variants={itemVariants}

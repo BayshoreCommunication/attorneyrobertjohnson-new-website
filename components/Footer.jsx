@@ -10,7 +10,7 @@ const Footer = () => {
       <div className='py-5 px-5 lg-px-0'>
         <div className='mx-auto w-full max-w-screen-2xl py-6 lg:py-8'>
           <div className='md:flex md:justify-center'>
-            <div className='grid grid-cols-1 gap-8 sm:gap-6 md:grid-cols-4 '>
+            <div className='grid grid-cols-1 gap-8 sm:gap-6 md:grid-cols-4 justify-between '>
               <div className='flex-1 mb-6 md:mb-0 mx-auto md:mx-0'>
                 <Link href='/' className='flex items-center cursor-pointer'>
                   <Image
@@ -127,17 +127,14 @@ const Footer = () => {
 
               {/* service Section*/}
 
-              <div className='flex-1 justify-center'>
+              <div className='flex-1 flex flex-col justify-between'>
                 <h2 className='mb-6 text-lg font-semibold text-white text-center md:text-left'>
                   SUBSCRIBE
                 </h2>
-                <ul className='text-gray-300 font-thin text-base list-none ml-0 text-center md:text-left'>
-                  {SITECONFIG?.footer?.usefull_links?.map((el, index) => (
+                <ul className='text-gray-300 font-thin text-base list-none p-0 text-center md:text-left'>
+                  {SITECONFIG?.footer?.services?.map((el, index) => (
                     <li className='mb-4' key={index}>
-                      <Link
-                        href='/'
-                        className='hover:underline text-center md:text-left'
-                      >
+                      <Link href={el?.slug} className='hover:underline'>
                         {el.title}
                       </Link>
                     </li>
@@ -150,7 +147,23 @@ const Footer = () => {
           {/* Bottom Part*/}
 
           <hr className='my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8' />
-          <div className='flex items-center justify-between'>
+          <div className='md:flex items-center justify-between'>
+            <div className='md:flex items-center md:justify-center  gap-1'>
+              <div className='text-gray-300 font-thin text-md md:text-base text-center'>
+                © 2024 Robert J. Johnson. ® All Rights Reserved. Attorney
+                Advertising.{' '}
+              </div>
+              <div className='text-gray-300 font-thin text-md md:text-base text-center'>
+                {'  '} Design & Developed by {'  '}
+                <a
+                  href='https://www.bayshorecommunication.com//'
+                  target='_blank'
+                  className='hover:underline font-medium text-[#4B93FF]'
+                >
+                  BayShore Communication
+                </a>
+              </div>
+            </div>
             <div className='flex mt-3 mb-3 justify-center sm:mt-4 gap-3'>
               <Link
                 href='https://www.facebook.com/apexadvisorgroup'
@@ -236,21 +249,6 @@ const Footer = () => {
 
                 <span className='sr-only'>X</span>
               </Link>
-            </div>
-            <div className='md:flex items-center md:justify-center  gap-1'>
-              <div className='text-gray-300 font-thin text-sm md:text-base text-center'>
-                ©2024 All Rights Reserved by Apex Advisor Group Inc.{' '}
-              </div>
-              <div className='text-gray-300 font-thin ext-sm md:text-base text-center'>
-                {'  '} Design & Developed by {'  '}
-                <a
-                  href='https://www.bayshorecommunication.com//'
-                  target='_blank'
-                  className='hover:underline font-medium text-[#248f9f]'
-                >
-                  BayShore Communication
-                </a>
-              </div>
             </div>
           </div>
         </div>
