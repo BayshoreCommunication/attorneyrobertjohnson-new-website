@@ -3,6 +3,10 @@ import SectionLayout from "@/components/shared/SectionLayout";
 import Image from "next/image";
 import React from "react";
 import { BiSolidPhoneCall } from "react-icons/bi";
+import SectionLayout from "@/components/shared/SectionLayout";
+import Image from "next/image";
+import React from "react";
+import { BiSolidPhoneCall } from "react-icons/bi";
 
 const PersonInjuryPage = () => {
   const data = [
