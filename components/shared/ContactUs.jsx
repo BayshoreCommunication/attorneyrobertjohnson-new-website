@@ -22,7 +22,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="px-5 lg:px-0">
+    <div className="">
       <MotionEffect effect={"fade-right"} duration={1500}>
         <div className="flex flex-col items-center gap-2 text-center">
           <h3 className="text-[#4B93FF] text-2xl font-bold">

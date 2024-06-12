@@ -121,8 +121,8 @@ const PersonInjuryPage = () => {
         <div className="py-4">
           <div className="text-center">
             <MotionEffect effect={"fade-right"} duration={1500}>
-              <h3 className="mb-2 font-bold text-3xl">
-                All Types of PERSONAL INJURIES
+              <h3 className="mb-2 font-bold text-2xl lg:text-3xl">
+                All Types of Personal Injuries
               </h3>
             </MotionEffect>
 
@@ -165,7 +165,9 @@ const PersonInjuryPage = () => {
                   className="lg:w-1/2 flex flex-col gap-4"
                 >
                   <div>
-                    <h6 className="text-2xl font-bold mb-1">{item.title}</h6>
+                    <h6 className="text-xl lg:text-2xl font-bold mb-1">
+                      {item.title}
+                    </h6>
                     <div className="w-28 h-1 bg-[#4b93ff]"></div>
                   </div>
                   {item.text.map((text, index) => (
@@ -179,7 +181,9 @@ const PersonInjuryPage = () => {
           </div>
         </div>
       </SectionLayout>
-      <ContactUs />
+      <SectionLayout>
+        <ContactUs />
+      </SectionLayout>
     </main>
   );
 };

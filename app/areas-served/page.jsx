@@ -10,7 +10,7 @@ const AreasServed = () => {
         <div>
           <div className="text-center">
             <MotionEffect effect={"fade-right"} duration={1500}>
-              <h3 className="mb-2 font-bold text-3xl">
+              <h3 className="mb-2 font-bold text-2xl lg:text-3xl">
                 We are served this area
               </h3>
             </MotionEffect>
@@ -32,7 +32,9 @@ const AreasServed = () => {
           <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:justify-items-center">
             <MotionEffect effect={"fade-up"} duration={800}>
               <div>
-                <p className="text-xl font-bold mb-2">Pasco County:</p>
+                <p className="text-lg lg:text-xl font-bold mb-2">
+                  Pasco County:
+                </p>
                 <ul className="list-disc list-inside flex flex-col gap-2">
                   <li>Dade City</li>
                   <li>Hudson</li>
@@ -46,7 +48,9 @@ const AreasServed = () => {
                 </ul>
               </div>
               <div className="mt-7">
-                <p className="text-xl font-bold mb-2">Manatee County:</p>
+                <p className="text-lg lg:text-xl font-bold mb-2">
+                  Manatee County:
+                </p>
                 <ul className="list-disc list-inside flex flex-col gap-2">
                   <li>Bradenton</li>
                   <li>Ellenton</li>
@@ -57,7 +61,9 @@ const AreasServed = () => {
             </MotionEffect>
             <MotionEffect effect={"fade-up"} duration={1500}>
               <div>
-                <p className="text-xl font-bold mb-2">Polk County:</p>
+                <p className="text-lg lg:text-xl font-bold mb-2">
+                  Polk County:
+                </p>
                 <ul className="list-disc list-inside flex flex-col gap-2">
                   <li>Clearwater</li>
                   <li>Dunedin</li>
@@ -71,7 +77,9 @@ const AreasServed = () => {
                 </ul>
               </div>
               <div className="mt-7">
-                <p className="text-xl font-bold mb-2">Sarasota County:</p>
+                <p className="text-lg lg:text-xl font-bold mb-2">
+                  Sarasota County:
+                </p>
                 <ul className="list-disc list-inside flex flex-col gap-2">
                   <li>Sarasota</li>
                   <li>Siesta Key</li>
@@ -82,7 +90,9 @@ const AreasServed = () => {
 
             <MotionEffect effect={"fade-up"} duration={2000}>
               <div>
-                <p className="text-xl font-bold mb-2">Hillsborough County:</p>
+                <p className="text-lg lg:text-xl font-bold mb-2">
+                  Hillsborough County:
+                </p>
                 <ul className="list-disc list-inside flex flex-col gap-2">
                   <li>Apollo Beach</li>
                   <li>Bloomingdale</li>
@@ -105,9 +115,9 @@ const AreasServed = () => {
           </div>
         </div>
       </SectionLayout>
-      <div className="py-10">
+      <SectionLayout>
         <ContactUs />
-      </div>
+      </SectionLayout>
     </main>
   );
 };
