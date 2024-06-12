@@ -13,7 +13,7 @@ const HeroSection = () => {
     visible,
   };
 
-  const text = '  Rob Johnson-Attorney At Law'.split(' ');
+  const text = 'Rob Johnson-Attorney At Law'.split(' ');
 
   return (
     <div className='relative'>

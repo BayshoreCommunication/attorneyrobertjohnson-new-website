@@ -68,7 +68,7 @@ const page = ({ params }) => {
 
           <div className='grid gap-12 mb-10 gird-col-1 sm:grid-cols-3'>
             {areasOfPracticeDetails?.map((services, index) => (
-              <div className='col-span-2'>
+              <div className='col-span-2' key={index}>
                 <div className='mt-5 text-base'>{parse(services?.details)}</div>
               </div>
             ))}
