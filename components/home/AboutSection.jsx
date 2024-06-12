@@ -40,7 +40,7 @@ const AboutSection = () => {
                 <strong>Contact Apex Advisor Group Inc</strong> - Tax
                 Preparation & Accounting Firm in Tampa, Florida.
               </p>
-            </div>{' '}
+            </div>
           </MotionEffect>
         </div>
       </div>

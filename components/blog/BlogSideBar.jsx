@@ -2,7 +2,8 @@ import React from 'react';
 import GetAllPostData from '@/lib/GetAllPostData';
 import SecondaryButton from '../shared/SecondaryButton';
 import Link from 'next/link';
-import { serviceData } from '@/config/servicesData';
+import { areasOfPractice } from '@/config/areasOfPracticeData';
+import Image from 'next/image';
 
 const BlogSideBar = async () => {
   const blogPostData = await GetAllPostData();
@@ -30,42 +31,34 @@ const BlogSideBar = async () => {
             </div>
           </div>
         </div>
+
         <div className='mt-16'>
           <h2
             className={`text-stone-900 font-bold text-2xl mt-5 mb-4 text-left`}
           >
-            Our Services
-          </h2>
-          <div className='flex flex-col gap-y-2'>
-            {serviceData
-              ?.filter((data, index) => index <= 6)
-              ?.map((service, index) => (
-                <Link
-                  key={index}
-                  href={`/services/${service?.slug}`}
-                  className='bg-slate-200 text-slate-900 p-4 hover:bg-[#0B7788] hover:text-white rounded-md'
-                >
-                  {service?.navTitle}
-                </Link>
-              ))}
-          </div>
-        </div>
-        <div className='mt-16'>
-          <h2
-            className={`text-stone-900 font-bold text-2xl mt-5 mb-4 text-left`}
-          >
-            Our Latest Blogs
+            Related Blogs
           </h2>
           <div className='flex flex-col gap-y-2'>
             {blogPostData?.data
               ?.filter((pub, no) => pub.published === true)
-              ?.map((blogs, index) => (
+              ?.map((blog, index) => (
                 <Link
                   key={index}
-                  href={`/blog/${blogs?.slug}`}
+                  href={`/blog/${blog?.slug}`}
                   className='bg-slate-200 text-slate-900 p-4 hover:bg-[#0B7788] hover:text-white rounded-md'
                 >
-                  {blogs.title}
+                  <div className='flex items-center gap-x-2'>
+                    <div className='h-[60px] w-[30%]'>
+                      <Image
+                        width={120}
+                        height={50}
+                        className='w-full h-full object-cover'
+                        src={blog?.featuredImage?.image?.url}
+                        alt={blog?.featuredImage?.altText}
+                      />
+                    </div>
+                    <h3 className='line-clamp-2 w-[70%]'>{blog.title}</h3>
+                  </div>
                 </Link>
               ))}
           </div>
