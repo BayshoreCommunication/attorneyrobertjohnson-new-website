@@ -21,7 +21,7 @@ const AreasServed = () => {
               className="text-sm mb-6 lg:mb-12"
             >
               <p>
-                Robert has over 19 years of valuable experience in the legal
+                Robert has over 20 years of valuable experience in the legal
                 community and insurance industry.
               </p>
               <p>

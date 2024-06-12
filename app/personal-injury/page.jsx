@@ -126,11 +126,17 @@ const PersonInjuryPage = () => {
               </h3>
             </MotionEffect>
 
-            <MotionEffect effect={"fade-left"} duration={1500}>
-              <p className="text-sm mb-6 lg:mb-12">
+            <MotionEffect
+              effect={"fade-left"}
+              duration={1500}
+              className="text-sm mb-6 lg:mb-12"
+            >
+              <p>
                 Robert has over 20 years of valuable experience in the legal
-                community and insurance industry. He is not afraid to fight for
-                justice for you and your family.
+                community and insurance industry.
+              </p>
+              <p>
+                He is not afraid to fight for justice for you and your family.
               </p>
             </MotionEffect>
           </div>

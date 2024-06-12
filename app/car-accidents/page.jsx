@@ -37,7 +37,7 @@ const CarAccidentsPage = () => {
             <MotionEffect effect={"fade-left"} duration={1500}>
               <div className="text-center hidden sm:block">
                 <p>
-                  Robert has over 19 years of valuable experience in the legal
+                  Robert has over 20 years of valuable experience in the legal
                   community and insurance industry.
                 </p>
                 <p>

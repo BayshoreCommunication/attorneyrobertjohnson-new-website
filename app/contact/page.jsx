@@ -57,7 +57,12 @@ const ContactPage = () => {
                 <p>
                   He is not afraid to fight for justice for you and your family.
                 </p>
-                <p className="mt-2">Available 24/7 at (813) 540-3225</p>
+                <p className="mt-2">
+                  Available 24/7 at{" "}
+                  <span className="text-[#4B93FF] text-base font-semibold">
+                    (813) 540-3225
+                  </span>
+                </p>
               </MotionEffect>
             </div>
           </div>
