@@ -4,6 +4,11 @@ import ContactUs from '@/components/shared/ContactUs';
 import SectionLayout from '@/components/shared/SectionLayout';
 import Head from 'next/head';
 import React from 'react';
+import AreasOfPractice from "@/components/home/AreasOfPractice";
+import MotionEffect from "@/components/motion/MotionEffect";
+import ContactUs from "@/components/shared/ContactUs";
+import SectionLayout from "@/components/shared/SectionLayout";
+import React from "react";
 
 const AreasServed = () => {
   return (
@@ -145,8 +150,30 @@ const AreasServed = () => {
               </MotionEffect>
               {/* <MotionEffect effect={'fade-up'} duration={2000}>
               <div>
-                <p className='text-lg lg:text-xl font-bold mb-2 mt-8'></p>
-                <ul className='list-disc list-inside flex flex-col gap-2'>
+                <p className="text-lg lg:text-xl font-bold mb-2">
+                  Polk County:
+                </p>
+                <ul className="list-disc list-inside flex flex-col gap-2">
+                  <li>Auburndale</li>
+                  <li>Bartow</li>
+                  <li>Davenport</li>
+                  <li>Dundee</li>
+                  <li>Fort Meade</li>
+                  <li>Frostproof</li>
+                  <li>Haines City</li>
+                </ul>
+              </div>
+            </MotionEffect>
+            <MotionEffect
+              effect={"fade-up"}
+              duration={2000}
+              className={"hidden lg:block xl:hidden"}
+            >
+              <div>
+                <p className="text-lg lg:text-xl font-bold mb-2 opacity-0">
+                  Polk County:
+                </p>
+                <ul className="list-disc list-inside flex flex-col gap-2">
                   <li>Kathleen</li>
                   <li>Lake Alfred</li>
                   <li>Lakeland</li>
