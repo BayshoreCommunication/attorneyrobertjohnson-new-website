@@ -12,7 +12,6 @@ import { usePathname } from 'next/navigation';
 import { SITECONFIG } from '@/config/site';
 import Image from 'next/image';
 import Link from 'next/link';
-import SectionLayout from './shared/SectionLayout';
 
 const MainNavbar = () => {
   const pathname = usePathname();

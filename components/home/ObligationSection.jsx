@@ -91,7 +91,7 @@ const ObligationSection = () => {
                 />
               </motion.div>
               <h2
-                className={`text-stone-950 font-bold text-xl mt-5 mb-0 text-center`}
+                className={`text-stone-950 font-bold text-md md:text-xl mt-5 mb-0 text-center`}
               >
                 FREE NO-OBLIGATION <br />
                 CONSULTATION
@@ -116,7 +116,7 @@ const ObligationSection = () => {
                 />
               </motion.div>
               <h2
-                className={`text-stone-950 font-bold text-xl mt-5 mb-0 text-center`}
+                className={`text-stone-950 font-bold text-md md:text-xl mt-5 mb-0 text-center`}
               >
                 SUPERIOR <br />
                 COMMUNICATION
@@ -141,7 +141,7 @@ const ObligationSection = () => {
                 />
               </motion.div>
               <h2
-                className={`text-stone-950 font-bold text-xl mt-5 mb-0 text-center`}
+                className={`text-stone-950 font-bold text-md md:text-xl mt-5 mb-0 text-center`}
               >
                 AGGRESSIVE
                 <br />
@@ -167,7 +167,7 @@ const ObligationSection = () => {
                 />
               </motion.div>
               <h2
-                className={`text-stone-950 font-bold text-xl mt-5 mb-0 text-center `}
+                className={`text-stone-950 font-bold text-md md:text-xl mt-5 mb-0 text-center `}
               >
                 NO UPFRONT <br />
                 FEE OR COSTS
@@ -196,7 +196,7 @@ const ObligationSection = () => {
                 </div>
               </motion.div>
               <h2
-                className={`text-stone-950 font-bold text-xl mt-5 mb-0 text-center`}
+                className={`text-stone-950 font-bold text-md md:text-xl mt-5 mb-0 text-center`}
               >
                 {`  IF DON’T WIN,`} <br />
                 {` NO ATTORNEY’S FEES`}
