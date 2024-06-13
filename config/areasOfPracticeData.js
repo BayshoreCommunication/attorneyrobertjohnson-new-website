@@ -297,10 +297,10 @@ export const areasOfPractice = [
       </ul>
 
       <br/>
-        <h5><strong style="font-size: 18px;">Why Rob Jhonson?</strong></h5>
+        <h5><strong style="font-size: 18px;">Why Rob Johnson?</strong></h5>
       <br/>
 
-      <p>To understand your legal options, contact Rob Jhonson– one of Florida’s most prominent in the area of personal injury lawyer. He is here to handle motorcycle accident related personal injury claims. Please do not hesitate to contact Rob Jhonson to understand how we can assist you in your time of need.</p>
+      <p>To understand your legal options, contact Rob Johnson– one of Florida’s most prominent in the area of personal injury lawyer. He is here to handle motorcycle accident related personal injury claims. Please do not hesitate to contact Rob Johnson to understand how we can assist you in your time of need.</p>
     `,
   },
   {
@@ -345,7 +345,7 @@ export const areasOfPractice = [
       <p>Families who have unexpectedly lost a dear one could be eligible to seek financial compensation for their loss. This could consist of compensation for emotional distress, mental suffering, anticipated lost income produced by the decedent, medical expenses, and burial expenses. Of course, no value of money will ever compensate for a wrongful death. It can, however, shield the family from financial devastation and provide them with the essential help in their moment of need.</p>
 
       <br/>
-        <h5><strong style="font-size: 18px;">Why Rob Jhonson?</strong></h5>
+        <h5><strong style="font-size: 18px;">Why Rob Johnson?</strong></h5>
       <br/>
 
       <p>Wrongful death lawsuits are complicated and need a thorough grasp of Florida law. If you believe you have a wrongful death lawsuit or if you have any questions, please contact me. I can offer you with further information and legal assistance on your case.</p>
@@ -357,26 +357,61 @@ export const areasOfPractice = [
     icon: '/images/icon/boat-accidents.png',
     text: 'Economic damages might be sought to compensate for the entire cost...',
     details: `
-
-
-      <br/>
         <h5><strong style="font-size: 18px;">Common causes of boat accident:</strong></h5>
       <br/>
 
-      <ul>
-        <li>Speeding</li>
-        <li>Boater inexperience</li>
-        <li>Distracted boat operation, including texting</li>
-        <li>Overloading, incorrect loading, or poor seating of people</li>
-        <li>Drug or alcohol use</li>
-        <li>Insufficient life jackets or other safety devices</li>
-        <li>Poor boat maintenance</li>
-        <li>Boating in bad weather</li>
-        <li>Sinking</li>
-        <li>Grounding</li>
-        <li>Striking underwater objects</li>
-        <li
-    <ul> `,
+<ul>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Speeding</li>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Boater inexperience</li>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Distracted boat operation, including texting</li>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Overloading, incorrect loading, or poor seating of people</li>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Drug or alcohol use</li>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Insufficient life jackets or other safety devices</li>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Poor boat maintenance</li>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Boating in bad weather</li>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Sinking</li>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Grounding</li>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Striking underwater objects</li>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Explosion &amp; fuel fire</li>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Defective boat</li>
+</ul>
+
+<br/>
+        <h5><strong style="font-size: 18px;">Steps need to take during this accident</strong></h5>
+      <br/>
+
+<ul>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Report an accident</li>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Inform Police</li>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Documents of accident</li>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Medical records</li>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Pay statement</li>
+</ul>
+
+
+<br/>
+        <h5><strong style="font-size: 18px;">Common transport involved in boat accidents</strong></h5>
+      <br/>
+
+<p>Boating accidents are not the same as car cases.</p>
+</be>
+<ul>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Cruise ships</li>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Yachts</li>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Ferry boats</li>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Kayaks</li>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Jet ski &amp; wave runners</li>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Sailboats</li>
+    <li style="color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Tour and dinner cruise boats</li>
+</ul>
+
+
+
+<br/>
+        <h5><strong style="font-size: 18px;">Damage repair policy</strong></h5>
+      <br/>
+
+<p style="text-align: left;color: rgb(0, 0, 0);background-color: rgb(255, 255, 255);font-size: 18px;">Economic damages might be sought to compensate for the entire cost of any costs incurred as a result of an injury. Medical expenditures for physical injuries. This can include the expense of medical emergency transport to and from the boat, as well as the cost of treatment when you arrive at the hospital. If you require more treatment from your physician or underwent continued physiotherapy or rehab, this ought to be reimbursed as well. Other financial damage could include the cost of damaged goods as well as lost pay from missed employment.<br>Non-economic losses are injuries that merit financial recompense but did not cost the client money. Physical and mental anguish</p>`,
   },
   {
     title: 'BRAIN INJURIES',

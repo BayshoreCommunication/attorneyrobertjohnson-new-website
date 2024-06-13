@@ -1,7 +1,7 @@
 import SectionLayout from '@/components/shared/SectionLayout';
 import Head from 'next/head';
 import Image from 'next/image';
-import robjhonson from '@/public/images/Robert-Johnson-Law-about.png';
+import robJohnson from '@/public/images/Robert-Johnson-Law-about.png';
 import { BiSolidPhoneCall } from 'react-icons/bi';
 import ContactUs from '@/components/shared/ContactUs';
 import MotionEffect from '@/components/motion/MotionEffect';
@@ -85,7 +85,7 @@ const AboutUsPage = () => {
             <div className='w-full md:w-[40%] flex justify-center'>
               <MotionEffect effect={'fade-left'} duration={1500}>
                 <Image
-                  src={robjhonson}
+                  src={robJohnson}
                   alt='rob johnson'
                   width={400}
                   height={300}
