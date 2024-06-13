@@ -33,8 +33,8 @@ const MainNavbar = () => {
             <Image
               width={120}
               height={130}
-              src={'/images/robertJohnsonlogo.png'}
-              alt='apex-logo'
+              src={'/images/robertjhonsonlogo.png'}
+              alt='robertJohnsonlogo'
               className='object-cover cursor-pointer'
             />
           </NavbarItem>
@@ -45,8 +45,8 @@ const MainNavbar = () => {
             <Image
               width={200}
               height={60}
-              src={'/images/robertJohnsonlogo.png'}
-              alt='apex-logo'
+              src={'/images/robertjhonsonlogo.png'}
+              alt='robertJohnsonlogo'
               className='object-cover cursor-pointer !max-w-[200px] ml-[-20px]'
             />
           </Link>
