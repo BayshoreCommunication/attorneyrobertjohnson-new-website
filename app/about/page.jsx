@@ -1,41 +1,39 @@
-import SectionLayout from "@/components/shared/SectionLayout";
-import Head from "next/head";
-import Image from "next/image";
-import robjhonson from "@/public/images/robjhonson4.png";
-import { BiSolidPhoneCall } from "react-icons/bi";
-import ContactUs from "@/components/shared/ContactUs";
-import MotionEffect from "@/components/motion/MotionEffect";
+import SectionLayout from '@/components/shared/SectionLayout';
+import Head from 'next/head';
+import Image from 'next/image';
+import robjhonson from '@/public/images/Robert-Johnson-Law.png';
+import { BiSolidPhoneCall } from 'react-icons/bi';
+import ContactUs from '@/components/shared/ContactUs';
+import MotionEffect from '@/components/motion/MotionEffect';
 
 const AboutUsPage = () => {
   return (
     <>
       <Head>
         <title>About - Apex Advisor Group Inc</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
         <meta
-          name="description"
-          content="Tax Accountants at Apex Advisor Group Inc offer personal tax returns to clients across Tampa, Brandon, Riverview, Sun City &amp; Plant City."
+          name='description'
+          content='Tax Accountants at Apex Advisor Group Inc offer personal tax returns to clients across Tampa, Brandon, Riverview, Sun City &amp; Plant City.'
         />
       </Head>
 
-      <SectionLayout bg="bg-[#F3F3F3]">
+      <SectionLayout bg='bg-[#F3F3F3]'>
         <section>
-          <div className="flex flex-col-reverse md:flex-row gap-6">
-            <div className="flex flex-col gap-4 w-full md:w-[60%]">
-              <MotionEffect effect={"fade-down"} duration={1500}>
-                <div className="flex flex-col gap-4 text-center sm:text-start">
-                  <h1 className="uppercase text-[#4B93FF] text-2xl sm:text-3xl font-bold">
+          <div className='flex flex-col-reverse md:flex-row gap-6'>
+            <div className='flex flex-col gap-2 w-full md:w-[60%] justify-between'>
+              <MotionEffect effect={'fade-down'} duration={1500}>
+                <div className='flex flex-col gap-4 text-center sm:text-start'>
+                  <h1 className='uppercase text-[#4B93FF] text-2xl sm:text-3xl font-bold'>
                     About Robert Johnson
                   </h1>
-                  <p className="font-bold">
-                    ROBERT J. JOHNSON, ESQ. (“Car Crash Rob”)
-                  </p>
+                  <p className='font-bold'>ROBERT J. JOHNSON, ESQ.</p>
                 </div>
               </MotionEffect>
               <MotionEffect
-                effect={"fade-right"}
+                effect={'fade-right'}
                 duration={1500}
-                className="flex flex-col gap-3"
+                className='flex flex-col gap-3'
               >
                 <p>{`Rob is the son of an Army Veteran who was born at Elmendorf Air Force Base in Alaska.  He grew up moving from one military base to another and because of that and his travels later in life, he has been fortunate to visit all fifty (50) states in The United States of America.  Although he moved often due to his father’s military orders, he had the opportunity to spend much of his young life growing up in central Florida and because of that he considers Florida, more specifically the Tampa Bay area, to be his home.`}</p>
                 <p>{`Rob graduated from The University of Tampa with both a Bachelor of Science in Criminology and a Bachelor of Arts in Government & World Affairs. During his time at The University of Tampa, Rob was very involved in service to others and his community and held several leadership roles, including his elected positions as Student Government President and President of his fraternity.  The University of Tampa is also where he met his wife Ainsley.`}</p>
@@ -44,9 +42,9 @@ const AboutUsPage = () => {
                 <p>{`Rob is licensed with The Florida Bar and is eligible to practice in all Florida State Courts and the Federal Courts in the Southern and Middle Districts of Florida.  He is also a member of the Florida Bar Trial Lawyers Section, Florida Bar Appellate Practice Section, Workers Compensation Law Section, Solo & Small Firm Section, Animal Law Section, Florida Justice Association, Southern Trial Lawyers Association, Hillsborough County Bar Association and Tampa Bay Inn of Court (American Inn of Courts).`}</p>
                 <p>{`When he is not advocating for his clients, Rob enjoys traveling, fishing, volunteering with various local charities, attending concerts, cheering on Tampa Bay’s local sports teams, and spending time with his wife, family and friends.`}</p>
               </MotionEffect>
-              <MotionEffect effect={"fade-right"} duration={1500}>
-                <p className="text-xl font-bold mb-2">Education:</p>
-                <ul className="list-disc list-inside flex flex-col gap-2">
+              <MotionEffect effect={'fade-right'} duration={1500}>
+                <p className='text-xl font-bold mb-2'>Education:</p>
+                <ul className='list-disc list-inside flex flex-col gap-2'>
                   <li>2005 - Bachelor of Science, The University of Tampa</li>
                   <li>2005 - Bachelor of Arts, The University of Tampa</li>
                   <li>
@@ -55,11 +53,11 @@ const AboutUsPage = () => {
                   </li>
                 </ul>
               </MotionEffect>
-              <MotionEffect effect={"fade-right"} duration={1500}>
-                <p className="text-xl font-bold mb-2">
+              <MotionEffect effect={'fade-right'} duration={1500}>
+                <p className='text-xl font-bold mb-2'>
                   Admissions and Associations:
                 </p>
-                <ul className="list-disc list-inside flex flex-col gap-2">
+                <ul className='list-disc list-inside flex flex-col gap-2'>
                   <li>2019 – Admitted into The Florida Bar</li>
                   <li>
                     2020 – Admitted into the Federal U.S. Middle District Court
@@ -87,34 +85,39 @@ const AboutUsPage = () => {
                 </ul>
               </MotionEffect>
             </div>
-            <div className="w-full md:w-[40%]">
-              <MotionEffect effect={"fade-left"} duration={1500}>
-                <Image src={robjhonson} alt="rob johnson" />
+            <div className='w-full md:w-[40%] flex justify-center'>
+              <MotionEffect effect={'fade-left'} duration={1500}>
+                <Image
+                  src={robjhonson}
+                  alt='rob johnson'
+                  width={400}
+                  height={300}
+                />
               </MotionEffect>
             </div>
           </div>
           <MotionEffect
-            effect={"fade-up"}
-            anchorPlacement={"top-bottom"}
+            effect={'fade-up'}
+            anchorPlacement={'top-bottom'}
             duration={1500}
           >
-            <div className="flex flex-col items-center gap-3 mt-6 md:mt-12 font-semibold text-center">
-              <p className="text-center">
+            <div className='flex flex-col items-center gap-3 mt-6 md:mt-12 font-semibold text-center'>
+              <p className='text-center'>
                 Robert J. Johnson, Esq. is the son of an Army Veteran that spent
                 the majority of his years <br /> right here in the central
                 Florida area.
               </p>
               <div>
-                <p className="text-lg mb-1">
+                <p className='text-lg mb-1'>
                   CALL “CAR CRASH ROB” NOW IF YOU HAVE BEEN INJURED!
                 </p>
-                <p className="flex items-center gap-2 text-lg justify-center">
+                <p className='flex items-center gap-2 text-lg justify-center'>
                   Free Consultation:
-                  <BiSolidPhoneCall size={17} color="red" />
+                  <BiSolidPhoneCall size={17} color='red' />
                   (813) 540-3225
                 </p>
               </div>
-              <p className="text-red-500">
+              <p className='text-xl md:text-2xl text-red-600 text-center'>
                 There is NO COST to YOU unless we win!
               </p>
             </div>

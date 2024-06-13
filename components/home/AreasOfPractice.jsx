@@ -23,7 +23,7 @@ const AreasOfPractice = () => {
 
               <MotionEffect effect='fade-up' duration='2000'>
                 <p className='mb-4 text-lg text-slate-50 text-center mt-5 '>
-                  Robert has over 17 years of valuable experience in the legal
+                  Robert has over 20 years of valuable experience in the legal
                   community and insurance industry.
                   <br /> He is not afraid to fight for justice for you and your
                   family.
@@ -32,7 +32,7 @@ const AreasOfPractice = () => {
             </div>
           </div>
           <SectionLayout>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-5 items-center justify-between'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4 gap-5 items-center justify-center md:justify-between'>
               {areasOfPractice?.map((el, index) => (
                 <Link href={`/services/${el?.slug}`} key={index}>
                   <CardMotion

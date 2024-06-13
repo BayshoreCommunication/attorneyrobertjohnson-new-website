@@ -31,7 +31,7 @@ const Footer = () => {
               {/* Contactinfo Section*/}
 
               <div className='flex-1 justify-between'>
-                <h2 className='mb-6 text-lg font-semibold text-white text-center md:text-left'>
+                <h2 className='mb-6 md:mb-12  text-lg font-semibold text-white text-center md:text-left'>
                   CONTACT INFO
                 </h2>
                 <ul className='text-gray-300 font-thin text-base list-none ml-0 text-center md:text-left'>
@@ -49,7 +49,7 @@ const Footer = () => {
               {/*Opening Hours*/}
 
               <div className='flex-1'>
-                <h2 className='mb-6 text-lg font-semibold text-white text-center md:text-left'>
+                <h2 className='mb-6 md:mb-12 text-lg font-semibold text-white text-center md:text-left'>
                   USEFUL LINKS
                 </h2>
                 <ul className='text-gray-300 font-thin text-base list-none ml-0 text-center md:text-left'>
@@ -127,19 +127,21 @@ const Footer = () => {
 
               {/* service Section*/}
 
-              <div className='flex-1 flex flex-col justify-between'>
-                <h2 className='mb-6 text-lg font-semibold text-white text-center md:text-left'>
-                  SUBSCRIBE
-                </h2>
-                <ul className='text-gray-300 font-thin text-base list-none p-0 text-center md:text-left'>
-                  {SITECONFIG?.footer?.services?.map((el, index) => (
-                    <li className='mb-4' key={index}>
-                      <Link href={el?.slug} className='hover:underline'>
-                        {el.title}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
+              <div className='flex justify-center'>
+                <div className=''>
+                  <h2 className='mb-6 md:mb-12 text-lg font-semibold text-white text-center md:text-left'>
+                    SUBSCRIBE
+                  </h2>
+                  <ul className='text-gray-300 font-thin text-base list-none p-0 text-center md:text-left'>
+                    {SITECONFIG?.footer?.services?.map((el, index) => (
+                      <li className='mb-4' key={index}>
+                        <Link href={el?.slug} className='hover:underline'>
+                          {el.title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -148,25 +150,34 @@ const Footer = () => {
 
           <hr className='my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8' />
           <div className='md:flex items-center justify-between'>
-            <div className='md:flex items-center md:justify-center  gap-1'>
-              <div className='text-gray-300 font-thin text-md md:text-base text-center'>
-                © 2024 Robert J. Johnson. ® All Rights Reserved. Attorney
-                Advertising.{' '}
+            <div className=''>
+              <div className='flex flex-col md:flex-row md:justify-start mb-2'>
+                <div className='text-gray-300 font-thin text-md md:text-base text-center md:text-left'>
+                  © 2024 Robert J. Johnson. ® All Rights Reserved. Attorney
+                  Advertising.
+                </div>
+                <div className='text-gray-300 font-thin text-md md:text-base text-center md:text-left'>
+                  {'  '} Design & Developed by {'  '}
+                  <a
+                    href='https://www.bayshorecommunication.com//'
+                    target='_blank'
+                    className='hover:underline font-medium text-[#4B93FF]'
+                  >
+                    BayShore Communication
+                  </a>
+                </div>
               </div>
-              <div className='text-gray-300 font-thin text-md md:text-base text-center'>
-                {'  '} Design & Developed by {'  '}
-                <a
-                  href='https://www.bayshorecommunication.com//'
-                  target='_blank'
-                  className='hover:underline font-medium text-[#4B93FF]'
-                >
-                  BayShore Communication
-                </a>
+              <div className='text-gray-300 font-thin text-md md:text-base text-center md:text-left'>
+                The information presented at this site should not be construed
+                to be formal legal advice nor the formation of a lawyer/client
+                relationship.
+                <br /> *Law Office of Robert J. Johnson d/b/a Robert Johnson Law
+                & Car Crash Rob is employed with Carter Injury Law*
               </div>
             </div>
             <div className='flex mt-3 mb-3 justify-center sm:mt-4 gap-3'>
               <Link
-                href='https://www.facebook.com/apexadvisorgroup'
+                href='/'
                 target='_blank'
                 className='text-[#09314A] hover:animate-pulse bg-slate-200 rounded-full p-2'
               >
@@ -187,7 +198,7 @@ const Footer = () => {
               </Link>
 
               <Link
-                href='https://www.instagram.com/apexadvisorgroup/'
+                href='/'
                 target='_blank'
                 className='text-[#09314A] hover:animate-pulse bg-slate-200 rounded-full p-2'
               >
@@ -218,7 +229,7 @@ const Footer = () => {
                 <span className='sr-only'>Linkdin</span>
               </Link>
               <Link
-                href='https://www.youtube.com/@apexadvisorgroup'
+                href='/'
                 target='_blank'
                 className='text-[#09314A] hover:animate-pulse bg-slate-200 rounded-full p-2'
               >
@@ -234,7 +245,7 @@ const Footer = () => {
               </Link>
 
               <Link
-                href='https://x.com/apex_advisor'
+                href='/'
                 target='_blank'
                 className='text-[#09314A] hover:animate-pulse bg-slate-200 rounded-full p-2'
               >

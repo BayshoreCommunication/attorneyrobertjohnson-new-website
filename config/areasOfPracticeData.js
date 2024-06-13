@@ -2,7 +2,7 @@ export const areasOfPractice = [
   {
     title: 'PERSONAL INJURY',
     slug: 'personal-injury',
-    icon: '/images/icon/icons.png',
+    icon: '/images/icon/personal-injury.png',
     text: 'According to Florida`s personal injury law people who are deliberately...',
     details: `
       <div>
@@ -58,7 +58,7 @@ export const areasOfPractice = [
   {
     title: 'CAR ACCIDENTS',
     slug: 'car-accidents',
-    icon: '/images/icon/icons.png',
+    icon: '/images/icon/car-accidents.png',
     text: 'If you have been involved in a car accident, it is important to understand the car accident laws and lawsuits. With the high number of cars on Florida roads, accidents occur every day, increasing the likelihood of being involved in one.',
     details: `
       <p>If you somehow have been involved in a car accident, it will be easy to understand the car accident laws and lawsuits. There are a lot of cars on the roads of Florida. Every day an accident occurs. So, there is a possibility of your car accident.</p>
@@ -110,7 +110,7 @@ export const areasOfPractice = [
   {
     title: 'BICYCLE ACCIDENTS',
     slug: 'bicycle-accidents',
-    icon: '/images/icon/icons.png',
+    icon: '/images/icon/bicycle-accidents.png',
     text: 'In the state of Florida there are a number of bicycles on roads for...',
     details: `
       <p>In the state of Florida there are a number of bicycles on roads for the climate of Florida. As a result, accidents occur daily because many cyclists; the cities like Tampa, St Petersburg, Lakeland, and so on. For applying for compensation also you need a personal injury and an accident attorney. I am Rob Johnson and I deal with Bicycle accident. If you or someone you know was in a bicycle accident, then consult me.</p>
@@ -132,7 +132,7 @@ export const areasOfPractice = [
     title: 'DUI ACCIDENTS',
     text: 'The victims and their family often don`t know what to do to end the...',
     slug: 'dui-accidents',
-    icon: '/images/icon/icons.png',
+    icon: '/images/icon/dui-accidents.png',
     details: `
   
       <h5><strong style="font-size: 18px;">Why hire a DUI injury attorney?</strong></h5>
@@ -176,7 +176,7 @@ export const areasOfPractice = [
   {
     title: 'SLIP AND FALL CASES',
     slug: 'slip-and-fail-case',
-    icon: '/images/icon/icons.png',
+    icon: '/images/icon/slip-and-fail-case.png',
     text: 'Florida’s slip and fall regulations are quite complicated. Florida is one...',
     details: `
       <p>Florida’s slip and fall regulations are quite complicated. Florida is one of just a few states with precise written slip and fall regulations that have been established by legislators. The statutes specify exactly what a victim must establish in order to win their lawsuit.</p>
@@ -216,7 +216,7 @@ export const areasOfPractice = [
   {
     title: 'MOTORCYCLE ACCIDENTS',
     slug: 'motorcycle-accidents',
-    icon: '/images/icon/icons.png',
+    icon: '/images/icon/motorcycle-accidents.png',
     text: 'To understand your legal options, contact Rob Jhonson– one of Florida’s most...',
     details: `
   
@@ -306,7 +306,7 @@ export const areasOfPractice = [
   {
     title: 'WRONGFUL DEATH',
     slug: 'wrongfull-death',
-    icon: '/images/icon/icons.png',
+    icon: '/images/icon/wrongfull-death.png',
     text: 'A wrongful death happens in Florida whenever a person or business...',
     details: `
       <p>A wrongful death happens in Florida whenever a person or business causes the death of another person via wrongful conduct, carelessness, default, or violation of an agreement or guarantee. In other terms, a wrongful death happens when one person dies as a result of the legal fault of another party, such as- a negligent incidence, medical misconduct, a faulty product, or a deliberate act Common Causes of Wrongful Death,</p>
@@ -354,7 +354,7 @@ export const areasOfPractice = [
   {
     title: 'BOAT ACCIDENTS',
     slug: 'boat-accidents',
-    icon: '/images/icon/icons.png',
+    icon: '/images/icon/boat-accidents.png',
     text: 'Economic damages might be sought to compensate for the entire cost...',
     details: `
 
@@ -381,7 +381,7 @@ export const areasOfPractice = [
   {
     title: 'BRAIN INJURIES',
     slug: 'brain-injuries',
-    icon: '/images/icon/icons.png',
+    icon: '/images/icon/brain-injuries.png',
     text: 'The path to rehabilitation after a brain injury can be difficult and costly...',
     details: `
       <p>The path to rehabilitation after a brain injury can be difficult and costly. However, you are not required to undertake it alone. An expert brain injury attorney can assist you in fighting for full and equitable treatment for your damage, allowing you to concentrate on your rehabilitation.</p>
@@ -457,7 +457,7 @@ export const areasOfPractice = [
   {
     title: 'LYFT ACCIDENTS',
     slug: 'lyft-accidents',
-    icon: '/images/icon/icons.png',
+    icon: '/images/icon/lyft-accidents.png',
     text: 'When your car is inaccessible or you intend to enjoy a few drinks at dinner...',
     details: `
       <p>When your car is inaccessible or you intend to enjoy a few drinks at dinner, you rely on ridesharing firms such Uber and Lyft to take you there. You like their service’s ease and are thankful for the opportunity. However, rideshare drivers are subjected to accidents like every other driver, so it’s important to know who is responsible for your damages if you are involved in an Uber or Lyft accident.</p>
@@ -570,8 +570,8 @@ export const areasOfPractice = [
   },
   {
     title: 'UBER ACCIDENTS',
-    slug: 'user-accidents',
-    icon: '/images/icon/icons.png',
+    slug: 'uber-accidents',
+    icon: '/images/icon/user-accidents.png',
     text: 'Many Uber affected individuals are unclear if they should sue the Uber driver...',
     details: `
       <p>Many Uber affected individuals are unclear if they should sue the Uber driver or make a claim under Uber’s insurance coverage. Most consumers would prefer to submit a claim against Uber since the company’s insurance coverage limitations are likely to be significantly larger than the driver’s insurance limitations. However, as previously stated, an Uber accident victim can only sue the corporation under limited circumstances. If you need a personal injury and accident attorney then you came in the right place, Rob Johnson is a professional expert in this area.</p>
@@ -631,7 +631,7 @@ export const areasOfPractice = [
   {
     title: 'SCOOTER ACCIDENTS',
     slug: 'scooter-accidents',
-    icon: '/images/icon/icons.png',
+    icon: '/images/icon/scooter-accidents.png',
     text: 'Scooters, particularly among young people and students on Florida’s...',
     details: `
       <p>Scooters, particularly among young people and students on Florida’s campuses, have been an increasingly popular mode of transportation in recent times due to their energy, affordability, and simplicity of parking. Unfortunately, using a scooter does not offer the same level of safety as going in an enclosed automobile with a seat belt, a metal frame, and airbags. Wearing a helmet helps to protect scooter riders, but it is not compulsory by law, putting them at risk of injury or death in incidents with irresponsible drivers. If you have suffered significant injuries as a result of a scooter accident. In this situation please call the Florida scooter accident lawyers at Rob Johnson as soon as possible.</p>
@@ -678,7 +678,7 @@ export const areasOfPractice = [
   {
     title: 'SPINAL CORD INJURIES',
     slug: 'spinal-cord-injuries',
-    icon: '/images/icon/icons.png',
+    icon: '/images/icon/spinal-cord-injuries.png',
     text: 'Hundreds of thousands of individuals suffer spinal cord injuries as a...',
     details: `
       <p>Hundreds of thousands of individuals suffer spinal cord injuries as a result of a variety of incidents. A spinal cord injury occurs when any section of the spine or nerves is damaged, and it generally has long-term implications such as a loss of physical prowess, loss of feeling in some or all regions of the body, or loss of urinary incontinence. While research is underway, spinal cord injury sufferers often have a tough recovery, and many never fully recover.</p>
@@ -726,7 +726,7 @@ export const areasOfPractice = [
   {
     title: 'PEDESTRIAN ACCIDENT',
     slug: 'pedestrin-accident',
-    icon: '/images/icon/icons.png',
+    icon: '/images/icon/pedestrin-accident.png',
     text: 'If you were hit by a vehicle while going for a run or a walk, you should know...',
     details: `
       <p>If you were hit by a vehicle while going for a run or a walk, you should know what kind of compensation you could get for your injuries. Florida is among the most risky states for incidents, and it is not unusual for walkers or runners to be engaged in a collision caused by a driver’s recklessness.</p>

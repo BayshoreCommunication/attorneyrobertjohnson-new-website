@@ -34,7 +34,7 @@ const FreeConsultation = () => {
               </MotionEffect>
 
               <MotionEffect effect='fade-up' duration='2000'>
-                <p className='mb-4 text-lg text-[#FF3838] text-center max-w-[780px] mt-0 '>
+                <p className='mb-4 text-xl md:text-2xl text-red-600 text-center max-w-[780px] mt-0 '>
                   There is NO COST to YOU unless we win!
                 </p>
               </MotionEffect>

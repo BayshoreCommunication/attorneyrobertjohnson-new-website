@@ -10,7 +10,7 @@ const BlogSideBar = async () => {
   return (
     <div>
       <div className='bg-[#EEF6F8] p-6'>
-        <div className="bg-[url('/image/contact-banner.jpg')] bg-cover bg-center w-[100%] h-[500px] flex items-center justify-center">
+        <div className="bg-[url('/images/calltoaction.jpg')] bg-cover bg-center w-[100%] h-[500px] flex items-center justify-center">
           <div>
             <h2
               className={`text-stone-50 font-bold text-3xl mt-5 mb-4 text-center`}

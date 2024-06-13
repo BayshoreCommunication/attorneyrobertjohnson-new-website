@@ -1,7 +1,6 @@
 'use client';
 import Image from 'next/image';
 import React from 'react';
-import { Mulish, Bitter } from 'next/font/google';
 import { motion, AnimatePresence } from 'framer-motion';
 import SectionLayout from '../shared/SectionLayout';
 import CardMotion from '../motion/CardMotion';
@@ -23,8 +22,7 @@ const variants = {
   },
 };
 
-const bitter = Bitter({ subsets: ['latin'] });
-const mulish = Mulish({ subsets: ['latin'] });
+
 
 const ObligationSection = () => {
   return (
@@ -75,12 +73,12 @@ const ObligationSection = () => {
                 variants={variants}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                className='border-2 p-6 rounded-xl w-[120px] mx-auto hover:bg-[#4B93FF]'
+                className='p-6 rounded-xl w-[120px] mx-auto bg-[#4B93FF]'
               >
                 <Image
-                  width={100}
+                  width={80}
                   height={50}
-                  src={'/images/one.png'}
+                  src={'/images/obligation1.png'}
                   alt='about img'
                 />
               </motion.div>
@@ -96,12 +94,12 @@ const ObligationSection = () => {
                 variants={variants}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                className='border-2 p-6 rounded-xl w-[120px] mx-auto hover:bg-[#4B93FF]'
+                className='p-6 rounded-xl w-[120px] mx-auto bg-[#4B93FF]'
               >
                 <Image
                   width={100}
                   height={50}
-                  src={'/images/two.png'}
+                  src={'/images/obligation2.png'}
                   alt='about img'
                 />
               </motion.div>
@@ -117,12 +115,12 @@ const ObligationSection = () => {
                 variants={variants}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                className='border-2 p-6 rounded-xl w-[120px] mx-auto hover:bg-[#4B93FF]'
+                className='p-6 rounded-xl w-[120px] mx-auto bg-[#4B93FF]'
               >
                 <Image
                   width={100}
                   height={50}
-                  src={'/images/three.png'}
+                  src={'/images/obligation3.png'}
                   alt='about img'
                 />
               </motion.div>
@@ -139,12 +137,12 @@ const ObligationSection = () => {
                 variants={variants}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                className='border-2 p-6 rounded-xl w-[120px] mx-auto hover:bg-[#4B93FF]'
+                className='p-6 rounded-xl w-[120px] mx-auto bg-[#4B93FF]'
               >
                 <Image
                   width={100}
                   height={50}
-                  src={'/images/four.png'}
+                  src={'/images/obligation4.png'}
                   alt='about img'
                 />
               </motion.div>
@@ -160,14 +158,16 @@ const ObligationSection = () => {
                 variants={variants}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                className='border-2 p-6 rounded-xl w-[100px] mx-auto hover:bg-[#4B93FF] '
+                className='p-6 rounded-xl w-[120px] mx-auto bg-[#4B93FF] '
               >
-                <Image
-                  width={70}
-                  height={50}
-                  src={'/images/five.png'}
-                  alt='about img'
-                />
+                <div className='w-[95px]'>
+                  <Image
+                    width={60}
+                    height={50}
+                    src={'/images/obligation5.png'}
+                    alt='about img'
+                  />
+                </div>
               </motion.div>
               <h2
                 className={`text-stone-950 font-bold text-xl mt-5 mb-0 text-center`}

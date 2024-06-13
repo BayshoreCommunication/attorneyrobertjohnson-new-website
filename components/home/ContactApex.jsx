@@ -7,7 +7,7 @@ import MotionEffect from '../motion/MotionEffect';
 const ContactApex = async () => {
   return (
     <>
-      <SectionLayout img="bg-[url('/image/homebanner4.png')] bg-cover bg-center">
+      <SectionLayout img="bg-[url('/images/contactmebg.png')] bg-cover bg-center">
         <div className=''>
           <div className='flex items-center justify-center'>
             <div className=''>
