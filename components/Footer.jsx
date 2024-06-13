@@ -39,9 +39,9 @@ const Footer = () => {
                     <p className='font-bold'>
                       Attorney Robert J. Johnson, Esq.
                     </p>
-                    <p> 1211 Tech Blvd.</p>
+                    <p>1211 Tech Blvd.</p>
+                    <p>Suite #110</p>
                     <p>Tampa, Florida 33619</p>
-                    <p>Available For Consultation</p>
                   </li>
                 </ul>
               </div>
@@ -177,7 +177,7 @@ const Footer = () => {
             </div>
             <div className='flex mt-3 mb-3 justify-center sm:mt-4 gap-3'>
               <Link
-                href='/'
+                href='https://www.facebook.com/robjohnsonattorneyatlaw/'
                 target='_blank'
                 className='text-[#09314A] hover:animate-pulse bg-slate-200 rounded-full p-2'
               >
@@ -198,7 +198,7 @@ const Footer = () => {
               </Link>
 
               <Link
-                href='/'
+                href='https://www.instagram.com/robjohnsonattorneyatlaw/'
                 target='_blank'
                 className='text-[#09314A] hover:animate-pulse bg-slate-200 rounded-full p-2'
               >
@@ -212,7 +212,7 @@ const Footer = () => {
                 </svg>
                 <span className='sr-only'>Instagram</span>
               </Link>
-              <Link
+              {/* <Link
                 href='https://www.linkedin.com/company/apex-advisor-group-inc/'
                 target='_blank'
                 className='text-[#09314A] hover:animate-pulse bg-slate-200 rounded-full p-2'
@@ -227,9 +227,9 @@ const Footer = () => {
                 </svg>
 
                 <span className='sr-only'>Linkdin</span>
-              </Link>
+              </Link> */}
               <Link
-                href='/'
+                href='https://www.youtube.com/@RobJohnson-AttorneyAtLaw'
                 target='_blank'
                 className='text-[#09314A] hover:animate-pulse bg-slate-200 rounded-full p-2'
               >
@@ -245,7 +245,7 @@ const Footer = () => {
               </Link>
 
               <Link
-                href='/'
+                href='https://x.com/robjohnsonlaw'
                 target='_blank'
                 className='text-[#09314A] hover:animate-pulse bg-slate-200 rounded-full p-2'
               >

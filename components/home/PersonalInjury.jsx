@@ -48,7 +48,7 @@ function PersonalInjury() {
     //     </div>
     //   </div>
     // </SectionLayout>
-    <SectionLayout bg='bg-white'>
+    <SectionLayout bg='bg-white mt-4'>
       <div className='space-y-20'>
         <div className='flex flex-col-reverse md:flex-row gap-4 md:gap-12 items-center'>
           <div className='flex-1'>

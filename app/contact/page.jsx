@@ -97,7 +97,7 @@ const ContactPage = () => {
               <FaLocationDot size={26} color='#0B5ED7' className='mt-1' />
               <div>
                 <p className='font-medium text-lg'>
-                  1211 Tech Blvd., Suite #110, Tampa, FL 33619
+                  1211 Tech Blvd. Suite #110 Tampa, Florida 33619
                 </p>
                 <p className='mt-2 text-gray-400 text-sm'>Our Location</p>
               </div>

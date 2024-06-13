@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import React from 'react';
+import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import SectionLayout from '../shared/SectionLayout';
 import CardMotion from '../motion/CardMotion';
@@ -22,9 +22,13 @@ const variants = {
   },
 };
 
-
-
 const ObligationSection = () => {
+  const [isHovered1, setIsHovered1] = useState(false);
+  const [isHovered2, setIsHovered2] = useState(false);
+  const [isHovered3, setIsHovered3] = useState(false);
+  const [isHovered4, setIsHovered4] = useState(false);
+  const [isHovered5, setIsHovered5] = useState(false);
+
   return (
     <SectionLayout>
       <div className='py-6'>
@@ -73,12 +77,16 @@ const ObligationSection = () => {
                 variants={variants}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                className='p-6 rounded-xl w-[120px] mx-auto bg-[#4B93FF]'
+                className='p-6 rounded-xl w-[120px] mx-auto hover:bg-[#4B93FF] border-2 border-slate-500'
+                onMouseEnter={() => setIsHovered1(true)}
+                onMouseLeave={() => setIsHovered1(false)}
               >
                 <Image
                   width={80}
                   height={50}
-                  src={'/images/obligation1.png'}
+                  src={
+                    isHovered1 ? '/images/obligation1.png' : '/images/one.png'
+                  }
                   alt='about img'
                 />
               </motion.div>
@@ -94,12 +102,16 @@ const ObligationSection = () => {
                 variants={variants}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                className='p-6 rounded-xl w-[120px] mx-auto bg-[#4B93FF]'
+                className='p-6 rounded-xl w-[120px] mx-auto hover:bg-[#4B93FF] border-2 border-slate-500'
+                onMouseEnter={() => setIsHovered2(true)}
+                onMouseLeave={() => setIsHovered2(false)}
               >
                 <Image
-                  width={100}
+                  width={80}
                   height={50}
-                  src={'/images/obligation2.png'}
+                  src={
+                    isHovered2 ? '/images/obligation2.png' : '/images/two.png'
+                  }
                   alt='about img'
                 />
               </motion.div>
@@ -115,12 +127,16 @@ const ObligationSection = () => {
                 variants={variants}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                className='p-6 rounded-xl w-[120px] mx-auto bg-[#4B93FF]'
+                className='p-6 rounded-xl w-[120px] mx-auto hover:bg-[#4B93FF] border-2 border-slate-500'
+                onMouseEnter={() => setIsHovered3(true)}
+                onMouseLeave={() => setIsHovered3(false)}
               >
                 <Image
-                  width={100}
+                  width={80}
                   height={50}
-                  src={'/images/obligation3.png'}
+                  src={
+                    isHovered3 ? '/images/obligation3.png' : '/images/three.png'
+                  }
                   alt='about img'
                 />
               </motion.div>
@@ -137,12 +153,16 @@ const ObligationSection = () => {
                 variants={variants}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                className='p-6 rounded-xl w-[120px] mx-auto bg-[#4B93FF]'
+                className='p-6 rounded-xl w-[120px] mx-auto hover:bg-[#4B93FF] border-2 border-slate-500'
+                onMouseEnter={() => setIsHovered4(true)}
+                onMouseLeave={() => setIsHovered4(false)}
               >
                 <Image
-                  width={100}
+                  width={80}
                   height={50}
-                  src={'/images/obligation4.png'}
+                  src={
+                    isHovered4 ? '/images/obligation4.png' : '/images/four.png'
+                  }
                   alt='about img'
                 />
               </motion.div>
@@ -158,13 +178,19 @@ const ObligationSection = () => {
                 variants={variants}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                className='p-6 rounded-xl w-[120px] mx-auto bg-[#4B93FF] '
+                className='p-6 rounded-xl w-[120px] mx-auto hover:bg-[#4B93FF] border-2 border-slate-500'
+                onMouseEnter={() => setIsHovered5(true)}
+                onMouseLeave={() => setIsHovered5(false)}
               >
-                <div className='w-[95px]'>
+                <div className='w-[50px] ml-2'>
                   <Image
                     width={60}
                     height={50}
-                    src={'/images/obligation5.png'}
+                    src={
+                      isHovered5
+                        ? '/images/obligation5.png'
+                        : '/images/five.png'
+                    }
                     alt='about img'
                   />
                 </div>

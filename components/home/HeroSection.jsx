@@ -32,7 +32,7 @@ const HeroSection = () => {
           src='/images/Robert-Johnson-Law.png'
           alt='robert-johnson-law'
           priority
-          className='z-20 absolute bottom-0 right-0 md:right-[20%] top-[8%] '
+          className='z-20 absolute bottom-0 right-0 md:right-[16%] top-[8%] '
           rel='preload'
           height={700}
           width={500}

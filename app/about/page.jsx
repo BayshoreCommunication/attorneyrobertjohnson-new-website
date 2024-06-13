@@ -1,7 +1,7 @@
 import SectionLayout from '@/components/shared/SectionLayout';
 import Head from 'next/head';
 import Image from 'next/image';
-import robjhonson from '@/public/images/Robert-Johnson-Law.png';
+import robjhonson from '@/public/images/Robert-Johnson-Law-about.png';
 import { BiSolidPhoneCall } from 'react-icons/bi';
 import ContactUs from '@/components/shared/ContactUs';
 import MotionEffect from '@/components/motion/MotionEffect';
@@ -10,12 +10,9 @@ const AboutUsPage = () => {
   return (
     <>
       <Head>
-        <title>About - Apex Advisor Group Inc</title>
+        <title>About - Attorney Robert Johnson</title>
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <meta
-          name='description'
-          content='Tax Accountants at Apex Advisor Group Inc offer personal tax returns to clients across Tampa, Brandon, Riverview, Sun City &amp; Plant City.'
-        />
+        <meta name='description' content='' />
       </Head>
 
       <SectionLayout bg='bg-[#F3F3F3]'>

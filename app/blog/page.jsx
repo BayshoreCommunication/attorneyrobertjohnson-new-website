@@ -24,10 +24,10 @@ const page = async () => {
   return (
     <>
       <Head>
-        <title>Blogs - Apex Advisor Group Inc</title>
+        <title>Blogs - Attorney Robert Johnson</title>
         <meta
           name='description'
-          content='Read the blog posts by Apex Advisor Group Inc - Tampa Accounting Firm. Our Tax Accountants offer Tax Preparation Services to clients across Tampa, Brandon &amp; Riverview.'
+          content=''
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
       </Head>

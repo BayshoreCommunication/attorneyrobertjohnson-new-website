@@ -217,7 +217,7 @@ export const areasOfPractice = [
     title: 'MOTORCYCLE ACCIDENTS',
     slug: 'motorcycle-accidents',
     icon: '/images/icon/motorcycle-accidents.png',
-    text: 'To understand your legal options, contact Rob Jhonson– one of Florida’s most...',
+    text: 'To understand your legal options, contact Rob Johnson– one of Florida’s most...',
     details: `
   
       <br/>
@@ -498,7 +498,7 @@ export const areasOfPractice = [
   {
     title: 'TRUCKING ACCIDENTS',
     slug: 'trucking-accidents',
-    icon: '/images/icon/icons.png',
+    icon: '/images/icon/trucking-accidents.png',
     text: 'Trucking accident lawsuits can be among the most complex cases to resolve...',
     details: `
       <h5><strong style="font-size: 18px;">Common causes of truck accident in Florida</strong></h5>
