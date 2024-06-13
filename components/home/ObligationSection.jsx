@@ -119,7 +119,7 @@ const ObligationSection = () => {
                 className={`text-stone-950 font-bold text-xl mt-5 mb-0 text-center`}
               >
                 SUPERIOR <br />
-                CONSULTATION
+                COMMUNICATION
               </h2>
             </div>
             <div className=''>
