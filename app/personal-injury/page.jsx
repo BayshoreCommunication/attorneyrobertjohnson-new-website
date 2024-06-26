@@ -10,7 +10,7 @@ import { BiSolidPhoneCall } from 'react-icons/bi';
 const PersonInjuryPage = () => {
   const data = [
     {
-      imgLink: '/images/personalInjuries1.png',
+      imgLink: '/images/services-image/personal-injury.jpg',
       title: 'Personal Injury',
       text: [
         'If you’ve been injured, whether in an automobile accident or an incident due to someone else’s fault, Florida law provides that you have legal rights and are entitled to be fully compensated for your injury.',
@@ -20,7 +20,7 @@ const PersonInjuryPage = () => {
       imageInLeft: true,
     },
     {
-      imgLink: '/images/personalInjuries2.png',
+      imgLink: '/images/services-image/auto-accidents.jpg',
       title: 'Auto Accidents',
       text: [
         'Being involved in an auto accident in Florida can be a very confusing and frustrating time. How will I get my car fixed? Who pays for my rental? What is PIP? What does it mean that Florida is a No-Fault state? Who will pay my medical bills? Car Crash Rob and his team can handle all of this for you. We aim to take the stress of you by answering all of your questions and doing the “heavy lifting” so you can focus on healing from your injuries and obtaining fair compensation for your car and your injuries.',
@@ -28,7 +28,7 @@ const PersonInjuryPage = () => {
       imageInLeft: false,
     },
     {
-      imgLink: '/images/personalInjuries1.png',
+      imgLink: '/images/services-image/slip-&-fall.jpg',
       title: 'Slip & Fall',
       text: [
         'An unexpected fall to a hard surface can cause significant injuries to a person’s body, bringing about medical bills, pain, suffering, and lost of the ability to earn a living. If you’ve slipped and fallen, or tripped and fallen, on someone else’s property, you may be entitled to financial compensation if you can prove that the property owner somehow failed to inspect the property or maintain it in a reasonably safe condition.',
@@ -38,7 +38,7 @@ const PersonInjuryPage = () => {
       imageInLeft: true,
     },
     {
-      imgLink: '/images/personalInjuries2.png',
+      imgLink: '/images/services-image/medical-malpractice.jpg',
       title: 'Medical Malpractice',
       text: [
         'Medical error is the 3rd leading cause of death in the United States. Yet, hospitals and physicians will fight tooth and nail to deny compensation when someone is seriously injured or killed as a result of their negligence. Having an attorney ready to battle for you can even the playing field.',
@@ -46,7 +46,7 @@ const PersonInjuryPage = () => {
       imageInLeft: false,
     },
     {
-      imgLink: '/images/personalInjuries1.png',
+      imgLink: '/images/services-image/premise-liability.jpg',
       title: 'Premise Liability',
       text: [
         'Premises liability claims encompass a wide range of cases. If you’ve been injured on someone else’s property, you may be entitled to financial compensation if you can prove that the property owner somehow caused your injury and was negligent in doing so. Some examples of premises liability claims are slip and falls, trip and falls, dog bites, a business or residential complex that failed to provide adequate, security that fails to protect you at a bar from another disorderly patron, or an overaggressive security person at a night club.',
@@ -56,7 +56,7 @@ const PersonInjuryPage = () => {
       imageInLeft: true,
     },
     {
-      imgLink: '/images/personalInjuries2.png',
+      imgLink: '/images/services-image/dog-bites.jpg',
       title: 'Dog Bites',
       text: [
         'A vicious dog can cause serious injury to a person that may result in hospitalization, the need for plastic surgery, or even death. Florida is a strict-liability dog bite state, meaning that you need not prove that a dog bit someone due to the negligence of the owner; you only need to prove that the dog owner actually owned the dog and that it bit you. There are narrow exceptions based on the types of signs that a dog owner posts on the property (if that is where the bite occurred) and the age of the person who was bitten (children and the elderly are especially vulnerable to dangerous dogs).',
@@ -65,7 +65,8 @@ const PersonInjuryPage = () => {
       imageInLeft: false,
     },
     {
-      imgLink: '/images/personalInjuries1.png',
+      imgLink:
+        '/images/services-image/uber-lyft-and-other-ride-sharing-or-meal-delivery-platforms.jpg',
       title: 'Uber, Lyft, and other Ride-Sharing or Meal Delivery Platforms',
       text: [
         'If you’ve been injured by a delivery driver, while a passenger in a ride-sharing vehicle, or in any other way involving a “fee-to-ride” platform, there may be insurance to cover your losses. We have experience dealing with these companies and their insurance companies to help resolve your claim.',
@@ -73,7 +74,7 @@ const PersonInjuryPage = () => {
       imageInLeft: true,
     },
     {
-      imgLink: '/images/personalInjuries2.png',
+      imgLink: '/images/services-image/bicycle-and-pedestrian-accidents.jpg',
       title: 'Bicycle and Pedestrian Accidents',
       text: [
         'Being injured while on a bicycle or as a pedestrian can cause unique injuries and complications. We have experience in handling complex injuries and know how secure all available sources of insurance to pay your medical bills in these scenarios. For example, you may be entitled to the PIP coverage of the at-fault driver.',

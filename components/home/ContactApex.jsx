@@ -1,7 +1,6 @@
 import React from 'react';
 import SectionLayout from '../shared/SectionLayout';
 import Image from 'next/image';
-import GoogleMap from '../shared/GoogleMap';
 import MotionEffect from '../motion/MotionEffect';
 
 const ContactApex = async () => {
