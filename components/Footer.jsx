@@ -149,7 +149,7 @@ const Footer = () => {
           <hr className='my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8' />
           <div className='md:flex items-center justify-between'>
             <div className=''>
-              <div className='flex flex-col md:flex-row md:justify-start mb-2'>
+              <div className='flex flex-col md:flex-row md:justify-start mb-3'>
                 <div className='text-gray-300 font-thin text-md md:text-base text-center md:text-left'>
                   © 2024 Robert J. Johnson. ® All Rights Reserved. Attorney
                   Advertising.
@@ -175,7 +175,7 @@ const Footer = () => {
             </div>
             <div className='flex mt-3 mb-3 justify-center sm:mt-4 gap-3'>
               <Link
-                href='https://www.facebook.com/robjohnsonattorneyatlaw/'
+                href='https://www.facebook.com/attorneyrobertjohnsonatlaw'
                 target='_blank'
                 className='text-[#09314A] hover:animate-pulse bg-slate-200 rounded-full p-2'
               >
@@ -196,7 +196,7 @@ const Footer = () => {
               </Link>
 
               <Link
-                href='https://www.instagram.com/robjohnsonattorneyatlaw/'
+                href='https://www.instagram.com/attorneyrobertjohnsonatlaw/'
                 target='_blank'
                 className='text-[#09314A] hover:animate-pulse bg-slate-200 rounded-full p-2'
               >

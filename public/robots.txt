@@ -1,2 +1,9 @@
+# *
 User-agent: *
-Disallow: /admin/
+Allow: /
+
+# Host
+Host: https://attorneyrobertjohnson.com
+
+# Sitemaps
+Sitemap: https://attorneyrobertjohnson.com/sitemap.xml
