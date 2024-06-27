@@ -134,7 +134,7 @@ const Footer = () => {
                 <h2 className='mb-6 md:mb-12 text-lg font-semibold text-white text-center md:text-left'>
                   SERVICE
                 </h2>
-                <ul className='text-gray-300 font-thin text-base list-none p-0 text-center md:text-left'>
+                <ul className='text-gray-300 font-thin text-base list-none p-0 text-center md:text-left pl-0 ml-0'>
                   {SITECONFIG?.footer?.services?.map((el, index) => (
                     <Link href={`/services/${el.slug}`} key={index}>
                       <li className='mb-4 hover:underline'>
@@ -159,16 +159,6 @@ const Footer = () => {
                 Advertising. This website is designed for general information
                 only.
               </div>
-              <div className='text-gray-300 font-thin text-md md:text-base text-center md:text-left'>
-                {'   '} Design & Developed by {'  '}
-                <a
-                  href='https://www.bayshorecommunication.com//'
-                  target='_blank'
-                  className='hover:underline font-medium text-[#4B93FF]'
-                >
-                  BayShore Communication
-                </a>
-              </div>
             </div>
             <div className='text-gray-300 font-thin text-md md:text-base text-center md:text-left'>
               The information presented at this site should not be construed to
@@ -177,6 +167,16 @@ const Footer = () => {
               <br /> *Law Office of Robert J. Johnson d/b/a Robert Johnson Law &
               Car Crash Rob is employed with Carter Injury Law*
             </div>
+          </div>
+          <div className='text-gray-300 font-thin text-md md:text-base text-center mt-4 !mb-5 md:hidden block'>
+            {'   '} Design & Developed by {'  '}
+            <a
+              href='https://www.bayshorecommunication.com//'
+              target='_blank'
+              className='hover:underline font-medium text-[#4B93FF]'
+            >
+              BayShore Communication
+            </a>
           </div>
           <div className='flex mt-3 mb-3 justify-center sm:mt-4 gap-3'>
             <Link
@@ -264,6 +264,16 @@ const Footer = () => {
               <span className='sr-only'>X</span>
             </Link>
           </div>
+        </div>
+        <div className='text-gray-300 font-thin text-md md:text-base text-center mt-6 hidden md:block'>
+          {'   '} Design & Developed by {'  '}
+          <a
+            href='https://www.bayshorecommunication.com//'
+            target='_blank'
+            className='hover:underline font-medium text-[#4B93FF]'
+          >
+            BayShore Communication
+          </a>
         </div>
       </SectionLayout>
     </footer>
