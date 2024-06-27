@@ -41,16 +41,16 @@ export const SITECONFIG = {
         slug: 'car-accidents',
       },
       {
-        title: 'Bicyle Accidents',
-        slug: 'bicyle-accidents',
+        title: 'Bicycle Accidents',
+        slug: 'bicycle-accidents',
       },
       {
         title: 'Dui Accidents',
         slug: 'dui-accidents',
       },
       {
-        title: 'Motocycle Accidents',
-        slug: 'motocycle-accidents',
+        title: 'Motorcycle Accidents',
+        slug: 'motorcycle-accidents',
       },
       {
         title: 'Wrongfull Death',

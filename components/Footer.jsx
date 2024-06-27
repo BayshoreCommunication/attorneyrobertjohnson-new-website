@@ -136,9 +136,11 @@ const Footer = () => {
                 </h2>
                 <ul className='text-gray-300 font-thin text-base list-none p-0 text-center md:text-left'>
                   {SITECONFIG?.footer?.services?.map((el, index) => (
-                    <li className='mb-4' key={index}>
-                      <p>{el.title}</p>
-                    </li>
+                    <Link href={`/services/${el.slug}`} key={index}>
+                      <li className='mb-4 hover:underline'>
+                        <p>{el.title}</p>
+                      </li>
+                    </Link>
                   ))}
                 </ul>
               </div>
