@@ -12,7 +12,7 @@ const page = () => {
   return (
     <>
       <Head>
-        <title>Services</title>
+        <title>Services - </title>
         <meta name='description' content='' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
       </Head>
