@@ -2,7 +2,6 @@ import React from 'react';
 import GetAllPostData from '@/lib/GetAllPostData';
 import SecondaryButton from '../shared/SecondaryButton';
 import Link from 'next/link';
-import { areasOfPractice } from '@/config/areasOfPracticeData';
 import Image from 'next/image';
 
 const BlogSideBar = async () => {
@@ -10,24 +9,26 @@ const BlogSideBar = async () => {
   return (
     <div>
       <div className='bg-[#EEF6F8] p-6'>
-        <div className="bg-[url('/images/calltoaction.jpg')] bg-cover bg-center w-[100%] h-[500px] flex items-center justify-center">
-          <div>
-            <h2
-              className={`text-stone-50 font-bold text-3xl mt-5 mb-4 text-center`}
-            >
-              Need Consultacy Help?
-            </h2>
+        <div className="bg-[url('/images/calltoaction.jpg')] bg-cover bg-center  flex items-center justify-center w-[100%] h-[500px]">
+          <div className=''>
+            <div>
+              <h2
+                className={`text-stone-50 font-bold text-3xl mt-5 mb-4 text-center`}
+              >
+                Need Consultacy Help?
+              </h2>
 
-            <p className='text-lg text-stone-200 text-center max-w-[780px] mt-4 mx-4 mb-4'>
-              We are here to give you 24/7 hours services.
-            </p>
-            <div className='flex items-start justify-center'>
-              <SecondaryButton
-                title={'Contact Us'}
-                link={'/contact'}
-                style={'bg-[#0E758B] text-white'}
-                radius={'sm'}
-              />
+              <p className='text-lg text-stone-200 text-center max-w-[780px] mt-4 mx-4 mb-4'>
+                We are here to give you 24/7 hours services.
+              </p>
+              <div className='flex items-start justify-center'>
+                <SecondaryButton
+                  title={'Contact Us'}
+                  link={'/contact'}
+                  style={'bg-[#0E758B] text-white'}
+                  radius={'sm'}
+                />
+              </div>
             </div>
           </div>
         </div>

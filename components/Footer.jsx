@@ -153,13 +153,14 @@ const Footer = () => {
         <hr className='my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8' />
         <div className='md:flex items-center justify-between'>
           <div className=''>
-            <div className='flex flex-col md:flex-row md:justify-start mb-3'>
+            <div className='flex flex-col gap-x-1 md:flex-row md:justify-start mb-3'>
               <div className='text-gray-300 font-thin text-md md:text-base text-center md:text-left'>
                 © 2024 Robert J. Johnson. ® All Rights Reserved. Attorney
-                Advertising.
+                Advertising. This website is designed for general information
+                only.
               </div>
               <div className='text-gray-300 font-thin text-md md:text-base text-center md:text-left'>
-                {'  '} Design & Developed by {'  '}
+                {'   '} Design & Developed by {'  '}
                 <a
                   href='https://www.bayshorecommunication.com//'
                   target='_blank'
