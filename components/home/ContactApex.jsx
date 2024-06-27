@@ -20,9 +20,10 @@ const ContactApex = async () => {
 
               <MotionEffect effect='fade-up' duration='2000'>
                 <p className='mb-4 text-lg text-stone-50 text-center mt-8'>
-                  I you have been involved in an accident and have quistions,
-                  call me now to schedule a free no-obligation consultation.
-                  <br /> consultation.
+                  If you have been involved in an accident and have questions,
+                  call me now to schedule a free no-obligation 
+                  <br />
+                  consultation.
                 </p>
               </MotionEffect>
             </div>

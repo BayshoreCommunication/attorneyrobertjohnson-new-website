@@ -17,7 +17,7 @@ const AreasOfPractice = () => {
                 <h2
                   className={`text-[#4B93FF] font-bold text-2xl md:text-4xl mt-5 mb-2 text-center`}
                 >
-                  CALL “CAR CRASH ROB” NOW IF YOU HAVE BEEN INJURED!
+                  AREAS OF PRACTICE
                 </h2>
               </MotionEffect>
 

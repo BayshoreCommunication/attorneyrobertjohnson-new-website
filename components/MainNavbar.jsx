@@ -1,5 +1,5 @@
 'use client';
-import React from 'react';
+import React, { useState } from 'react';
 import {
   Navbar,
   NavbarContent,
@@ -13,15 +13,16 @@ import { SITECONFIG } from '@/config/site';
 import Image from 'next/image';
 import Link from 'next/link';
 
-
 const MainNavbar = () => {
   const pathname = usePathname();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <div className='mx-auto flex justify-center items-center w-full border-t-2 border-b-2 shadow-md'>
       <div className='container mx-5 lg:mx-0'>
         <Navbar
-          // shouldHideOnScroll
+          isMenuOpen={isMenuOpen}
+          onMenuOpenChange={setIsMenuOpen}
           maxWidth='2xl'
           className='flex bg-[#FFFFFF] bg-cover md:py-2'
         >
@@ -75,6 +76,9 @@ const MainNavbar = () => {
                   className={`text-slate-900 font-semibold text-lg hover:border-b-2 hover:border-solid hover:border-[#4B93FF] list-none ${pathname === nav.slug ? 'border-b-2 border-solid border-[#4B93FF]' : ''}`}
                   href={nav.slug}
                   size='lg'
+                  onClick={() => {
+                    setIsMenuOpen((prev) => !prev);
+                  }}
                 >
                   {nav.title}
                 </Link>
