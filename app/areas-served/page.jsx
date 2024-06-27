@@ -1,9 +1,9 @@
-import AreasOfPractice from '@/components/Home/AreasOfPractice';
+import React from 'react';
 import MotionEffect from '@/components/motion/MotionEffect';
-import ContactUs from '@/components/shared/ContactUs';
 import SectionLayout from '@/components/shared/SectionLayout';
 import Head from 'next/head';
-import React from 'react';
+import AreasOfPractice from '@/components/home/AreasOfPractice';
+import ContactUs from '@/components/shared/ContactUs';
 
 const AreasServed = () => {
   return (
