@@ -3,6 +3,7 @@ import parse from 'html-react-parser';
 import SectionLayout from '@/components/shared/SectionLayout';
 import CardMotion from '@/components/motion/CardMotion';
 import { areasOfPractice } from '@/config/areasOfPracticeData';
+import Head from 'next/head';
 
 const css = `
   h1{
@@ -45,6 +46,11 @@ const page = ({ params }) => {
 
   return (
     <>
+      <Head>
+        <title> {areasOfPracticeDetails[0]?.title}</title>
+        <meta name='description' content='' />
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
+      </Head>
       <style>{css}</style>
       <SectionLayout bg='bg-white'>
         <CardMotion

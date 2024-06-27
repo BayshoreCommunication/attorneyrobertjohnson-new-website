@@ -1,4 +1,4 @@
-import AreasOfPractice from '@/components/home/AreasOfPractice';
+import AreasOfPractice from '@/components/Home/AreasOfPractice';
 import MotionEffect from '@/components/motion/MotionEffect';
 import ContactUs from '@/components/shared/ContactUs';
 import SectionLayout from '@/components/shared/SectionLayout';

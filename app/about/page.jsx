@@ -100,9 +100,9 @@ const AboutUsPage = () => {
           >
             <div className='flex flex-col items-center gap-3 mt-6 md:mt-12 font-semibold text-center'>
               <p className='text-center'>
-                Robert J. Johnson, Esq. is the son of an Army Veteran that spent
-                the majority of his years <br /> right here in the central
-                Florida area.
+                Robert has over 20 years of valuable experience in the legal
+                community and insurance industry. <br /> He is not afraid to
+                fight for justice for you and your family.
               </p>
               <div>
                 <p className='text-lg mb-1'>

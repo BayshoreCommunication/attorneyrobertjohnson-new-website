@@ -13,10 +13,7 @@ const page = () => {
     <>
       <Head>
         <title>Services</title>
-        <meta
-          name='description'
-          content='At Apex Advisor Group Inc, we offer Accounting, Tax Preparation, Planning &amp; Tax Resolution Services to clients across Tampa, Brandon, Riverview, Sun City &amp; Plant City.'
-        />
+        <meta name='description' content='' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
       </Head>
       <div className='mt-0 md:mt-[130px]'>

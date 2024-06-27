@@ -52,6 +52,10 @@ const Footer = () => {
               </h2>
               <ul className='text-gray-300 font-thin text-base list-none ml-0 text-center md:text-left'>
                 <li className='mb-4'>
+                  <Link href={'/privacy-policy'} className='hover:underline'>
+                    Privacy Policy
+                  </Link>
+                  ,{' '}
                   <Link href={'/'} className='hover:underline'>
                     Apollo Beach
                   </Link>

@@ -1,4 +1,4 @@
-import AreasOfPractice from '@/components/home/AreasOfPractice';
+import AreasOfPractice from '@/components/Home/AreasOfPractice';
 import MotionEffect from '@/components/motion/MotionEffect';
 import ContactUs from '@/components/shared/ContactUs';
 import SectionLayout from '@/components/shared/SectionLayout';
@@ -69,7 +69,7 @@ const AreasServed = () => {
             <MotionEffect effect={'fade-up'} duration={1500}>
               <div>
                 <p className='text-lg lg:text-xl font-bold mb-2'>
-                  Polk County:
+                  Pinellas County:
                 </p>
                 <ul className='list-disc list-inside flex flex-col gap-2'>
                   <li>Clearwater</li>
