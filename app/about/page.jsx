@@ -5,6 +5,7 @@ import robJohnson from '@/public/images/Robert-Johnson-Law-about.png';
 import { BiSolidPhoneCall } from 'react-icons/bi';
 import ContactUs from '@/components/shared/ContactUs';
 import MotionEffect from '@/components/motion/MotionEffect';
+import Link from 'next/link';
 
 const AboutUsPage = () => {
   return (
@@ -98,25 +99,41 @@ const AboutUsPage = () => {
             anchorPlacement={'top-bottom'}
             duration={1500}
           >
-            <div className='flex flex-col items-center gap-3 mt-6 md:mt-12 font-semibold text-center'>
+            <div className='flex flex-col items-center gap-3 mt-6 md:mt-12 text-center'>
               <p className='text-center'>
                 Robert has over 20 years of valuable experience in the legal
                 community and insurance industry. <br /> He is not afraid to
                 fight for justice for you and your family.
               </p>
-              <div>
-                <p className='text-lg mb-1'>
-                  CALL “CAR CRASH ROB” NOW IF YOU HAVE BEEN INJURED!
-                </p>
-                <p className='flex items-center gap-2 text-lg justify-center'>
-                  Free Consultation:
-                  <BiSolidPhoneCall size={17} color='red' />
-                  (813) 540-3225
-                </p>
+              <div className=''>
+                <MotionEffect effect='fade-up' duration='2000'>
+                  <h2
+                    className={`text-stone-900 font-bold text-2xl md:text-3xl mt-5 mb-2 text-center`}
+                  >
+                    CALL “CAR CRASH ROB” NOW IF YOU HAVE BEEN INJURED!
+                  </h2>
+                  <h2
+                    className={`text-stone-900 font-bold text-xl md:text-3xl mt-5 mb-4 text-center md:flex items-center justify-center`}
+                  >
+                    Free Consultation:{' '}
+                    <Link
+                      href={'tel:(813) 540-3225'}
+                      className='text-black font-medium text-base md:text-2xl flex gap-3 items-center justify-center mt-3 md:mt-0'
+                    >
+                      <BiSolidPhoneCall className='w-8 h-8 text-[#FF3838] md:ml-2' />
+                      <span className='text-slate-900 text-lg md:text-2xl  '>
+                        (813) 540-3225
+                      </span>
+                    </Link>
+                  </h2>
+                </MotionEffect>
+
+                <MotionEffect effect='fade-up' duration='2000'>
+                  <p className='mb-4 text-xl md:text-2xl text-red-600 text-center mt-0 font-semibold'>
+                    There is NO COST to YOU unless we win!
+                  </p>
+                </MotionEffect>
               </div>
-              <p className='text-xl md:text-2xl text-red-600 text-center'>
-                There is NO COST to YOU unless we win!
-              </p>
             </div>
           </MotionEffect>
         </section>
