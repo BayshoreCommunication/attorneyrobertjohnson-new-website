@@ -1,38 +1,10 @@
 import MotionEffect from '@/components/motion/MotionEffect';
-import PageHeroSection from '@/components/shared/PageHeroSection';
 import SectionLayout from '@/components/shared/SectionLayout';
 import GetAllPostData from '@/lib/GetAllPostData';
 import Image from 'next/image';
-import Link from 'next/link';
 import parse from 'html-react-parser';
 import BlogSideBar from '@/components/blog/BlogSideBar';
 import Head from 'next/head';
-
-const css = `
- h1, h2, p, br, nav {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  line-height: normal;
-}
-
-h1 {
-  font-size: 40px;
-}
-
-h2 {
-  font-size: 25px;
-}
-
-p, br {
-  padding-top: 6px;
-  padding-bottom: 6px;
-}
-
-ul {
-  list-style-type: disc;
-  margin-left: 30px;
-}
-`;
 
 const page = async ({ params }) => {
   const blogPostData = await GetAllPostData();
@@ -60,8 +32,37 @@ const page = async ({ params }) => {
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
       </Head>
-      <div className=''>
-        <style>{css}</style>
+      <div className='page'>
+        <style>{`
+          .page h1,
+          .page h2,
+          .page p,
+          .page br,
+          .page nav {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            line-height: normal;
+          }
+
+          .page h1 {
+            font-size: 40px;
+          }
+
+          .page h2 {
+            font-size: 25px;
+          }
+
+          .page p,
+          .page br {
+            padding-top: 6px;
+            padding-bottom: 6px;
+          }
+
+          .page ul {
+            list-style-type: disc;
+            margin-left: 30px;
+          }
+        `}</style>
         <SectionLayout>
           <div className='flex items-start justify-center gap-12'>
             <div className='w-[90%] md:w-[75%]'>
