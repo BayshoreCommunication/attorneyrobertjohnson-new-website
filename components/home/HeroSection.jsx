@@ -75,10 +75,10 @@ const HeroSection = () => {
                 className='mt-4 md:mt-8 flex justify-center md:justify-start'
                 variants={itemVariants}
               >
-                <Link href={'tel:(813) 540-3225'}>
-                  <div className='text-black bg-white font-medium text-md md:text-2xl !p-2 !md:p-4 border border-white flex gap-3 items-center !rounded-lg'>
-                    <BiSolidPhoneCall className='w-4 h-4 md:w-8 md:h-8 text-[#4B93FF] hover:text-green-700' />
-                    <p className='text-[#4B93FF] hover:text-green-700 text-md md:text-2xl'>
+                <Link href={'tel:(813) 540-3225'} className='group'>
+                  <div className='text-black bg-white font-medium text-md md:text-2xl !p-2 !md:p-4 border border-white flex gap-3 items-center !rounded-lg group-hover:text-green-700'>
+                    <BiSolidPhoneCall className='w-4 h-4 md:w-8 md:h-8 text-[#4B93FF] group-hover:text-green-700' />
+                    <p className='text-[#4B93FF] group-hover:text-green-700 text-md md:text-2xl'>
                       (813) 540-3225
                     </p>
                   </div>

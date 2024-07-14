@@ -77,7 +77,7 @@ const ObligationSection = () => {
                 variants={variants}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                className='p-6 rounded-xl w-[120px] mx-auto hover:bg-[#4B93FF] border-2 border-slate-500'
+                className='p-6 rounded-xl w-[120px] mx-auto hover:bg-[#4B93FF] border-2 border-slate-500 hover:border-[#4B93FF]'
                 onMouseEnter={() => setIsHovered1(true)}
                 onMouseLeave={() => setIsHovered1(false)}
               >
@@ -102,7 +102,7 @@ const ObligationSection = () => {
                 variants={variants}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                className='p-6 rounded-xl w-[120px] mx-auto hover:bg-[#4B93FF] border-2 border-slate-500'
+                className='p-6 rounded-xl w-[120px] mx-auto hover:bg-[#4B93FF] border-2 border-slate-500 hover:border-[#4B93FF]'
                 onMouseEnter={() => setIsHovered2(true)}
                 onMouseLeave={() => setIsHovered2(false)}
               >
@@ -127,7 +127,7 @@ const ObligationSection = () => {
                 variants={variants}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                className='p-6 rounded-xl w-[120px] mx-auto hover:bg-[#4B93FF] border-2 border-slate-500'
+                className='p-6 rounded-xl w-[120px] mx-auto hover:bg-[#4B93FF] border-2 border-slate-500 hover:border-[#4B93FF]'
                 onMouseEnter={() => setIsHovered3(true)}
                 onMouseLeave={() => setIsHovered3(false)}
               >
@@ -153,7 +153,7 @@ const ObligationSection = () => {
                 variants={variants}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                className='p-6 rounded-xl w-[120px] mx-auto hover:bg-[#4B93FF] border-2 border-slate-500'
+                className='p-6 rounded-xl w-[120px] mx-auto hover:bg-[#4B93FF] border-2 border-slate-500 hover:border-[#4B93FF]'
                 onMouseEnter={() => setIsHovered4(true)}
                 onMouseLeave={() => setIsHovered4(false)}
               >
@@ -178,7 +178,7 @@ const ObligationSection = () => {
                 variants={variants}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
-                className='p-6 rounded-xl w-[120px] mx-auto hover:bg-[#4B93FF] border-2 border-slate-500'
+                className='p-6 rounded-xl w-[120px] mx-auto hover:bg-[#4B93FF] border-2 border-slate-500 hover:border-[#4B93FF]'
                 onMouseEnter={() => setIsHovered5(true)}
                 onMouseLeave={() => setIsHovered5(false)}
               >
