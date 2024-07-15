@@ -49,7 +49,7 @@ const HeroSection = () => {
             <div className='flex flex-col items-center md:items-start'>
               <motion.h1
                 variants={itemVariants}
-                className='text-[25px] md:text-[55px] font-[900] text-white text-center md:text-left leading-tight tracking-normal bg-[#4b93ff55] p-4  rounded-md md:rounded-xl max-w-[800px]'
+                className='text-[25px] md:text-[55px] font-[900] text-white text-center md:text-left leading-tight tracking-normal bg-[#4b93ffe9] p-4  rounded-md md:rounded-xl max-w-[800px]'
               >
                 {text.map((el, i) => (
                   <motion.span
