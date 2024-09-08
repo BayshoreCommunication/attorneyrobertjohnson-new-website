@@ -31,14 +31,17 @@ const page = async ({ params }) => {
           content='Read the blog posts by Apex Advisor Group Inc - Tampa Accounting Firm. Our Tax Accountants offer Tax Preparation Services to clients across Tampa, Brandon &amp; Riverview.'
         />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-
         <meta property='og:title' content={blogDetails[0]?.title} />
         <meta property='og:description' content={blogDetails[0]?.title} />
         <meta
           property='og:image'
           content={blogDetails[0]?.featuredImage?.image?.url}
         />
-        <meta property='og:url' content={blogDetails[0]?.slug} />
+
+        <meta
+          property='og:url'
+          content={`https://www.attorneyrobertjohnson.com/blog/${blogDetails[0]?.slug}`}
+        />
         <meta property='og:type' content='article' />
         <meta property='og:site_name' content='Attorneyrobertjohson' />
       </Head>
