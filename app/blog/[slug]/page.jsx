@@ -5,15 +5,6 @@ import Image from 'next/image';
 import parse from 'html-react-parser';
 import BlogSideBar from '@/components/blog/BlogSideBar';
 
-function getPlainTextExcerpt(htmlString, wordLimit = 50) {
-  const tempElement = document.createElement('div');
-  tempElement.innerHTML = htmlString;
-  const plainText = tempElement.textContent || tempElement.innerText || '';
-  const words = plainText.split(' ').slice(0, wordLimit).join(' ');
-  return words.length < plainText.length ? `${words}...` : words;
-}
-
-// Generate dynamic metadata
 export async function generateMetadata({ params }) {
   const blogPostData = await GetAllPostData();
 
@@ -28,14 +19,16 @@ export async function generateMetadata({ params }) {
     };
   }
 
-  const description = getPlainTextExcerpt(blogDetails?.body);
+  let description = parse(blogDetails?.body);
+
+  // console.log('check data 66',description[0]?.props?.children);
 
   return {
     title: blogDetails?.title,
-    description: description || blogDetails?.excerpt,
+    description: description[0]?.props?.children || blogDetails?.excerpt,
     openGraph: {
       title: blogDetails?.title,
-      description: description || blogDetails?.excerpt,
+      description: description[0]?.props?.children || blogDetails?.excerpt,
       images: [blogDetails?.featuredImage?.image?.url],
       url: `https://www.attorneyrobertjohnson.com/blog/${blogDetails?.slug}`,
       type: 'article',
