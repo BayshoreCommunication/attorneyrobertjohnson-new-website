@@ -8,20 +8,20 @@ import NavTopBar from '@/components/NavTopBar';
 
 const OpenSans = Open_Sans({ subsets: ['latin'] });
 
-// export const metadata = {
-//   title: 'Florida Personal Injury Attorney Robert Johnson',
-//   description: '',
-//   metadataBase: new URL('https://www.attorneyrobertjohnson.com/'),
-//   alternates: {
-//     canonical: '/',
-//     languages: {
-//       'en-US': '/en-US',
-//     },
-//   },
-//   openGraph: {
-//     images: '/opengraph-image.jpg',
-//   },
-// };
+export const metadata = {
+  title: 'Florida Personal Injury Attorney Robert Johnson',
+  description: '',
+  metadataBase: new URL('https://www.attorneyrobertjohnson.com/'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/en-US',
+    },
+  },
+  openGraph: {
+    images: '/opengraph-image.jpg',
+  },
+};
 
 export default function RootLayout({ children }) {
   return (
