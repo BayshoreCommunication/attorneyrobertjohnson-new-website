@@ -21,8 +21,6 @@ export async function generateMetadata({ params }) {
 
   let description = parse(blogDetails?.body);
 
-  // console.log('check data 66',description[0]?.props?.children);
-
   return {
     title: blogDetails?.title,
     description: description[0]?.props?.children || blogDetails?.excerpt,
