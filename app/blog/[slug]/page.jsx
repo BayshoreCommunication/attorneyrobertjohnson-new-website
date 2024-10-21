@@ -1,21 +1,21 @@
-import MotionEffect from '@/components/motion/MotionEffect';
-import SectionLayout from '@/components/shared/SectionLayout';
-import GetAllPostData from '@/lib/GetAllPostData';
-import Image from 'next/image';
-import parse from 'html-react-parser';
-import BlogSideBar from '@/components/blog/BlogSideBar';
+import MotionEffect from "@/components/motion/MotionEffect";
+import SectionLayout from "@/components/shared/SectionLayout";
+import GetAllPostData from "@/lib/GetAllPostData";
+import Image from "next/image";
+import parse from "html-react-parser";
+import BlogSideBar from "@/components/blog/BlogSideBar";
 
 export async function generateMetadata({ params }) {
   const blogPostData = await GetAllPostData();
 
   const blogDetails = blogPostData?.data?.find(
-    (blogs) => blogs.slug === params.slug,
+    (blogs) => blogs.slug === params.slug
   );
 
   if (!blogDetails) {
     return {
-      title: 'Blog not found',
-      description: 'No blog post available.',
+      title: "Blog not found",
+      description: "No blog post available.",
     };
   }
 
@@ -29,8 +29,8 @@ export async function generateMetadata({ params }) {
       description: description[0]?.props?.children || blogDetails?.excerpt,
       images: [blogDetails?.featuredImage?.image?.url],
       url: `https://www.attorneyrobertjohnson.com/blog/${blogDetails?.slug}`,
-      type: 'article',
-      site_name: 'Attorney Robert Johnson',
+      type: "article",
+      site_name: "Attorney Robert Johnson",
     },
   };
 }
@@ -39,21 +39,21 @@ const page = async ({ params }) => {
   const blogPostData = await GetAllPostData();
 
   const blogDetails = blogPostData?.data?.filter(
-    (blogs) => blogs.slug === params.slug,
+    (blogs) => blogs.slug === params.slug
   );
 
   const postDate = (date) => {
-    const formattedDate = new Date(date).toLocaleDateString('en-US', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric',
+    const formattedDate = new Date(date).toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
     });
     return formattedDate;
   };
 
   return (
     <>
-      <div className='page'>
+      <div className="page">
         <style>{`
           .page h1,
           .page h2,
@@ -85,25 +85,29 @@ const page = async ({ params }) => {
           }
         `}</style>
         <SectionLayout>
-          <div className='flex items-start justify-center gap-12'>
-            <div className='w-[90%] md:w-[75%]'>
+          <div className="flex items-start justify-center gap-12">
+            <div className="w-[90%] md:w-[75%]">
               {blogDetails?.map((blogs, index) => (
-                <div key={index} className='mb-14'>
+                <div key={index} className="mb-14">
                   <div>
-                    <MotionEffect effect='fade-right' duration='2000'>
+                    <MotionEffect effect="fade-right" duration="2000">
                       <Image
                         width={1800}
                         height={300}
                         src={blogs?.featuredImage?.image?.url}
                         alt={blogs?.featuredImage?.altText}
-                        className='bg-center bg-cover'
+                        className="bg-center bg-cover"
                       />
 
-                      <p className='text-[1rem] text-black text-left italic mt-4 mb-4'>
+                      <p className="text-[1rem] text-black text-left italic mt-4 mb-4">
                         {postDate(blogs?.createdAt)}
                       </p>
 
-                      <div className='font-normal text-[1rem] text-black mb-8 '>
+                      <h2 className="text-[1.4rem] text-black text-left mt-4 mb-4 font-semibold">
+                        {blogs?.title}
+                      </h2>
+
+                      <div className="font-normal text-[1rem] text-black mb-8 ">
                         {parse(blogs?.body)}
                       </div>
                     </MotionEffect>
@@ -111,7 +115,7 @@ const page = async ({ params }) => {
                 </div>
               ))}
             </div>
-            <div className='hidden lg:block w-[0%] md:w-[25%]'>
+            <div className="hidden lg:block w-[0%] md:w-[25%]">
               <BlogSideBar />
             </div>
           </div>
