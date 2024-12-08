@@ -7,7 +7,7 @@ import ContactUs from "@/components/shared/ContactUs";
 
 export const metadata = {
   title: "Areas Served - Attorney Robert Johnson",
-  description: "",
+  description: `Robert has over 20 years of valuable experience in the legal community and insurance industry. He is not afraid to fight for justice for you and your family.`,
 };
 
 const AreasServed = () => {

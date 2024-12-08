@@ -44,7 +44,7 @@ export async function generateMetadata({ params }) {
   );
 
   return {
-    title: `${areasOfPracticeDetails[0]?.title} - Attorney Robert Johnson `,
+    title: `${areasOfPracticeDetails[0]?.title}`,
     description: areasOfPracticeDetails[0]?.text,
     // openGraph: {
     //   title: `${areasOfPracticeDetails[0]?.title} - Attorney Robert Johnson `,
