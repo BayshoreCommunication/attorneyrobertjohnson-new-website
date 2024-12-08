@@ -9,6 +9,11 @@ import BlogSideBar from "@/components/blog/BlogSideBar";
 import Head from "next/head";
 import SecondaryButton from "@/components/shared/SecondaryButton";
 
+export const metadata = {
+  title: "Blogs - Attorney Robert Johnson",
+  description: `Robert has over 20 years of valuable experience in the legal community and insurance industry. He is not afraid to fight for justice for you and your family.`,
+};
+
 const page = async () => {
   const blogPostData = await GetAllPostData();
 
@@ -23,22 +28,22 @@ const page = async () => {
 
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>Blogs - Attorney Robert Johnson</title>
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
+      </Head> */}
       <div className="">
         <SectionLayout bg="bg-slate-50 ">
           <div className="">
             <MotionEffect effect="fade-up" duration="2000">
               <div className="flex items-center justify-center">
                 <div className="">
-                  <h2
+                  <h1
                     className={`text-[#4B93FF] font-bold text-5xl mt-5 mb-4 text-center`}
                   >
                     Blogs
-                  </h2>
+                  </h1>
 
                   <hr className="h-[2px] my-0 bg-stone-950 border-0 w-24 mx-auto"></hr>
                   <p className="mb-4 text-lg text-stone-950 text-center mt-8">

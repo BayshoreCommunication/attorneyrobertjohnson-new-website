@@ -1,10 +1,9 @@
-import React from 'react';
-import parse from 'html-react-parser';
-import SectionLayout from '@/components/shared/SectionLayout';
-import CardMotion from '@/components/motion/CardMotion';
-import { areasOfPractice } from '@/config/areasOfPracticeData';
-import Head from 'next/head';
-
+import React from "react";
+import parse from "html-react-parser";
+import SectionLayout from "@/components/shared/SectionLayout";
+import CardMotion from "@/components/motion/CardMotion";
+import { areasOfPractice } from "@/config/areasOfPracticeData";
+import Head from "next/head";
 const css = `
   h1{
     font-size: 40px;
@@ -39,20 +38,39 @@ nav{
 
 `;
 
+export async function generateMetadata({ params }) {
+  const areasOfPracticeDetails = areasOfPractice?.filter(
+    (service) => service.slug === params.slug
+  );
+
+  return {
+    title: `${areasOfPracticeDetails[0]?.title} - Attorney Robert Johnson `,
+    description: areasOfPracticeDetails[0]?.text,
+    // openGraph: {
+    //   title: `${areasOfPracticeDetails[0]?.title} - Attorney Robert Johnson `,
+    //   description: areasOfPracticeDetails[0]?.text,
+    //   images: [areasOfPracticeDetails[0]?.icon],
+    //   url: `https://www.attorneyrobertjohnson.com/services/${areasOfPracticeDetails[0]?.slug}`,
+    //   type: "article",
+    //   site_name: "Attorney Robert Johnson",
+    // },
+  };
+}
+
 const page = ({ params }) => {
   const areasOfPracticeDetails = areasOfPractice?.filter(
-    (service) => service.slug === params.slug,
+    (service) => service.slug === params.slug
   );
 
   return (
     <>
-      <Head>
+      {/* <Head>
         <title> {areasOfPracticeDetails[0]?.title}</title>
-        <meta name='description' content='' />
-        <meta name='viewport' content='width=device-width, initial-scale=1' />
-      </Head>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head> */}
       <style>{css}</style>
-      <SectionLayout bg='bg-white'>
+      <SectionLayout bg="bg-white">
         <CardMotion
           whileInView={{
             opacity: 1,
@@ -66,16 +84,16 @@ const page = ({ params }) => {
             y: 100,
           }}
         >
-          <h2 className='mb-4 text-3xl font-bold tracking-normal text-left text-[#1B2639]'>
+          <h1 className="mb-4 text-3xl font-bold tracking-normal text-left text-[#1B2639]">
             {areasOfPracticeDetails[0]?.title}
-          </h2>
+          </h1>
 
-          <hr className='w-full h-[1px] mx-auto my-8 bg-[#1B2639] border-0 rounded md:my-5' />
+          <hr className="w-full h-[1px] mx-auto my-8 bg-[#1B2639] border-0 rounded md:my-5" />
 
-          <div className='grid gap-12 mb-10 gird-col-1 sm:grid-cols-3'>
+          <div className="grid gap-12 mb-10 gird-col-1 sm:grid-cols-3">
             {areasOfPracticeDetails?.map((services, index) => (
-              <div className='col-span-2' key={index}>
-                <div className='mt-5 text-base'>{parse(services?.details)}</div>
+              <div className="col-span-2" key={index}>
+                <div className="mt-5 text-base">{parse(services?.details)}</div>
               </div>
             ))}
 

@@ -19,14 +19,17 @@ export async function generateMetadata({ params }) {
     };
   }
 
-  let description = parse(blogDetails?.body);
+  let description = blogDetails?.body
+    .replace(/<[^>]+>/g, "")
+    .replace(/&amp;/i, "&")
+    .slice(0, 150);
 
   return {
     title: blogDetails?.title,
-    description: description[0]?.props?.children || blogDetails?.excerpt,
+    description: description,
     openGraph: {
       title: blogDetails?.title,
-      description: description[0]?.props?.children || blogDetails?.excerpt,
+      description: `${description}...`,
       images: [blogDetails?.featuredImage?.image?.url],
       url: `https://www.attorneyrobertjohnson.com/blog/${blogDetails?.slug}`,
       type: "article",
@@ -103,9 +106,9 @@ const page = async ({ params }) => {
                         {postDate(blogs?.createdAt)}
                       </p>
 
-                      <h2 className="text-[1.4rem] text-black text-left mt-4 mb-4 font-semibold">
+                      <h1 className="text-[1.4rem] text-black text-left mt-4 mb-4 font-semibold">
                         {blogs?.title}
-                      </h2>
+                      </h1>
 
                       <div className="font-normal text-[1rem] text-black mb-8 ">
                         {parse(blogs?.body)}
