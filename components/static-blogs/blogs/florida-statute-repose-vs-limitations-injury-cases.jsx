@@ -234,9 +234,9 @@ const FloridaStatuteReposeVsLimitationsInjuryCases = () => {
           </div>
 
           <blockquote className="mt-8 border-y border-[#cfd8e3] px-4 py-6 text-xl font-semibold leading-8 text-[#1C3767]">
-            "Clients often ask me if a statute of repose is the same thing as a
+            &ldquo;Clients often ask me if a statute of repose is the same thing as a
             statute of limitations. No, they are not the same. Florida has
-            different rules for these two legal ideas."
+            different rules for these two legal ideas.&rdquo;
             <cite className="mt-4 block text-sm font-normal not-italic text-slate-600">
               Robert J. Johnson, Personal Injury Attorney, Tampa FL
             </cite>
