@@ -4,8 +4,29 @@ import GetAllPostData from "@/lib/GetAllPostData";
 import Image from "next/image";
 import parse from "html-react-parser";
 import BlogSideBar from "@/components/blog/BlogSideBar";
+import FloridaStatuteReposeVsLimitationsInjuryCases from "@/components/static-blogs/blogs/florida-statute-repose-vs-limitations-injury-cases";
+import { staticBlogPosts } from "@/components/static-blogs/staticBlogData";
 
 export async function generateMetadata({ params }) {
+  const staticBlogDetails = staticBlogPosts.find(
+    (blogs) => blogs.slug === params.slug
+  );
+
+  if (staticBlogDetails) {
+    return {
+      title: staticBlogDetails.metaTitle || staticBlogDetails.title,
+      description: staticBlogDetails.description,
+      openGraph: {
+        title: staticBlogDetails.metaTitle || staticBlogDetails.title,
+        description: staticBlogDetails.description,
+        images: [staticBlogDetails.featuredImage.image.url],
+        url: `https://www.attorneyrobertjohnson.com/blog/${staticBlogDetails.slug}`,
+        type: "article",
+        site_name: "Attorney Robert Johnson",
+      },
+    };
+  }
+
   const blogPostData = await GetAllPostData();
 
   const blogDetails = blogPostData?.data?.find(
@@ -39,6 +60,29 @@ export async function generateMetadata({ params }) {
 }
 
 const page = async ({ params }) => {
+  const staticBlogDetails = staticBlogPosts.find(
+    (blogs) => blogs.slug === params.slug
+  );
+
+  if (staticBlogDetails) {
+    return (
+      <div className="page">
+        <SectionLayout>
+          <div className="flex items-start justify-center gap-12">
+            <div className="w-[90%] md:w-[75%]">
+              <MotionEffect effect="fade-right" duration="2000">
+                <FloridaStatuteReposeVsLimitationsInjuryCases />
+              </MotionEffect>
+            </div>
+            <div className="hidden lg:block w-[0%] md:w-[25%]">
+              <BlogSideBar />
+            </div>
+          </div>
+        </SectionLayout>
+      </div>
+    );
+  }
+
   const blogPostData = await GetAllPostData();
 
   const blogDetails = blogPostData?.data?.filter(

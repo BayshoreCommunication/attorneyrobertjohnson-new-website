@@ -37,7 +37,7 @@ const BlogSideBar = async () => {
           <h2
             className={`text-stone-900 font-bold text-2xl mt-5 mb-4 text-left`}
           >
-            Related Blogs
+            Recent Blogs
           </h2>
           <div className='flex flex-col gap-y-2'>
             {blogPostData?.data

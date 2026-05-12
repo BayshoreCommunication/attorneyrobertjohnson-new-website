@@ -9,6 +9,12 @@ import Image from "next/image";
 const BlogSection = async () => {
   const blogPostData = await GetAllPostData();
 
+  const getSummary = (blog) =>
+    (blog?.shortDescription || blog?.body || "")
+      .replace(/<[^>]+>/g, "")
+      .replace(/&amp;/gi, "&")
+      .slice(0, 150);
+
   const postDate = (date) => {
     const formattedDate = new Date(date).toLocaleDateString("en-US", {
       year: "numeric",
@@ -65,9 +71,9 @@ const BlogSection = async () => {
                       <p className="text-default-500 text-base line-clamp-5 mb-2 italic">
                         {postDate(blogs?.createdAt)}
                       </p>
-                      <h2 className="text-default-500 text-base line-clamp-5 mb-2">
-                        {blogs?.title}
-                      </h2>
+                      <p className="text-default-500 text-base line-clamp-3 mb-4">
+                        {getSummary(blogs)}
+                      </p>
                       <SecondaryButton
                         title={"Read More"}
                         href={`/blog/${blogs?.slug}`}
