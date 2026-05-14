@@ -5,7 +5,14 @@ import Image from "next/image";
 import parse from "html-react-parser";
 import BlogSideBar from "@/components/blog/BlogSideBar";
 import FloridaStatuteReposeVsLimitationsInjuryCases from "@/components/static-blogs/blogs/florida-statute-repose-vs-limitations-injury-cases";
+import HowDashcamFootageCanStrengthen from "@/components/static-blogs/blogs/how-dashcam-footage-can-strengthen";
 import { staticBlogPosts } from "@/components/static-blogs/staticBlogData";
+
+const staticBlogComponents = {
+  "florida-statute-repose-vs-limitations-injury-cases":
+    FloridaStatuteReposeVsLimitationsInjuryCases,
+  "how-dashcam-footage-can-strengthen": HowDashcamFootageCanStrengthen,
+};
 
 export async function generateMetadata({ params }) {
   const staticBlogDetails = staticBlogPosts.find(
@@ -65,13 +72,17 @@ const page = async ({ params }) => {
   );
 
   if (staticBlogDetails) {
+    const StaticBlogComponent =
+      staticBlogComponents[staticBlogDetails.slug] ||
+      FloridaStatuteReposeVsLimitationsInjuryCases;
+
     return (
       <div className="page">
         <SectionLayout>
           <div className="flex items-start justify-center gap-12">
             <div className="w-[90%] md:w-[75%]">
               <MotionEffect effect="fade-right" duration="2000">
-                <FloridaStatuteReposeVsLimitationsInjuryCases />
+                <StaticBlogComponent />
               </MotionEffect>
             </div>
             <div className="hidden lg:block w-[0%] md:w-[25%]">

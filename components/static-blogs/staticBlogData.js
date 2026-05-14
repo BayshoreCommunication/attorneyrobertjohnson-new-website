@@ -25,4 +25,33 @@ export const floridaStatuteReposeBlog = {
   },
 };
 
-export const staticBlogPosts = [floridaStatuteReposeBlog];
+export const dashcamFootagePersonalInjuryClaimBlog = {
+  slug: "how-dashcam-footage-can-strengthen",
+  title: "How Dashcam Footage Can Strengthen Your Personal Injury Claim in Florida",
+  metaTitle: "How Dashcams Affect Florida Personal Injury Claims",
+  description:
+    "See how dashcam footage supports Florida personal injury claims by showing fault, reducing disputes, and influencing settlement outcomes.",
+  shortDescription:
+    "Learn how dashcam footage can support a Florida personal injury claim by showing fault, reducing disputes, preserving evidence, and helping settlement decisions move faster.",
+  createdAt: "2026-05-14T12:00:00.000Z",
+  published: true,
+  body:
+    "Dashcam footage can show what happened during a Florida crash, reduce fault disputes, and help protect valuable personal injury claim evidence.",
+  featuredImage: {
+    image: {
+      url: "/images/static-blogs/dashcam-footage-personal-injury-claim-florida.webp",
+    },
+    altText:
+      "Dashcam recording a Florida car accident scene for personal injury claim evidence",
+    title: "How Dashcam Footage Supports Florida Injury Claims",
+    description:
+      "Dashcam footage capturing a multi-vehicle accident scene in Florida with emergency responders and damaged vehicles, providing valuable evidence for personal injury claims, insurance disputes, and legal investigations.",
+    caption:
+      "Dashcam footage documenting a Florida car accident for legal evidence",
+  },
+};
+
+export const staticBlogPosts = [
+  floridaStatuteReposeBlog,
+  dashcamFootagePersonalInjuryClaimBlog,
+];
