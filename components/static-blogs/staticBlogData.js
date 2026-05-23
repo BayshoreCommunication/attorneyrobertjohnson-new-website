@@ -51,7 +51,35 @@ export const dashcamFootagePersonalInjuryClaimBlog = {
   },
 };
 
+export const structuredSettlementsVsLumpSumPaymentsBlog = {
+  slug: "structured-settlements-vs-lump-sum-payments",
+  title:
+    "Structured Settlements vs. Lump Sum Payments: Which Is Right for You?",
+  metaTitle: "Structured Settlements vs Lump Sum, Pros and Cons",
+  description:
+    "Compare structured settlements and lump sum payments. Understand which option offers better control, stability, and long-term value.",
+  shortDescription:
+    "Compare structured settlements and lump sum payments for personal injury settlement planning, including cash access, tax treatment, long-term income, inflation, and hybrid payout options.",
+  createdAt: "2026-05-23T12:00:00.000Z",
+  published: true,
+  body:
+    "Compare structured settlements and lump sum payments to understand which personal injury settlement payout option offers better control, stability, tax treatment, and long-term value.",
+  featuredImage: {
+    image: {
+      url: "/images/static-blogs/structured-settlements-vs-lump-sum-payments.webp",
+    },
+    altText:
+      "Comparison of structured settlements and lump sum payments for financial planning and compensation decisions",
+    title: "Structured Settlements vs. Lump Sum Payment Options",
+    description:
+      "Visual comparison between structured settlements and lump sum payments highlighting long-term financial security, immediate cash access, and compensation planning considerations.",
+    caption:
+      "Comparing structured settlements and lump sum payments to determine the best financial compensation option.",
+  },
+};
+
 export const staticBlogPosts = [
   floridaStatuteReposeBlog,
   dashcamFootagePersonalInjuryClaimBlog,
+  structuredSettlementsVsLumpSumPaymentsBlog,
 ];

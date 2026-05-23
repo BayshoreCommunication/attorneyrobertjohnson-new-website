@@ -6,12 +6,15 @@ import parse from "html-react-parser";
 import BlogSideBar from "@/components/blog/BlogSideBar";
 import FloridaStatuteReposeVsLimitationsInjuryCases from "@/components/static-blogs/blogs/florida-statute-repose-vs-limitations-injury-cases";
 import HowDashcamFootageCanStrengthen from "@/components/static-blogs/blogs/how-dashcam-footage-can-strengthen";
+import StructuredSettlementsVsLumpSumPayments from "@/components/static-blogs/blogs/structured-settlements-vs-lump-sum-payments";
 import { staticBlogPosts } from "@/components/static-blogs/staticBlogData";
 
 const staticBlogComponents = {
   "florida-statute-repose-vs-limitations-injury-cases":
     FloridaStatuteReposeVsLimitationsInjuryCases,
   "how-dashcam-footage-can-strengthen": HowDashcamFootageCanStrengthen,
+  "structured-settlements-vs-lump-sum-payments":
+    StructuredSettlementsVsLumpSumPayments,
 };
 
 export async function generateMetadata({ params }) {
@@ -20,14 +23,24 @@ export async function generateMetadata({ params }) {
   );
 
   if (staticBlogDetails) {
+    const canonicalPath = `/blog/${staticBlogDetails.slug}`;
+
     return {
       title: staticBlogDetails.metaTitle || staticBlogDetails.title,
       description: staticBlogDetails.description,
+      alternates: {
+        canonical: canonicalPath,
+      },
       openGraph: {
         title: staticBlogDetails.metaTitle || staticBlogDetails.title,
         description: staticBlogDetails.description,
-        images: [staticBlogDetails.featuredImage.image.url],
-        url: `https://www.attorneyrobertjohnson.com/blog/${staticBlogDetails.slug}`,
+        images: [
+          {
+            url: staticBlogDetails.featuredImage.image.url,
+            alt: staticBlogDetails.featuredImage.altText,
+          },
+        ],
+        url: `https://www.attorneyrobertjohnson.com${canonicalPath}`,
         type: "article",
         site_name: "Attorney Robert Johnson",
       },
