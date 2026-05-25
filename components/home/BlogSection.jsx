@@ -58,11 +58,11 @@ const BlogSection = async () => {
                         {blogs?.title}
                       </h2>
                     </div>
-                    <div className=" p-0">
+                    <div className="w-full overflow-hidden border border-slate-200 bg-white">
                       <Image
-                        width="300"
-                        height="200"
-                        className="w-full object-cover h-[300px]"
+                        width={1502}
+                        height={670}
+                        className="h-auto w-full"
                         src={blogs?.featuredImage?.image?.url}
                         alt={blogs?.featuredImage?.altText}
                       />

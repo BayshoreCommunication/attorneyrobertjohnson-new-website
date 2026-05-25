@@ -49,11 +49,11 @@ const BlogSideBar = async () => {
                   className='bg-slate-200 text-slate-900 p-4 hover:bg-[#4B93FF] hover:text-white rounded-md'
                 >
                   <div className='flex items-center gap-x-2'>
-                    <div className='h-[60px] w-[30%]'>
+                    <div className='h-[60px] w-[30%] overflow-hidden bg-white'>
                       <Image
                         width={120}
                         height={50}
-                        className='w-full h-full object-cover'
+                        className='w-full h-full object-contain'
                         src={blog?.featuredImage?.image?.url}
                         alt={blog?.featuredImage?.altText}
                       />

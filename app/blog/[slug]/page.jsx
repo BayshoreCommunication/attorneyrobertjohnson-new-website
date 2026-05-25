@@ -7,6 +7,7 @@ import BlogSideBar from "@/components/blog/BlogSideBar";
 import FloridaStatuteReposeVsLimitationsInjuryCases from "@/components/static-blogs/blogs/florida-statute-repose-vs-limitations-injury-cases";
 import HowDashcamFootageCanStrengthen from "@/components/static-blogs/blogs/how-dashcam-footage-can-strengthen";
 import StructuredSettlementsVsLumpSumPayments from "@/components/static-blogs/blogs/structured-settlements-vs-lump-sum-payments";
+import WhatHappensIfMultiplePartiesAreAtFaultInAFloridaAccident from "@/components/static-blogs/blogs/what-happens-If-multiple-parties-are-at-fault-in-a-florida-accident";
 import { staticBlogPosts } from "@/components/static-blogs/staticBlogData";
 
 const staticBlogComponents = {
@@ -15,6 +16,8 @@ const staticBlogComponents = {
   "how-dashcam-footage-can-strengthen": HowDashcamFootageCanStrengthen,
   "structured-settlements-vs-lump-sum-payments":
     StructuredSettlementsVsLumpSumPayments,
+  "what-happens-If-multiple-parties-are-at-fault-in-a-florida-accident":
+    WhatHappensIfMultiplePartiesAreAtFaultInAFloridaAccident,
 };
 
 export async function generateMetadata({ params }) {
@@ -24,12 +27,13 @@ export async function generateMetadata({ params }) {
 
   if (staticBlogDetails) {
     const canonicalPath = `/blog/${staticBlogDetails.slug}`;
+    const canonicalUrl = `https://www.attorneyrobertjohnson.com${canonicalPath}`;
 
     return {
       title: staticBlogDetails.metaTitle || staticBlogDetails.title,
       description: staticBlogDetails.description,
       alternates: {
-        canonical: canonicalPath,
+        canonical: canonicalUrl,
       },
       openGraph: {
         title: staticBlogDetails.metaTitle || staticBlogDetails.title,
@@ -40,7 +44,7 @@ export async function generateMetadata({ params }) {
             alt: staticBlogDetails.featuredImage.altText,
           },
         ],
-        url: `https://www.attorneyrobertjohnson.com${canonicalPath}`,
+        url: canonicalUrl,
         type: "article",
         site_name: "Attorney Robert Johnson",
       },

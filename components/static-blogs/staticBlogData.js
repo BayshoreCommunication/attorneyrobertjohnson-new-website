@@ -78,8 +78,36 @@ export const structuredSettlementsVsLumpSumPaymentsBlog = {
   },
 };
 
+export const multiplePartiesFaultFloridaAccidentBlog = {
+  slug: "what-happens-If-multiple-parties-are-at-fault-in-a-florida-accident",
+  title: "What Happens If Multiple Parties Are at Fault in a Florida Accident?",
+  metaTitle:
+    "Multiple Parties at Fault in a Florida Accident? Know Your Rights Now",
+  description:
+    "Florida's 2023 fault law changed everything. Learn how modified comparative fault works, what the 51% bar rule means for your case.",
+  shortDescription:
+    "Learn how Florida modified comparative fault works when multiple parties share blame for an accident, including the 51% bar rule, several liability, evidence, deadlines, and compensation rights.",
+  createdAt: "2026-05-25T12:00:00.000Z",
+  published: true,
+  body:
+    "Florida's 2023 tort reform changed multi-party accident claims. This guide explains modified comparative fault, the 51% bar rule, several liability, insurance tactics, filing deadlines, and how to protect your compensation.",
+  featuredImage: {
+    image: {
+      url: "/images/static-blogs/multiple-parties-fault-florida-accident-law.webp",
+    },
+    altText:
+      "Florida car accident involving multiple parties with legal information about comparative fault laws",
+    title: "What Happens If Multiple Parties Are at Fault in Florida",
+    description:
+      "Legal infographic explaining Florida comparative fault laws when multiple parties are responsible for a car accident, including liability rules, compensation rights, and lawsuit filing deadlines.",
+    caption:
+      "Understanding comparative fault laws and shared liability in Florida car accident claims.",
+  },
+};
+
 export const staticBlogPosts = [
   floridaStatuteReposeBlog,
   dashcamFootagePersonalInjuryClaimBlog,
   structuredSettlementsVsLumpSumPaymentsBlog,
+  multiplePartiesFaultFloridaAccidentBlog,
 ];
