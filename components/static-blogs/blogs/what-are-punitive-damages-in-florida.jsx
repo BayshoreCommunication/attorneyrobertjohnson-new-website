@@ -310,7 +310,7 @@ const WhatArePunitiveDamagesInFlorida = () => {
               Compensatory damages are designed to make an injured person whole
               after an accident. They address the practical and human costs of a
               serious injury, from hospital bills to the loss of daily comfort.
-              Punitive damages work differently. They focus on the defendant's
+              Punitive damages work differently. They focus on the defendant&apos;s
               conduct and ask whether punishment is justified.
             </p>
             <div className="mt-6">
@@ -377,7 +377,7 @@ const WhatArePunitiveDamagesInFlorida = () => {
               ))}
             </div>
             <p className="mt-5 text-xs font-semibold uppercase tracking-[0.12em] text-[#4B93FF]">
-              Source: Survey of Attorney Robert Johnson's case history,
+              Source: Survey of Attorney Robert Johnson&apos;s case history,
               2024-2025, for informational purposes only.
             </p>
           </section>
@@ -530,7 +530,7 @@ const WhatArePunitiveDamagesInFlorida = () => {
 
           <blockquote className="mt-8 border-y border-[#cfd8e3] px-4 py-6 text-xl font-semibold leading-8 text-[#1C3767]">
             &ldquo;Punitive damages are not available in every injury case, but
-            when the defendant's conduct shows conscious disregard for safety,
+            when the defendant&apos;s conduct shows conscious disregard for safety,
             they can become one of the most important tools for accountability.&rdquo;
             <cite className="mt-4 block text-sm font-normal not-italic text-slate-600">
               Attorney Robert Johnson, Florida Personal Injury Lawyer
