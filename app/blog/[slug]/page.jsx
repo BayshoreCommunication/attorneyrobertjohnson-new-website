@@ -7,6 +7,7 @@ import BlogSideBar from "@/components/blog/BlogSideBar";
 import FloridaStatuteReposeVsLimitationsInjuryCases from "@/components/static-blogs/blogs/florida-statute-repose-vs-limitations-injury-cases";
 import HowDashcamFootageCanStrengthen from "@/components/static-blogs/blogs/how-dashcam-footage-can-strengthen";
 import StructuredSettlementsVsLumpSumPayments from "@/components/static-blogs/blogs/structured-settlements-vs-lump-sum-payments";
+import WhatArePunitiveDamagesInFlorida from "@/components/static-blogs/blogs/what-are-punitive-damages-in-florida";
 import WhatHappensIfMultiplePartiesAreAtFaultInAFloridaAccident from "@/components/static-blogs/blogs/what-happens-If-multiple-parties-are-at-fault-in-a-florida-accident";
 import { staticBlogPosts } from "@/components/static-blogs/staticBlogData";
 
@@ -16,6 +17,7 @@ const staticBlogComponents = {
   "how-dashcam-footage-can-strengthen": HowDashcamFootageCanStrengthen,
   "structured-settlements-vs-lump-sum-payments":
     StructuredSettlementsVsLumpSumPayments,
+  "what-are-punitive-damages-in-florida": WhatArePunitiveDamagesInFlorida,
   "what-happens-If-multiple-parties-are-at-fault-in-a-florida-accident":
     WhatHappensIfMultiplePartiesAreAtFaultInAFloridaAccident,
 };

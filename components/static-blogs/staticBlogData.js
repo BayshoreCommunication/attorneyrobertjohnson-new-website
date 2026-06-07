@@ -105,9 +105,36 @@ export const multiplePartiesFaultFloridaAccidentBlog = {
   },
 };
 
+export const punitiveDamagesFloridaPersonalInjuryCasesBlog = {
+  slug: "what-are-punitive-damages-in-florida",
+  title: "What Are Punitive Damages in Florida Personal Injury Cases?",
+  metaTitle: "Punitive Damages in Florida For Personal Injury Cases",
+  description:
+    "Understand punitive damages in Florida personal injury cases, when courts award them, how much you can receive, and what evidence you need to qualify.",
+  shortDescription:
+    "Learn how punitive damages work in Florida personal injury cases, including the legal standard, evidence requirements, damage caps, wrongful death claims, DUI cases, and court procedure.",
+  createdAt: "2026-06-07T12:00:00.000Z",
+  published: true,
+  body:
+    "Punitive damages in Florida personal injury cases punish intentional misconduct or gross negligence. This guide explains how they differ from compensation, when courts award them, what caps apply, and what evidence can support a claim.",
+  featuredImage: {
+    image: {
+      url: "/images/static-blogs/punitive-damages-florida-personal-injury-cases.webp",
+    },
+    altText:
+      "Judge's gavel and Florida law book representing punitive damages in Florida personal injury lawsuits and legal claims.",
+    title: "Understanding Punitive Damages in Florida Personal Injury Cases",
+    description:
+      "Legal education graphic explaining punitive damages in Florida personal injury cases. The image features a judge's gavel, scales of justice, and a Florida law book to represent circumstances where courts may award punitive damages to punish egregious misconduct and deter similar behavior. It highlights key legal concepts related to personal injury litigation, negligence, and civil compensation.",
+    caption:
+      "Learn when punitive damages may be awarded in Florida personal injury cases and how they differ from compensatory damages in civil lawsuits.",
+  },
+};
+
 export const staticBlogPosts = [
   floridaStatuteReposeBlog,
   dashcamFootagePersonalInjuryClaimBlog,
   structuredSettlementsVsLumpSumPaymentsBlog,
   multiplePartiesFaultFloridaAccidentBlog,
+  punitiveDamagesFloridaPersonalInjuryCasesBlog,
 ];
