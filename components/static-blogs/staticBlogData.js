@@ -131,10 +131,37 @@ export const punitiveDamagesFloridaPersonalInjuryCasesBlog = {
   },
 };
 
+export const weatherLiabilityFloridaCarAccidentsBlog = {
+  slug: "weather-impact-florida-car-accident-liability",
+  title: "How Weather Conditions Can Impact Liability in Florida Car Accidents",
+  metaTitle: "Weather Liability in Florida Car Accidents",
+  description:
+    "Learn how rain, fog, and Florida storms affect car accident liability. Find out who is at fault and what your legal rights are.",
+  shortDescription:
+    "Discover how rain, fog, storms, and other weather conditions can influence liability in Florida car accident cases. Learn how courts, insurance companies, and accident investigations evaluate fault when adverse weather contributes to a crash.",
+  createdAt: "2026-06-15T12:00:00.000Z",
+  published: true,
+  body:
+    "Weather conditions can impact liability in Florida car accidents because it shifts the fault to the driver who failed to adjust. Bad weather doesn’t excuse negligent driving.",
+  featuredImage: {
+    image: {
+      url: "/images/static-blogs/weather-impact-florida-car-accident-liability.webp?v=1",
+    },
+    altText:
+      "Rainy Florida car accident on a highway at night illustrating how weather conditions can affect crash liability",
+    title: "How Weather Conditions Affect Florida Car Accident Liability",
+    description:
+      "Discover how rain, fog, storms, and other weather conditions can influence liability in Florida car accident cases. Learn how courts, insurance companies, and accident investigations evaluate fault when adverse weather contributes to a crash.",
+    caption:
+      "Weather may contribute to a crash, but determining liability often depends on how drivers responded to hazardous road conditions.",
+  },
+};
+
 export const staticBlogPosts = [
   floridaStatuteReposeBlog,
   dashcamFootagePersonalInjuryClaimBlog,
   structuredSettlementsVsLumpSumPaymentsBlog,
   multiplePartiesFaultFloridaAccidentBlog,
   punitiveDamagesFloridaPersonalInjuryCasesBlog,
+  weatherLiabilityFloridaCarAccidentsBlog,
 ];

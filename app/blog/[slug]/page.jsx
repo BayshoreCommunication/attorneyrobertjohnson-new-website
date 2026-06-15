@@ -9,6 +9,7 @@ import HowDashcamFootageCanStrengthen from "@/components/static-blogs/blogs/how-
 import StructuredSettlementsVsLumpSumPayments from "@/components/static-blogs/blogs/structured-settlements-vs-lump-sum-payments";
 import WhatArePunitiveDamagesInFlorida from "@/components/static-blogs/blogs/what-are-punitive-damages-in-florida";
 import WhatHappensIfMultiplePartiesAreAtFaultInAFloridaAccident from "@/components/static-blogs/blogs/what-happens-If-multiple-parties-are-at-fault-in-a-florida-accident";
+import HowWeatherConditionsCanImpact from "@/components/static-blogs/blogs/How Weather Conditions Can Impact";
 import { staticBlogPosts } from "@/components/static-blogs/staticBlogData";
 
 const staticBlogComponents = {
@@ -20,6 +21,7 @@ const staticBlogComponents = {
   "what-are-punitive-damages-in-florida": WhatArePunitiveDamagesInFlorida,
   "what-happens-If-multiple-parties-are-at-fault-in-a-florida-accident":
     WhatHappensIfMultiplePartiesAreAtFaultInAFloridaAccident,
+  "weather-impact-florida-car-accident-liability": HowWeatherConditionsCanImpact,
 };
 
 export async function generateMetadata({ params }) {
