@@ -157,6 +157,26 @@ export const weatherLiabilityFloridaCarAccidentsBlog = {
   },
 };
 
+export const canYouFilePersonalInjuryClaimWithoutPoliceReportBlog = {
+  slug: "can-you-file-personal-injury-claim-without-a-police-report-in-florida",
+  title: "Can You File Personal Injury Claim Without a Police Report in Florida?",
+  metaTitle: "Can I File Florida Injury Claims Without Police Report",
+  description: "Prove fault in your Florida accident claim without a police report. Analyze the 50% bar rule and legal deadlines. Secure your settlement evidence now.",
+  shortDescription: "Yes, you can file a personal injury claim in Florida without a police report. Learn the key deadlines, modified comparative negligence rules, and evidence requirements to protect your PIP benefits.",
+  createdAt: "2026-06-21T12:00:00.000Z",
+  published: true,
+  body: "Yes you can file a personal injury claim in Florida without a police report. Florida law does not require a police report to pursue compensation for injury. If you do not have a police report then you have to prove other person's at fault and your damages.",
+  featuredImage: {
+    image: {
+      url: "/images/static-blogs/florida-injury-claim-without-police-report-guide.webp",
+    },
+    altText: "Car accident scene showing evidence collection and legal steps for filing an injury claim without a police report in Florida",
+    title: "Florida Injury Claims Without a Police Report Guide",
+    description: "A comprehensive visual guide explaining how accident victims can pursue personal injury claims without a police report in Florida. Highlights the importance of preserving evidence, documenting injuries, understanding legal rights, meeting reporting deadlines, and protecting compensation claims after a car accident.",
+    caption: "Learn the essential steps to protect your injury claim after a car accident, even when no police report is available.",
+  },
+};
+
 export const staticBlogPosts = [
   floridaStatuteReposeBlog,
   dashcamFootagePersonalInjuryClaimBlog,
@@ -164,4 +184,6 @@ export const staticBlogPosts = [
   multiplePartiesFaultFloridaAccidentBlog,
   punitiveDamagesFloridaPersonalInjuryCasesBlog,
   weatherLiabilityFloridaCarAccidentsBlog,
+  canYouFilePersonalInjuryClaimWithoutPoliceReportBlog,
 ];
+
