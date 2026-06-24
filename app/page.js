@@ -7,6 +7,12 @@ import HeroSection from '@/components/home/HeroSection';
 import ObligationSection from '@/components/home/ObligationSection';
 import PersonalInjury from '@/components/home/PersonalInjury';
 
+export const metadata = {
+  alternates: {
+    canonical: '/',
+  },
+};
+
 export default function Home() {
   return (
     <main className='w-full'>

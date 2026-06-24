@@ -10,6 +10,9 @@ import { BiSolidPhoneCall } from "react-icons/bi";
 export const metadata = {
   title: "Car Accidents - Attorney Robert Johnson",
   description: `Robert has over 20 years of valuable experience in the legal community and insurance industry. He is not afraid to fight for justice for you and your family.`,
+  alternates: {
+    canonical: "/car-accidents",
+  },
 };
 
 const CarAccidentsPage = () => {

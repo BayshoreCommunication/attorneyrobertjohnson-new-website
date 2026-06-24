@@ -40,6 +40,9 @@ const css = `
 export const metadata = {
   title: "Privacy Policy - Attorney Robert Johnson",
   description: "",
+  alternates: {
+    canonical: "/privacy-policy",
+  },
 };
 
 const page = () => {

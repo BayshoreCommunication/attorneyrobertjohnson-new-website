@@ -12,6 +12,9 @@ import SecondaryButton from "@/components/shared/SecondaryButton";
 export const metadata = {
   title: "Blogs - Attorney Robert Johnson",
   description: `Robert has over 20 years of valuable experience in the legal community and insurance industry. He is not afraid to fight for justice for you and your family.`,
+  alternates: {
+    canonical: "/blog",
+  },
 };
 
 const page = async () => {

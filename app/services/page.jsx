@@ -8,14 +8,17 @@ import Head from 'next/head';
 import MotionEffect from '@/components/motion/MotionEffect';
 import { areasOfPractice } from '@/config/areasOfPracticeData';
 
+export const metadata = {
+  title: "Services - Attorney Robert Johnson",
+  description: "Robert has over 20 years of valuable experience in the legal community and insurance industry.",
+  alternates: {
+    canonical: "/services",
+  },
+};
+
 const page = () => {
   return (
     <>
-      <Head>
-        <title>Services - </title>
-        <meta name='description' content='' />
-        <meta name='viewport' content='width=device-width, initial-scale=1' />
-      </Head>
       <div className='mt-0 md:mt-[130px]'>
         <PageHeroSection
           heading={'Contact Apex Advisor Group Inc'}

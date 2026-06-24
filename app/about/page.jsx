@@ -10,6 +10,9 @@ import Link from "next/link";
 export const metadata = {
   title: "About - Attorney Robert Johnson",
   description: "",
+  alternates: {
+    canonical: "/about",
+  },
 };
 
 const AboutUsPage = () => {

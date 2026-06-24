@@ -46,6 +46,9 @@ export async function generateMetadata({ params }) {
   return {
     title: `${areasOfPracticeDetails[0]?.title}`,
     description: areasOfPracticeDetails[0]?.text,
+    alternates: {
+      canonical: `/services/${params.slug}`,
+    },
     // openGraph: {
     //   title: `${areasOfPracticeDetails[0]?.title} - Attorney Robert Johnson `,
     //   description: areasOfPracticeDetails[0]?.text,

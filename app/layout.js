@@ -13,7 +13,6 @@ export const metadata = {
   description: '',
   metadataBase: new URL('https://www.attorneyrobertjohnson.com/'),
   alternates: {
-    canonical: '/',
     languages: {
       'en-US': '/en-US',
     },
