@@ -11,6 +11,7 @@ import WhatArePunitiveDamagesInFlorida from "@/components/static-blogs/blogs/wha
 import WhatHappensIfMultiplePartiesAreAtFaultInAFloridaAccident from "@/components/static-blogs/blogs/what-happens-If-multiple-parties-are-at-fault-in-a-florida-accident";
 import HowWeatherConditionsCanImpact from "@/components/static-blogs/blogs/How Weather Conditions Can Impact";
 import CanYouFilePersonalInjuryClaimWithoutAPoliceReportInFlorida from "@/components/static-blogs/blogs/can-you-file-personal-injury-claim-without-a-police-report-in-florida";
+import HowInsurancePolicyLimitsAffectYourInjuryCompensation from "@/components/static-blogs/blogs/how-insurance-policy-limits-affect-your-injury-compensation";
 import { staticBlogPosts } from "@/components/static-blogs/staticBlogData";
 
 const staticBlogComponents = {
@@ -24,6 +25,7 @@ const staticBlogComponents = {
     WhatHappensIfMultiplePartiesAreAtFaultInAFloridaAccident,
   "weather-impact-florida-car-accident-liability": HowWeatherConditionsCanImpact,
   "can-you-file-personal-injury-claim-without-a-police-report-in-florida": CanYouFilePersonalInjuryClaimWithoutAPoliceReportInFlorida,
+  "how-insurance-policy-limits-affect-your-injury-compensation": HowInsurancePolicyLimitsAffectYourInjuryCompensation,
 };
 
 export async function generateMetadata({ params }) {

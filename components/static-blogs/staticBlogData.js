@@ -177,6 +177,26 @@ export const canYouFilePersonalInjuryClaimWithoutPoliceReportBlog = {
   },
 };
 
+export const howInsurancePolicyLimitsAffectYourInjuryCompensationBlog = {
+  slug: "how-insurance-policy-limits-affect-your-injury-compensation",
+  title: "How Insurance Policy Limits Affect Your Injury Compensation",
+  metaTitle: "How Insurance Limits Affect Your Injury Compensation?",
+  description: "Learn how insurance policy limits affect your injury payout in Florida and what to do when limits fall short.",
+  shortDescription: "Learn how insurance policy limits determine the amount an at-fault driver's insurer pays for your injuries in Florida, coverage options, stacking policies, and personal liability.",
+  createdAt: "2026-06-29T12:00:00.000Z",
+  published: true,
+  body: "Insurance policy limits determine the outside amount an at fault driver’s insurer will pay toward your injuries after an accident. When your medical bills and losses exceed that cap, your full recovery depends on knowing every lawful avenue still forthcoming to you.",
+  featuredImage: {
+    image: {
+      url: "/images/static-blogs/insurance-policy-limits-injury-compensation-florida.webp",
+    },
+    altText: "Insurance policy documents, medical bills, and legal symbols illustrating injury compensation limits in Florida",
+    title: "How Insurance Policy Limits Affect Injury Compensation",
+    description: "This image explains how insurance policy limits can impact personal injury compensation after an accident. Featuring policy documents, medical expenses, legal symbols, and Florida-specific elements, it highlights coverage caps, recovery options, uninsured and underinsured motorist coverage, and factors that influence financial compensation in injury claims.",
+    caption: "Understanding insurance policy limits can help maximize compensation and protect your rights after an injury accident.",
+  },
+};
+
 export const staticBlogPosts = [
   floridaStatuteReposeBlog,
   dashcamFootagePersonalInjuryClaimBlog,
@@ -185,5 +205,7 @@ export const staticBlogPosts = [
   punitiveDamagesFloridaPersonalInjuryCasesBlog,
   weatherLiabilityFloridaCarAccidentsBlog,
   canYouFilePersonalInjuryClaimWithoutPoliceReportBlog,
+  howInsurancePolicyLimitsAffectYourInjuryCompensationBlog,
 ];
+
 
