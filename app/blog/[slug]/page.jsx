@@ -12,6 +12,7 @@ import WhatHappensIfMultiplePartiesAreAtFaultInAFloridaAccident from "@/componen
 import HowWeatherConditionsCanImpact from "@/components/static-blogs/blogs/How Weather Conditions Can Impact";
 import CanYouFilePersonalInjuryClaimWithoutAPoliceReportInFlorida from "@/components/static-blogs/blogs/can-you-file-personal-injury-claim-without-a-police-report-in-florida";
 import HowInsurancePolicyLimitsAffectYourInjuryCompensation from "@/components/static-blogs/blogs/how-insurance-policy-limits-affect-your-injury-compensation";
+import HowWitnessStatementsCanInfluenceTheOutcomeOfYourInjuryCase from "@/components/static-blogs/blogs/How Witness Statements Can Influence the Outcome of Your Injury Case";
 import { staticBlogPosts } from "@/components/static-blogs/staticBlogData";
 
 const staticBlogComponents = {
@@ -26,7 +27,9 @@ const staticBlogComponents = {
   "weather-impact-florida-car-accident-liability": HowWeatherConditionsCanImpact,
   "can-you-file-personal-injury-claim-without-a-police-report-in-florida": CanYouFilePersonalInjuryClaimWithoutAPoliceReportInFlorida,
   "how-insurance-policy-limits-affect-your-injury-compensation": HowInsurancePolicyLimitsAffectYourInjuryCompensation,
+  "witness-statements-injury-case-outcome-florida": HowWitnessStatementsCanInfluenceTheOutcomeOfYourInjuryCase,
 };
+
 
 export async function generateMetadata({ params }) {
   const staticBlogDetails = staticBlogPosts.find(

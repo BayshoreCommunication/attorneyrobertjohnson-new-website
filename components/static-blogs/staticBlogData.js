@@ -197,6 +197,32 @@ export const howInsurancePolicyLimitsAffectYourInjuryCompensationBlog = {
   },
 };
 
+export const howWitnessStatementsInfluenceOutcomeInjuryCaseBlog = {
+  slug: "witness-statements-injury-case-outcome-florida",
+  title: "How Witness Statements Can Influence the Outcome of Your Injury Case",
+  metaTitle: "Witness Statements in Florida Injury Cases",
+  description:
+    "One credible eyewitness can raise your settlement in a Florida injury claim. See how Robert Johnson Law builds your case with witness statements.",
+  shortDescription:
+    "Learn how credible witness statements can strengthen a Florida personal injury case by supporting fault determination, confirming key accident details, and providing valuable independent evidence.",
+  createdAt: "2026-07-08T12:00:00.000Z",
+  published: true,
+  body:
+    "Witness statements can make or break your injury claim. They confirm fault, support your version of events, and counter whatever the other side claims happened. A clear eyewitness account often decides who pays and how much you walk away with.",
+  featuredImage: {
+    image: {
+      url: "/images/static-blogs/witness-statements-injury-case-outcome-florida.jpg",
+    },
+    altText:
+      "Witness giving a statement to a police officer after a car accident, with witness notes, recorded testimony, and a police report supporting a Florida personal injury case.",
+    title: "How Witness Statements Can Influence the Outcome of Your Injury Case",
+    description:
+      "Legal educational graphic explaining how witness statements can influence the outcome of a personal injury case in Florida. The image highlights eyewitness testimony, recorded statements, witness notes, police reports, and accident evidence that may help establish fault, support disputed facts, strengthen an injury claim, and improve the injured victim’s ability to pursue fair compensation.",
+    caption:
+      "Learn how credible witness statements can strengthen a Florida personal injury case by supporting fault determination, confirming key accident details, and providing valuable independent evidence.",
+  },
+};
+
 export const staticBlogPosts = [
   floridaStatuteReposeBlog,
   dashcamFootagePersonalInjuryClaimBlog,
@@ -206,6 +232,8 @@ export const staticBlogPosts = [
   weatherLiabilityFloridaCarAccidentsBlog,
   canYouFilePersonalInjuryClaimWithoutPoliceReportBlog,
   howInsurancePolicyLimitsAffectYourInjuryCompensationBlog,
+  howWitnessStatementsInfluenceOutcomeInjuryCaseBlog,
 ];
+
 
 
