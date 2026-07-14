@@ -13,6 +13,7 @@ import HowWeatherConditionsCanImpact from "@/components/static-blogs/blogs/How W
 import CanYouFilePersonalInjuryClaimWithoutAPoliceReportInFlorida from "@/components/static-blogs/blogs/can-you-file-personal-injury-claim-without-a-police-report-in-florida";
 import HowInsurancePolicyLimitsAffectYourInjuryCompensation from "@/components/static-blogs/blogs/how-insurance-policy-limits-affect-your-injury-compensation";
 import HowWitnessStatementsCanInfluenceTheOutcomeOfYourInjuryCase from "@/components/static-blogs/blogs/How Witness Statements Can Influence the Outcome of Your Injury Case";
+import WhatToKnowAboutSettlingAPersonalInjuryCaseOutofCourtInFlorida from "@/components/static-blogs/blogs/What to Know About Settling a Personal Injury Case Out of Court in Florida";
 import { staticBlogPosts } from "@/components/static-blogs/staticBlogData";
 
 const staticBlogComponents = {
@@ -28,6 +29,7 @@ const staticBlogComponents = {
   "can-you-file-personal-injury-claim-without-a-police-report-in-florida": CanYouFilePersonalInjuryClaimWithoutAPoliceReportInFlorida,
   "how-insurance-policy-limits-affect-your-injury-compensation": HowInsurancePolicyLimitsAffectYourInjuryCompensation,
   "witness-statements-injury-case-outcome-florida": HowWitnessStatementsCanInfluenceTheOutcomeOfYourInjuryCase,
+  "settling-personal-injury-case-out-of-court-florida": WhatToKnowAboutSettlingAPersonalInjuryCaseOutofCourtInFlorida,
 };
 
 

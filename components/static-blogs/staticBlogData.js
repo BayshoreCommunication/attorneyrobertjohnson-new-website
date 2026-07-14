@@ -223,6 +223,32 @@ export const howWitnessStatementsInfluenceOutcomeInjuryCaseBlog = {
   },
 };
 
+export const settlingPersonalInjuryCaseOutofCourtFloridaBlog = {
+  slug: "settling-personal-injury-case-out-of-court-florida",
+  title: "What to Know About Settling a Personal Injury Case Out of Court in Florida",
+  metaTitle: "Risks of Settling Personal Injury Outside of Florida Court",
+  description:
+    "Do not sign away your rights yet. See how settling personal injury out of court Florida changes completely under the aggressive new state laws.",
+  shortDescription:
+    "Most personal injury cases in Florida get settled out of court. Learn how insurers value claims, comparative fault rules, and settlement agreements.",
+  createdAt: "2026-07-14T12:00:00.000Z",
+  published: true,
+  body:
+    "Most personal injury cases in Florida get settled out of court. You can avoid trial risk, reduce legal costs and put money in your pocket faster with settlements. To get a fair number, you need to understand how insurers value claims, when Florida law affects your negotiating position and what you’re giving up by signing a release.",
+  featuredImage: {
+    image: {
+      url: "/images/static-blogs/settling-personal-injury-case-out-of-court-florida.webp",
+    },
+    altText:
+      "Florida personal injury settlement agreement with legal books, judge gavel, calculator, and scales of justice representing an out-of-court settlement.",
+    title: "Settling a Personal Injury Case Out of Court in Florida",
+    description:
+      "Professional legal graphic illustrating the process of settling a personal injury case out of court in Florida. The image highlights settlement agreements, Florida personal injury law, financial calculations, and legal negotiation involved in resolving injury claims without proceeding to trial.",
+    caption:
+      "Understand the process of settling a personal injury case out of court in Florida, including negotiations, settlement agreements, and legal guidance.",
+  },
+};
+
 export const staticBlogPosts = [
   floridaStatuteReposeBlog,
   dashcamFootagePersonalInjuryClaimBlog,
@@ -233,7 +259,9 @@ export const staticBlogPosts = [
   canYouFilePersonalInjuryClaimWithoutPoliceReportBlog,
   howInsurancePolicyLimitsAffectYourInjuryCompensationBlog,
   howWitnessStatementsInfluenceOutcomeInjuryCaseBlog,
+  settlingPersonalInjuryCaseOutofCourtFloridaBlog,
 ];
+
 
 
 
