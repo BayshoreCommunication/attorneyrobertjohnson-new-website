@@ -159,7 +159,7 @@ const WhatToKnowAboutSettlingAPersonalInjuryCaseOutofCourtInFlorida = () => {
           </p>
 
           <p className="mt-8 text-lg leading-8 text-slate-700">
-            Most personal injury cases in Florida get settled out of court. You can avoid trial risk, reduce legal costs and put money in your pocket faster with settlements. To get a fair number, you need to understand how insurers value claims, when Florida law affects your negotiating position and what you’re giving up by signing a release.
+            Most personal injury cases in Florida get settled out of court. You can avoid trial risk, reduce legal costs and put money in your pocket faster with settlements. To get a fair number, you need to understand how insurers value claims, when Florida law affects your negotiating position and what you&apos;re giving up by signing a release.
           </p>
 
           <section className="mt-8 border-l-4 border-[#4B93FF] bg-[#EEF6F8] p-6">
@@ -193,7 +193,7 @@ const WhatToKnowAboutSettlingAPersonalInjuryCaseOutofCourtInFlorida = () => {
               01. Most Personal Injury Cases Settle Out of Court in Florida
             </h2>
             <p className="mt-4 leading-8 text-slate-700">
-              Trials are expensive, slow and very unpredictable. That’s the honest answer. Florida courts are backlogged. A case that goes all the way can take 2 to 3 years to resolve. Settlements give both sides control. Insurers avoid the risk of a large jury verdict. Injured people can get money without waiting. That trade-off explains why over 95% of personal injury claims never see a courtroom.
+              Trials are expensive, slow and very unpredictable. That&apos;s the honest answer. Florida courts are backlogged. A case that goes all the way can take 2 to 3 years to resolve. Settlements give both sides control. Insurers avoid the risk of a large jury verdict. Injured people can get money without waiting. That trade-off explains why over 95% of personal injury claims never see a courtroom.
             </p>
             <p className="mt-4 leading-8 text-slate-700">
               But quick does not mean fair. Insurers open with low numbers. They bet on impatience. The gap between the first offer and a properly negotiated settlement is real. Knowing how Florida law shapes that negotiation is where you gain ground. If you want to understand how settlements compare to court awards in more depth, this{" "}
@@ -206,10 +206,10 @@ const WhatToKnowAboutSettlingAPersonalInjuryCaseOutofCourtInFlorida = () => {
 
           <section className="mt-10">
             <h2 className="text-3xl font-bold text-[#1C3767]">
-              02. How Does Florida's Modified Comparative Negligence Rule Affect Your Settlement?
+              02. How Does Florida&apos;s Modified Comparative Negligence Rule Affect Your Settlement?
             </h2>
             <p className="mt-4 leading-8 text-slate-700">
-              Modified comparative fault replaced Florida’s comparative negligence in 2023 through HB 837. It altered the equation. Any individual found to be 51% or higher at fault would receive nothing. Previously, under pure comparative fault, an individual found to be 90% at fault could recover 10% in damages. That door is closed.
+              Modified comparative fault replaced Florida&apos;s comparative negligence in 2023 through HB 837. It altered the equation. Any individual found to be 51% or higher at fault would receive nothing. Previously, under pure comparative fault, an individual found to be 90% at fault could recover 10% in damages. That door is closed.
             </p>
             <p className="mt-4 leading-8 text-slate-700">
               What this means during settlement talks is that insurers now argue your fault more aggressively. They want to push your percentage above 50% and eliminate the claim entirely. Document everything from day one. Photographs, witness contact info, police reports, medical records. All of it chips away at their fault argument.
@@ -227,7 +227,7 @@ const WhatToKnowAboutSettlingAPersonalInjuryCaseOutofCourtInFlorida = () => {
               Insurers run their own numbers. They look at liability clarity, injury severity, treatment consistency, lost income documentation, and how your attorney has handled similar cases in the past. Every element is a data point for them.
             </p>
             <p className="mt-4 leading-8 text-slate-700">
-              The strongest driver is medical records. Juries and adjusters both respond to objective evidence. A diagnosed herniated disc, surgery records, or a neurologist's opinion outweighs any description of pain. Pain and suffering are real damages in Florida, but they need to be anchored in treatment. Find out more about{" "}
+              The strongest driver is medical records. Juries and adjusters both respond to objective evidence. A diagnosed herniated disc, surgery records, or a neurologist&apos;s opinion outweighs any description of pain. Pain and suffering are real damages in Florida, but they need to be anchored in treatment. Find out more about{" "}
               <Link href="/blog/what-determines-personal-injury-compensation-amounts" className="underline hover:text-[#4B93FF]">
                 how compensation is calculated for personal injury claims
               </Link>{" "}
@@ -291,7 +291,7 @@ const WhatToKnowAboutSettlingAPersonalInjuryCaseOutofCourtInFlorida = () => {
           <blockquote className="mt-8 border-y border-[#cfd8e3] px-4 py-6 text-xl font-semibold leading-8 text-[#1C3767]">
             &ldquo;The biggest mistake I see is injured Floridians settling before they know their full prognosis. Once you sign that release, the case is over. You cannot go back. Make sure the number reflects everything, including what your recovery still requires.&rdquo;
             <cite className="mt-4 block text-sm font-normal not-italic text-slate-600">
-              — Attorney Robert J. Johnson, Esq. — Tampa Personal Injury Attorney
+              &mdash; Attorney Robert J. Johnson, Esq. &mdash; Tampa Personal Injury Attorney
             </cite>
           </blockquote>
 
@@ -306,7 +306,7 @@ const WhatToKnowAboutSettlingAPersonalInjuryCaseOutofCourtInFlorida = () => {
               This is exactly why you need to know your full medical prognosis before you sign. If a surgery is possible, if your condition might worsen, if future treatment costs are uncertain, wait. Once signed, that release holds. The court will not reconsider the case just because there were complications.
             </p>
             <p className="mt-4 leading-8 text-slate-700">
-              If you suffer from complex injury such as traumatic brain injury or spine injury, then future projection from a medical expert is necessary. They become the ceiling of your damages argument. Without them, you are negotiating blind. Robert Johnson's personal injury practice is built specifically around protecting clients from this mistake.
+              If you suffer from complex injury such as traumatic brain injury or spine injury, then future projection from a medical expert is necessary. They become the ceiling of your damages argument. Without them, you are negotiating blind. Robert Johnson&apos;s personal injury practice is built specifically around protecting clients from this mistake.
             </p>
           </section>
 
@@ -315,10 +315,10 @@ const WhatToKnowAboutSettlingAPersonalInjuryCaseOutofCourtInFlorida = () => {
               06. When to File Suit Instead of Settling a Florida Injury Case?
             </h2>
             <p className="mt-4 leading-8 text-slate-700">
-              Settlement may not be the right move always. Some cases belong in front of a jury. If the defendant's conduct was particularly egregious, if the insurer is acting in bad faith, or if the offer is so low it does not cover medical bills, filing suit is the correct response.
+              Settlement may not be the right move always. Some cases belong in front of a jury. If the defendant&apos;s conduct was particularly egregious, if the insurer is acting in bad faith, or if the offer is so low it does not cover medical bills, filing suit is the correct response.
             </p>
             <p className="mt-4 leading-8 text-slate-700">
-              Filing does not mean going to trial. Most cases settle after litigation begins but before trial. Discovery shakes loose evidence. Depositions reveal what witnesses will say. Insurers reassess their exposure. The act of filing often produces the serious negotiation that was missing before. Florida's two-year deadline under{" "}
+              Filing does not mean going to trial. Most cases settle after litigation begins but before trial. Discovery shakes loose evidence. Depositions reveal what witnesses will say. Insurers reassess their exposure. The act of filing often produces the serious negotiation that was missing before. Florida&apos;s two-year deadline under{" "}
               <ExternalLink href="https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0000-0099/0095/Sections/0095.11.html">
                 Florida Statute 95.11
               </ExternalLink>{" "}
