@@ -14,6 +14,7 @@ import CanYouFilePersonalInjuryClaimWithoutAPoliceReportInFlorida from "@/compon
 import HowInsurancePolicyLimitsAffectYourInjuryCompensation from "@/components/static-blogs/blogs/how-insurance-policy-limits-affect-your-injury-compensation";
 import HowWitnessStatementsCanInfluenceTheOutcomeOfYourInjuryCase from "@/components/static-blogs/blogs/How Witness Statements Can Influence the Outcome of Your Injury Case";
 import WhatToKnowAboutSettlingAPersonalInjuryCaseOutofCourtInFlorida from "@/components/static-blogs/blogs/What to Know About Settling a Personal Injury Case Out of Court in Florida";
+import WhatHappensIfTheAtFaultDriverLeavesTheStateAfterAnAccident from "@/components/static-blogs/blogs/what-happens-if-the-at-fault-driver-leaves-the-state-after-an-accident";
 import { staticBlogPosts } from "@/components/static-blogs/staticBlogData";
 
 const staticBlogComponents = {
@@ -30,6 +31,7 @@ const staticBlogComponents = {
   "how-insurance-policy-limits-affect-your-injury-compensation": HowInsurancePolicyLimitsAffectYourInjuryCompensation,
   "witness-statements-injury-case-outcome-florida": HowWitnessStatementsCanInfluenceTheOutcomeOfYourInjuryCase,
   "settling-personal-injury-case-out-of-court-florida": WhatToKnowAboutSettlingAPersonalInjuryCaseOutofCourtInFlorida,
+  "what-happens-if-the-at-fault-driver-leaves-the-state-after-an-accident": WhatHappensIfTheAtFaultDriverLeavesTheStateAfterAnAccident,
 };
 
 

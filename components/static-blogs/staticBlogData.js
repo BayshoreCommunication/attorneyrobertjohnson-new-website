@@ -249,6 +249,32 @@ export const settlingPersonalInjuryCaseOutofCourtFloridaBlog = {
   },
 };
 
+export const whatHappensIfFaultDriverLeavesStateBlog = {
+  slug: "what-happens-if-the-at-fault-driver-leaves-the-state-after-an-accident",
+  title: "What Happens If the At-Fault Driver Leaves the State After an Accident?",
+  metaTitle: "At-Fault Driver Left Florida After Accident? Here's What Happens",
+  description:
+    "The at-fault driver left Florida after your crash. You still have options. Learn your rights, deadlines, and how to recover full compensation.",
+  shortDescription:
+    "Learn what happens if the at-fault driver leaves the state after an accident and how an experienced personal injury attorney can help you protect your rights and pursue the compensation you deserve.",
+  createdAt: "2026-07-21T12:00:00.000Z",
+  published: true,
+  body:
+    "The out-of-state driver who caused your accident won’t be able to get off the hook just because they have crossed the state lines. Under Florida law, you may have the power to sue a driver outside the state, hunt them down, and make sure they pay what they owe. Don’t let the out-of-state driver flee the scene.",
+  featuredImage: {
+    image: {
+      url: "/images/static-blogs/what-happens-if-the-at-fault-driver-leaves-the-state-after-an-accident.webp",
+    },
+    altText:
+      "Personal injury law graphic showing a police report, damaged vehicle, Florida state line sign, suitcase, and interstate map illustrating an at-fault driver leaving the state after a car accident.",
+    title: "What Happens If the At-Fault Driver Leaves the State After an Accident?",
+    description:
+      "Professional personal injury law graphic illustrating the legal implications when an at-fault driver leaves the state after a car accident. The image features a police report, a vehicle traveling across state lines, a Florida state sign, and an interstate map, highlighting how accident victims can pursue compensation, insurance claims, and legal action even if the responsible driver relocates.",
+    caption:
+      "Learn what happens if the at-fault driver leaves the state after an accident and how an experienced personal injury attorney can help you protect your rights and pursue the compensation you deserve.",
+  },
+};
+
 export const staticBlogPosts = [
   floridaStatuteReposeBlog,
   dashcamFootagePersonalInjuryClaimBlog,
@@ -260,7 +286,9 @@ export const staticBlogPosts = [
   howInsurancePolicyLimitsAffectYourInjuryCompensationBlog,
   howWitnessStatementsInfluenceOutcomeInjuryCaseBlog,
   settlingPersonalInjuryCaseOutofCourtFloridaBlog,
+  whatHappensIfFaultDriverLeavesStateBlog,
 ];
+
 
 
 
