@@ -276,7 +276,7 @@ const WhatHappensIfTheAtFaultDriverLeavesTheStateAfterAnAccident = () => {
           </blockquote>
 
           <div className="mt-8 border border-[#cfd8e3] bg-[#1C3767] p-6 text-white text-center">
-            <h3 className="text-2xl font-bold">The Driver Left. Your Rights Did Not.</h3>
+            <h2 className="text-2xl font-bold">The Driver Left. Your Rights Did Not.</h2>
             <p className="mt-2 text-slate-100">
               Rob Johnson fights for Tampa Bay accident victims 24 hours a day, 7 days a week.
             </p>
@@ -394,7 +394,7 @@ const WhatHappensIfTheAtFaultDriverLeavesTheStateAfterAnAccident = () => {
           </section>
 
           <div className="mt-8 border border-[#cfd8e3] bg-[#EEF6F8] p-6 text-center">
-            <h3 className="text-2xl font-bold text-[#1C3767]">Do Not Let Them Get Away With It</h3>
+            <h2 className="text-2xl font-bold text-[#1C3767]">Do Not Let Them Get Away With It</h2>
             <p className="mt-2 text-slate-700 font-medium">
               Rob Johnson has fought for Tampa, Clearwater, and St. Petersburg accident victims for over 20 years. You pay nothing unless he wins.
             </p>
