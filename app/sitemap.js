@@ -1,5 +1,6 @@
 import GetAllPostData from "@/lib/GetAllPostData";
 import { areasOfPractice } from "@/config/areasOfPracticeData";
+import { staticBlogPosts } from "@/components/static-blogs/staticBlogData";
 
 export default async function sitemap() {
   const baseUrl = "https://www.attorneyrobertjohnson.com";
@@ -30,6 +31,14 @@ export default async function sitemap() {
     priority: 0.8,
   }));
 
+  // Static blog routes
+  const staticBlogRoutes = staticBlogPosts.map((blog) => ({
+    url: `${baseUrl}/blog/${blog.slug}`,
+    lastModified: new Date(blog.createdAt || new Date()),
+    changeFrequency: "weekly",
+    priority: 0.7,
+  }));
+
   // Blog routes
   let blogRoutes = [];
   try {
@@ -46,5 +55,5 @@ export default async function sitemap() {
     console.error("Error fetching blog posts for sitemap:", error);
   }
 
-  return [...staticRoutes, ...serviceRoutes, ...blogRoutes];
+  return [...staticRoutes, ...serviceRoutes, ...staticBlogRoutes, ...blogRoutes];
 }

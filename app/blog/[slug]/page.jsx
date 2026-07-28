@@ -9,7 +9,7 @@ import HowDashcamFootageCanStrengthen from "@/components/static-blogs/blogs/how-
 import StructuredSettlementsVsLumpSumPayments from "@/components/static-blogs/blogs/structured-settlements-vs-lump-sum-payments";
 import WhatArePunitiveDamagesInFlorida from "@/components/static-blogs/blogs/what-are-punitive-damages-in-florida";
 import WhatHappensIfMultiplePartiesAreAtFaultInAFloridaAccident from "@/components/static-blogs/blogs/what-happens-If-multiple-parties-are-at-fault-in-a-florida-accident";
-import HowWeatherConditionsCanImpact from "@/components/static-blogs/blogs/How Weather Conditions Can Impact";
+import HowWeatherConditionsCanImpact from "@/components/static-blogs/blogs/weather-impact-florida-car-accident-liability";
 import CanYouFilePersonalInjuryClaimWithoutAPoliceReportInFlorida from "@/components/static-blogs/blogs/can-you-file-personal-injury-claim-without-a-police-report-in-florida";
 import HowInsurancePolicyLimitsAffectYourInjuryCompensation from "@/components/static-blogs/blogs/how-insurance-policy-limits-affect-your-injury-compensation";
 import HowWitnessStatementsCanInfluenceTheOutcomeOfYourInjuryCase from "@/components/static-blogs/blogs/How Witness Statements Can Influence the Outcome of Your Injury Case";

@@ -39,7 +39,7 @@ const BlogSection = async () => {
               <hr className="h-[2px] my-0 bg-stone-950 border-0 w-24 mx-auto"></hr>
               <p className="mb-4 text-lg text-stone-950 text-center mt-8">
                 Robert has over 20 years of valuable experience in the legal
-                community and insurance industry. 
+                community and insurance industry. 
                 <br /> He is not afraid to fight for justice for you and your
                 family.
               </p>
@@ -48,7 +48,8 @@ const BlogSection = async () => {
         </MotionEffect>
         <div className="gap-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mt-0 md:mt-4 items-stretch">
           {blogPostData?.data
-            ?.filter((pub, no) => pub.published === true && no <= 2)
+            ?.filter((pub) => pub.published === true)
+            ?.slice(0, 3)
             ?.map((blogs, index) => (
               <Link href={`/blog/${blogs?.slug}`} key={index}>
                 <MotionEffect effect="fade-up" duration="2000">
