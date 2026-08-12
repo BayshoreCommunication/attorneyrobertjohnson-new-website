@@ -122,6 +122,133 @@ const AirbagFailsToDeployFloridaCarAccidentLawyer = () => {
 
   return (
     <article className="bg-[#f7f9fc] text-slate-900">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://www.attorneyrobertjohnson.com/"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Blog",
+                    "item": "https://www.attorneyrobertjohnson.com/blog"
+                  },
+                  {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "What Happens If Your Airbag Fails to Deploy During a Florida Car Accident?",
+                    "item": "https://www.attorneyrobertjohnson.com/blog/airbag-fails-to-deploy-florida-car-accident-lawyer"
+                  }
+                ]
+              },
+              {
+                "@type": "BlogPosting",
+                "mainEntityOfPage": {
+                  "@type": "WebPage",
+                  "@id": "https://www.attorneyrobertjohnson.com/blog/airbag-fails-to-deploy-florida-car-accident-lawyer"
+                },
+                "headline": "What Happens If Your Airbag Fails to Deploy During a Florida Car Accident?",
+                "name": "Critical Florida Car Accident: What to do 2026",
+                "description": "Learn what may happen if an airbag fails to deploy during a Florida car accident, possible causes, legal considerations, and steps to protect your rights.",
+                "url": "https://www.attorneyrobertjohnson.com/blog/airbag-fails-to-deploy-florida-car-accident-lawyer",
+                "image": "https://www.attorneyrobertjohnson.com/images/static-blogs/airbag-fails-to-deploy-florida-car-accident-lawyer.webp",
+                "isPartOf": {
+                  "@type": "Blog",
+                  "@id": "https://www.attorneyrobertjohnson.com/blog"
+                },
+                "about": {
+                  "@type": "Thing",
+                  "name": "Airbag Failure After a Florida Car Accident",
+                  "description": "An overview of airbag non-deployment after a Florida car accident, including possible vehicle defects, driver liability, product liability, evidence preservation, insurance coverage, and potential injury compensation."
+                },
+                "keywords": [
+                  "airbag fails to deploy Florida",
+                  "airbag failure car accident Florida",
+                  "airbag did not deploy accident",
+                  "Florida airbag failure lawyer",
+                  "Florida car accident lawyer",
+                  "airbag defect lawyer Florida",
+                  "airbag non-deployment injuries",
+                  "car accident product liability Florida",
+                  "vehicle defect lawyer Florida",
+                  "airbag injury claim",
+                  "Tampa car accident lawyer"
+                ],
+                "author": {
+                  "@type": "Person",
+                  "name": "Robert J. Johnson, Esq."
+                },
+                "publisher": {
+                  "@type": "Organization",
+                  "name": "Robert J. Johnson Law",
+                  "url": "https://www.attorneyrobertjohnson.com/",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.attorneyrobertjohnson.com/_next/image?url=%2Fimages%2Frobertjhonsonlogo.png&w=640&q=75"
+                  }
+                },
+                "datePublished": "2026-08-09",
+                "dateModified": "2026-08-09"
+              },
+              {
+                "@type": "FAQPage",
+                "mainEntity": [
+                  {
+                    "@type": "Question",
+                    "name": "Can I Sue If My Airbag Didn't Deploy In Florida?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Victims pursue the at-fault driver. Victims pursue the vehicle manufacturer. Victims pursue both parties. Experts evaluate the airbag failure. They identify expected actions. They identify manufacturing defects."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "What If The Crash Was Low Speed But I Was Hurt?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "You can still be hurt at low speed. Injury severity varies. Airbags skip low-speed events. Medical records and vehicle damage analysis help clarify what happened."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Should I Fix My Car Before The Claim Is Resolved?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "Usually, no. Repairs can destroy evidence. It's crucial to keep the vehicle preserved first. If you must repair, document everything thoroughly - photograph components, request saved parts, keep invoices and timelines."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "Are Airbag Failure Injuries Covered By Florida No-fault Insurance?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "PIP may cover initial treatment. It is limited. Serious injuries may allow claims beyond PIP. Product claims may also apply. Coverage depends on your policy and injury threshold proof."
+                    }
+                  },
+                  {
+                    "@type": "Question",
+                    "name": "What If The Airbag Light Was On Before The Crash?",
+                    "acceptedAnswer": {
+                      "@type": "Answer",
+                      "text": "That can indicate a disabled system. It does not end your claim. It shifts the investigation. Prior repairs, scans, and service records become important evidence."
+                    }
+                  }
+                ]
+              }
+            ]
+          })
+        }}
+      />
       <div className="border border-[#cfd8e3] bg-white">
         <div className="border-b border-[#dbe3ee] px-5 py-4 text-center text-xs font-semibold uppercase tracking-[0.16em] text-[#1C3767] sm:px-8">
           Robert J. Johnson Law | Personal Injury | Tampa, FL
