@@ -205,18 +205,21 @@ const CanYouRecoverCompensationRoadConstructionCrash = () => {
                 },
                 "about": {
                   "@type": "Thing",
-                  "name": "Road Construction Accident Compensation Claim",
-                  "description": "An overview of pursuing legal compensation after a road construction zone crash in Florida, including proving negligence, government vs contractor liability, comparative fault, and evidence collection."
+                  "name": "Road Construction Crash Compensation",
+                  "description": "An overview of construction zone negligence, potential liability of contractors and government entities, evidence preservation, comparative fault, and compensation after a road construction crash."
                 },
                 "keywords": [
-                  "road construction crash compensation",
-                  "construction zone accident lawyer Florida",
-                  "road work accident claim",
-                  "construction zone liability Florida",
-                  "contractor negligence car crash",
-                  "work zone accident lawyer Tampa",
-                  "Florida road construction injury attorney",
-                  "MUTCD road work safety standards"
+                  "road construction accident compensation",
+                  "road construction crash lawyer",
+                  "construction zone accident lawyer",
+                  "road construction accident Florida",
+                  "construction zone negligence",
+                  "road construction accident claim",
+                  "construction company liability accident",
+                  "government liability construction accident",
+                  "work zone accident compensation",
+                  "Florida personal injury lawyer",
+                  "Tampa construction accident lawyer"
                 ],
                 "author": {
                   "@type": "Person",
