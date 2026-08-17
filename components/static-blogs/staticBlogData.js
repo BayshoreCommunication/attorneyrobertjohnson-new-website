@@ -302,6 +302,33 @@ export const airbagFailsToDeployFloridaCarAccidentBlog = {
   },
 };
 
+export const canYouRecoverCompensationRoadConstructionCrashBlog = {
+  slug: "can-you-recover-compensation-road-construction-crash",
+  title:
+    "Can You Recover Compensation If Road Construction Caused Your Crash?",
+  metaTitle: "Proven Ways To Recover Compensation 2026",
+  description:
+    "Can you recover compensation after a road construction crash? Discover who may be liable, what evidence matters, and your legal options in 2026.",
+  shortDescription:
+    "Learn your legal rights and options for recovering financial compensation if poor signage, hazards, or negligence in a road construction zone caused your crash.",
+  createdAt: "2026-08-17T12:00:00.000Z",
+  published: true,
+  body:
+    "Yes, you can get compensation if the crash you were in was caused by road construction. If you want to prevail in court, you’ll have to prove that the party at fault was negligent.",
+  featuredImage: {
+    image: {
+      url: "/images/static-blogs/can-you-recover-compensation-road-construction-crash.webp",
+    },
+    altText:
+      "Damaged car in a highway construction zone with warning signs, traffic cones, and heavy excavator machinery.",
+    title: "Road Construction Accident Injury Compensation Guide",
+    description:
+      "Learn your legal rights and options for recovering financial compensation if poor signage, hazards, or negligence in a road construction zone caused your crash.",
+    caption:
+      "Understand your legal rights and options for pursuing compensation after a road construction zone accident.",
+  },
+};
+
 export const staticBlogPosts = [
   floridaStatuteReposeBlog,
   dashcamFootagePersonalInjuryClaimBlog,
@@ -315,7 +342,9 @@ export const staticBlogPosts = [
   settlingPersonalInjuryCaseOutofCourtFloridaBlog,
   whatHappensIfFaultDriverLeavesStateBlog,
   airbagFailsToDeployFloridaCarAccidentBlog,
+  canYouRecoverCompensationRoadConstructionCrashBlog,
 ];
+
 
 
 

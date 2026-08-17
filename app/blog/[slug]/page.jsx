@@ -16,6 +16,7 @@ import HowWitnessStatementsCanInfluenceTheOutcomeOfYourInjuryCase from "@/compon
 import WhatToKnowAboutSettlingAPersonalInjuryCaseOutofCourtInFlorida from "@/components/static-blogs/blogs/What to Know About Settling a Personal Injury Case Out of Court in Florida";
 import WhatHappensIfTheAtFaultDriverLeavesTheStateAfterAnAccident from "@/components/static-blogs/blogs/what-happens-if-the-at-fault-driver-leaves-the-state-after-an-accident";
 import AirbagFailsToDeployFloridaCarAccidentLawyer from "@/components/static-blogs/blogs/airbag-fails-to-deploy-florida-car-accident-lawyer";
+import CanYouRecoverCompensationRoadConstructionCrash from "@/components/static-blogs/blogs/can-you-recover-compensation-road-construction-crash";
 import { staticBlogPosts } from "@/components/static-blogs/staticBlogData";
 
 const staticBlogComponents = {
@@ -34,6 +35,7 @@ const staticBlogComponents = {
   "settling-personal-injury-case-out-of-court-florida": WhatToKnowAboutSettlingAPersonalInjuryCaseOutofCourtInFlorida,
   "what-happens-if-the-at-fault-driver-leaves-the-state-after-an-accident": WhatHappensIfTheAtFaultDriverLeavesTheStateAfterAnAccident,
   "airbag-fails-to-deploy-florida-car-accident-lawyer": AirbagFailsToDeployFloridaCarAccidentLawyer,
+  "can-you-recover-compensation-road-construction-crash": CanYouRecoverCompensationRoadConstructionCrash,
 };
 
 
