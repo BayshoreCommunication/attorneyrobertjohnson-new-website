@@ -17,6 +17,7 @@ import WhatToKnowAboutSettlingAPersonalInjuryCaseOutofCourtInFlorida from "@/com
 import WhatHappensIfTheAtFaultDriverLeavesTheStateAfterAnAccident from "@/components/static-blogs/blogs/what-happens-if-the-at-fault-driver-leaves-the-state-after-an-accident";
 import AirbagFailsToDeployFloridaCarAccidentLawyer from "@/components/static-blogs/blogs/airbag-fails-to-deploy-florida-car-accident-lawyer";
 import CanYouRecoverCompensationRoadConstructionCrash from "@/components/static-blogs/blogs/can-you-recover-compensation-road-construction-crash";
+import WhatToDoIfAnotherDriverGivesFalseInformationAfterAnAccident from "@/components/static-blogs/blogs/what-to-do-if-another-driver-gives-false-information-after-an-accident";
 import { staticBlogPosts } from "@/components/static-blogs/staticBlogData";
 
 const staticBlogComponents = {
@@ -36,6 +37,7 @@ const staticBlogComponents = {
   "what-happens-if-the-at-fault-driver-leaves-the-state-after-an-accident": WhatHappensIfTheAtFaultDriverLeavesTheStateAfterAnAccident,
   "airbag-fails-to-deploy-florida-car-accident-lawyer": AirbagFailsToDeployFloridaCarAccidentLawyer,
   "can-you-recover-compensation-road-construction-crash": CanYouRecoverCompensationRoadConstructionCrash,
+  "what-to-do-if-another-driver-gives-false-information-after-an-accident": WhatToDoIfAnotherDriverGivesFalseInformationAfterAnAccident,
 };
 
 

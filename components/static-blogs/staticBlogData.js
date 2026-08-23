@@ -329,6 +329,33 @@ export const canYouRecoverCompensationRoadConstructionCrashBlog = {
   },
 };
 
+export const whatToDoIfAnotherDriverGivesFalseInformationBlog = {
+  slug: "what-to-do-if-another-driver-gives-false-information-after-an-accident",
+  title:
+    "What to Do If Another Driver Gives False Information After an Accident",
+  metaTitle: "False Info After a Crash? Tampa Attorney Explains",
+  description:
+    "Another driver lied after your Florida crash. Learn what counts as false information, your legal options, and how Rob Johnson can help.",
+  shortDescription:
+    "Learn the immediate steps to take if the other driver provides false or inaccurate information after a car accident, featuring expert legal advice from a personal injury lawyer.",
+  createdAt: "2026-08-23T12:00:00.000Z",
+  published: true,
+  body:
+    "Write down what the other driver told you, then check it against their license, registration, and insurance card. Call the police to the scene so the mismatch lands in an official report.",
+  featuredImage: {
+    image: {
+      url: "/images/static-blogs/what-to-do-another-driver-false-information.webp",
+    },
+    altText:
+      "Two people exchange information at a car accident scene, with a woman taking notes and a man looking defensive.",
+    title: "What to Do If Another Driver Gives False Information",
+    description:
+      "Learn the immediate steps to take if the other driver provides false or inaccurate information after a car accident, featuring expert legal advice from a personal injury lawyer.",
+    caption:
+      "Actionable tips and legal advice for handling a car accident where the other driver gives false information.",
+  },
+};
+
 export const staticBlogPosts = [
   floridaStatuteReposeBlog,
   dashcamFootagePersonalInjuryClaimBlog,
@@ -343,6 +370,7 @@ export const staticBlogPosts = [
   whatHappensIfFaultDriverLeavesStateBlog,
   airbagFailsToDeployFloridaCarAccidentBlog,
   canYouRecoverCompensationRoadConstructionCrashBlog,
+  whatToDoIfAnotherDriverGivesFalseInformationBlog,
 ];
 
 
