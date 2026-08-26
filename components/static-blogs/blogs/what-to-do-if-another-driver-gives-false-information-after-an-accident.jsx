@@ -181,22 +181,33 @@ const WhatToDoIfAnotherDriverGivesFalseInformationAfterAnAccident = () => {
                 },
                 "about": {
                   "@type": "Thing",
-                  "name": "Car Accident False Information Legal Guidance",
-                  "description": "Legal options and steps when another driver provides false or inaccurate information after a Florida car accident."
+                  "name": "False Information After a Florida Car Accident",
+                  "description": "An overview of what accident victims can do when another driver provides false information about their identity, insurance, fault, or the circumstances of a Florida car accident, including evidence preservation and legal options."
                 },
                 "keywords": [
+                  "what to do if another driver gives false information after an accident",
+                  "driver gives false information after accident",
+                  "false information after car accident",
                   "false information car accident Florida",
-                  "other driver lied after crash",
-                  "fake insurance card car accident",
-                  "Florida Statute 316.067",
-                  "lying to police crash report Florida",
+                  "other driver lying after accident",
+                  "false statement after car accident",
+                  "false insurance information after accident",
+                  "fake insurance card accident",
+                  "false police report car accident",
+                  "Florida car accident false information",
+                  "Florida car accident lawyer",
                   "Tampa car accident lawyer",
-                  "dispute false statement accident claim",
-                  "modified comparative negligence Florida 768.81"
+                  "Florida personal injury lawyer",
+                  "car accident claim Florida",
+                  "Florida comparative negligence",
+                  "Florida Statute 316.067",
+                  "Florida Statute 768.81",
+                  "Florida personal injury claim",
+                  "Robert J. Johnson Law"
                 ],
                 "author": {
-                  "@type": "Person",
-                  "name": "Robert J. Johnson, Esq."
+                  "@type": "Organization",
+                  "name": "Robert J. Johnson Law"
                 },
                 "publisher": {
                   "@type": "Organization",
