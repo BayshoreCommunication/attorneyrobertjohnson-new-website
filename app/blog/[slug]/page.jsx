@@ -18,6 +18,7 @@ import WhatHappensIfTheAtFaultDriverLeavesTheStateAfterAnAccident from "@/compon
 import AirbagFailsToDeployFloridaCarAccidentLawyer from "@/components/static-blogs/blogs/airbag-fails-to-deploy-florida-car-accident-lawyer";
 import CanYouRecoverCompensationRoadConstructionCrash from "@/components/static-blogs/blogs/can-you-recover-compensation-road-construction-crash";
 import WhatToDoIfAnotherDriverGivesFalseInformationAfterAnAccident from "@/components/static-blogs/blogs/what-to-do-if-another-driver-gives-false-information-after-an-accident";
+import BlackBoxDataProvesFaultFloridaCarAccident from "@/components/static-blogs/blogs/black-box-data-proves-fault-florida-car-accident";
 import { staticBlogPosts } from "@/components/static-blogs/staticBlogData";
 
 const staticBlogComponents = {
@@ -38,7 +39,9 @@ const staticBlogComponents = {
   "airbag-fails-to-deploy-florida-car-accident-lawyer": AirbagFailsToDeployFloridaCarAccidentLawyer,
   "can-you-recover-compensation-road-construction-crash": CanYouRecoverCompensationRoadConstructionCrash,
   "what-to-do-if-another-driver-gives-false-information-after-an-accident": WhatToDoIfAnotherDriverGivesFalseInformationAfterAnAccident,
+  "black-box-data-proves-fault-florida-car-accident": BlackBoxDataProvesFaultFloridaCarAccident,
 };
+
 
 
 export async function generateMetadata({ params }) {
