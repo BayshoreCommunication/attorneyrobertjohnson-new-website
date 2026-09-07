@@ -383,6 +383,33 @@ export const blackBoxDataProvesFaultFloridaCarAccidentBlog = {
   },
 };
 
+export const howToRespondIfAnInsuranceCompanyRequestsARecordedStatementBlog = {
+  slug: "how-to-respond-if-an-insurance-company-requests-a-recorded-statement",
+  title:
+    "How to Respond If an Insurance Company Requests a Recorded Statement",
+  metaTitle: "Best Guide For Recorded Statement Insurance Company 2026",
+  description:
+    "Learn how to handle a Recorded Statement request from an insurance company with practical tips to protect your rights and avoid common mistakes.",
+  shortDescription:
+    "Learn how to protect your rights when an insurance company asks for a recorded statement after an injury in Florida.",
+  createdAt: "2026-09-07T12:00:00.000Z",
+  published: true,
+  body:
+    "When an insurance company asks for a recorded statement, you should politely decline to give a statement at that time. These are statements that insurance adjusters like to use to try and find inconsistencies to minimize or deny your payout.",
+  featuredImage: {
+    image: {
+      url: "/images/static-blogs/insurance-company-recorded-statement-florida-law.webp",
+    },
+    altText:
+      "Voice recorder and insurance claim documents on an attorney desk beside Florida personal injury law books.",
+    title: "Responding to Insurance Recorded Statement Requests",
+    description:
+      "Learn how to protect your rights when an insurance company asks for a recorded statement after an injury in Florida.",
+    caption:
+      "Understand your rights and how to handle an insurance company's request for a recorded statement in Florida.",
+  },
+};
+
 export const staticBlogPosts = [
   floridaStatuteReposeBlog,
   dashcamFootagePersonalInjuryClaimBlog,
@@ -399,7 +426,9 @@ export const staticBlogPosts = [
   canYouRecoverCompensationRoadConstructionCrashBlog,
   whatToDoIfAnotherDriverGivesFalseInformationBlog,
   blackBoxDataProvesFaultFloridaCarAccidentBlog,
+  howToRespondIfAnInsuranceCompanyRequestsARecordedStatementBlog,
 ];
+
 
 
 

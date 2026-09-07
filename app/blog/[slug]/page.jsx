@@ -19,6 +19,7 @@ import AirbagFailsToDeployFloridaCarAccidentLawyer from "@/components/static-blo
 import CanYouRecoverCompensationRoadConstructionCrash from "@/components/static-blogs/blogs/can-you-recover-compensation-road-construction-crash";
 import WhatToDoIfAnotherDriverGivesFalseInformationAfterAnAccident from "@/components/static-blogs/blogs/what-to-do-if-another-driver-gives-false-information-after-an-accident";
 import BlackBoxDataProvesFaultFloridaCarAccident from "@/components/static-blogs/blogs/black-box-data-proves-fault-florida-car-accident";
+import HowToRespondIfAnInsuranceCompanyRequestsARecordedStatement from "@/components/static-blogs/blogs/how-to-respond-if-an-insurance-company-requests-a-recorded-statement";
 import { staticBlogPosts } from "@/components/static-blogs/staticBlogData";
 
 const staticBlogComponents = {
@@ -40,7 +41,9 @@ const staticBlogComponents = {
   "can-you-recover-compensation-road-construction-crash": CanYouRecoverCompensationRoadConstructionCrash,
   "what-to-do-if-another-driver-gives-false-information-after-an-accident": WhatToDoIfAnotherDriverGivesFalseInformationAfterAnAccident,
   "black-box-data-proves-fault-florida-car-accident": BlackBoxDataProvesFaultFloridaCarAccident,
+  "how-to-respond-if-an-insurance-company-requests-a-recorded-statement": HowToRespondIfAnInsuranceCompanyRequestsARecordedStatement,
 };
+
 
 
 
