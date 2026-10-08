@@ -13,7 +13,7 @@ import ContactForm from "@/components/contact/ContactForm";
 export const metadata = {
   title: "Contact - Attorney Robert Johnson",
   description:
-    "Robert has over 20 years of valuable experience in the legal community and insurance industry. He is not afraid to fight for justice for you and your family.",
+    "Robert has over 20 years of valuable experience in the legal community and insurance industry. He is not afraid to fight for justice for you and your family. ",
   alternates: {
     canonical: "/contact",
   },
