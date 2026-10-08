@@ -410,6 +410,34 @@ export const howToRespondIfAnInsuranceCompanyRequestsARecordedStatementBlog = {
   },
 };
 
+export const whatDocumentsShouldYouNeverSignAfterAPersonalInjuryAccidentBlog = {
+  slug: "what-documents-should-you-never-sign-after-a-personal-injury-accident",
+  title:
+    "What Documents Should You Never Sign After A Personal Injury Accident?",
+  metaTitle: "Critical Personal Injury Accident Docs to Avoid 2026",
+  description:
+    "Learn crucial documents to avoid signing after a Personal Injury Accident and protect your rights with smart legal guidance in 2026.",
+  shortDescription:
+    "Learn what documents you should never sign after a personal injury accident with Robert J. Johnson Personal Injury Attorney at Law. Understand the risks of signing insurance claim forms, medical releases, and recorded statements without legal guidance.",
+  createdAt: "2026-10-07T12:00:00.000Z",
+  published: true,
+  body:
+    "Never sign a Release of Liability (Release of All Claims), Blanket Medical Authorization, settlement check containing release language, or prewritten affidavit without consulting a personal injury attorney after an accident. Insurance adjusters may ask injured parties to sign these documents quickly, potentially limiting their ability to pursue additional compensation or permanently resolving the claim before the full extent of the injuries and related damages is known.",
+  featuredImage: {
+    image: {
+      url: "/images/static-blogs/what-documents-should-you-never-sign-after-a-personal-injury-accident.webp",
+    },
+    altText:
+      "Insurance claim form, medical release, and recorded statement documents on a desk with Florida personal injury law books and scales of justice.",
+    title:
+      "What Documents Should You Never Sign After A Personal Injury Accident",
+    description:
+      "Learn what documents you should never sign after a personal injury accident with Robert J. Johnson Personal Injury Attorney at Law. Understand the risks of signing insurance claim forms, medical releases, and recorded statements without legal guidance.",
+    caption:
+      "Find out which documents to avoid signing after an accident to protect your personal injury claim and legal rights.",
+  },
+};
+
 export const staticBlogPosts = [
   floridaStatuteReposeBlog,
   dashcamFootagePersonalInjuryClaimBlog,
@@ -427,6 +455,7 @@ export const staticBlogPosts = [
   whatToDoIfAnotherDriverGivesFalseInformationBlog,
   blackBoxDataProvesFaultFloridaCarAccidentBlog,
   howToRespondIfAnInsuranceCompanyRequestsARecordedStatementBlog,
+  whatDocumentsShouldYouNeverSignAfterAPersonalInjuryAccidentBlog,
 ];
 
 
