@@ -1,5 +1,4 @@
 //"use client";
-import Head from "next/head";
 import { FaLocationDot } from "react-icons/fa6";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { IoMdMail } from "react-icons/io";
@@ -9,8 +8,6 @@ import SectionLayout from "@/components/shared/SectionLayout";
 import Swal from "sweetalert2";
 import { send } from "emailjs-com";
 import Link from "next/link";
-
-import { Metadata } from "next";
 import ContactForm from "@/components/contact/ContactForm";
 
 export const metadata = {
