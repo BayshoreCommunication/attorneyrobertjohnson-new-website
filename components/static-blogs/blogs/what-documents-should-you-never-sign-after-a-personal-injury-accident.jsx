@@ -187,9 +187,6 @@ const WhatDocumentsShouldYouNeverSignAfterAPersonalInjuryAccident = () => {
 
   return (
     <article className="bg-[#ffffff] text-[#222222]">
-      {/* Canonical Link */}
-      <link rel="canonical" href={canonicalUrl} />
-
       {/* SEO Schema Markup */}
       <script
         type="application/ld+json"
@@ -233,7 +230,8 @@ const WhatDocumentsShouldYouNeverSignAfterAPersonalInjuryAccident = () => {
                 "description":
                   "Learn crucial documents to avoid signing after a Personal Injury Accident and protect your rights with smart legal guidance in 2026.",
                 "url": canonicalUrl,
-                "image": `https://www.attorneyrobertjohnson.com${image.image.url}`,
+                "image":
+                  "https://www.attorneyrobertjohnson.com/images/static-blogs/what-documents-should-you-never-sign-after-a-personal-injury-accident.webp",
                 "isPartOf": {
                   "@type": "Blog",
                   "@id": "https://www.attorneyrobertjohnson.com/blog"
