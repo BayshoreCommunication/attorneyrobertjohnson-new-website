@@ -39,17 +39,20 @@ export default async function sitemap() {
     priority: 0.7,
   }));
 
-  // Blog routes
+  // Blog routes (remote posts only, avoiding duplicates with staticBlogRoutes)
+  const staticSlugs = new Set(staticBlogPosts.map((blog) => blog.slug));
   let blogRoutes = [];
   try {
     const blogData = await GetAllPostData();
     if (blogData && blogData.data) {
-      blogRoutes = blogData.data.map((blog) => ({
-        url: `${baseUrl}/blog/${blog.slug}`,
-        lastModified: new Date(blog.createdAt || new Date()),
-        changeFrequency: "weekly",
-        priority: 0.7,
-      }));
+      blogRoutes = blogData.data
+        .filter((blog) => blog?.slug && !staticSlugs.has(blog.slug))
+        .map((blog) => ({
+          url: `${baseUrl}/blog/${blog.slug}`,
+          lastModified: new Date(blog.updatedAt || blog.createdAt || new Date()),
+          changeFrequency: "weekly",
+          priority: 0.7,
+        }));
     }
   } catch (error) {
     console.error("Error fetching blog posts for sitemap:", error);
