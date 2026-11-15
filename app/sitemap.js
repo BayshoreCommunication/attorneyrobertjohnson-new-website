@@ -34,7 +34,7 @@ export default async function sitemap() {
   // Static blog routes
   const staticBlogRoutes = staticBlogPosts.map((blog) => ({
     url: `${baseUrl}/blog/${blog.slug}`,
-    lastModified: new Date(blog.createdAt || new Date()),
+    lastModified: new Date(blog.updatedAt || blog.createdAt || new Date()),
     changeFrequency: "weekly",
     priority: 0.7,
   }));

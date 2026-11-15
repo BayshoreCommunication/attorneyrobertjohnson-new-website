@@ -21,6 +21,7 @@ import WhatToDoIfAnotherDriverGivesFalseInformationAfterAnAccident from "@/compo
 import BlackBoxDataProvesFaultFloridaCarAccident from "@/components/static-blogs/blogs/black-box-data-proves-fault-florida-car-accident";
 import HowToRespondIfAnInsuranceCompanyRequestsARecordedStatement from "@/components/static-blogs/blogs/how-to-respond-if-an-insurance-company-requests-a-recorded-statement";
 import WhatDocumentsShouldYouNeverSignAfterAPersonalInjuryAccident from "@/components/static-blogs/blogs/what-documents-should-you-never-sign-after-a-personal-injury-accident";
+import WhatIsSpoliationOfEvidenceAndWhyDoesItMatter from "@/components/static-blogs/blogs/what-is-spoliation-of-evidence-and-why-does-it-matter";
 import { staticBlogPosts } from "@/components/static-blogs/staticBlogData";
 
 const staticBlogComponents = {
@@ -45,6 +46,8 @@ const staticBlogComponents = {
   "how-to-respond-if-an-insurance-company-requests-a-recorded-statement": HowToRespondIfAnInsuranceCompanyRequestsARecordedStatement,
   "what-documents-should-you-never-sign-after-a-personal-injury-accident":
     WhatDocumentsShouldYouNeverSignAfterAPersonalInjuryAccident,
+  "what-is-spoliation-of-evidence-and-why-does-it-matter":
+    WhatIsSpoliationOfEvidenceAndWhyDoesItMatter,
 };
 
 

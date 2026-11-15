@@ -438,6 +438,33 @@ export const whatDocumentsShouldYouNeverSignAfterAPersonalInjuryAccidentBlog = {
   },
 };
 
+export const spoliationOfEvidenceMatterBlog = {
+  slug: "what-is-spoliation-of-evidence-and-why-does-it-matter",
+  title: "What Is Spoliation Of Evidence And Why Does It Matter?",
+  metaTitle: "Spoliation Of Evidence: What It Means And Why It Matters",
+  description:
+    "Learn what spoliation of evidence means, when preservation duties arise, and how lost evidence can affect U.S. litigation and potential sanctions.",
+  shortDescription:
+    "Learn what spoliation of evidence means under Florida personal injury law, how destroying or altering proof impacts your lawsuit, and the legal penalties involved.",
+  createdAt: "2026-11-15T12:00:00.000Z",
+  updatedAt: "2026-11-15T12:00:00.000Z",
+  published: true,
+  body:
+    "Spoliation of evidence occurs when a party intentionally or negligently destroys, alters, conceals, or fails to preserve evidence that may be relevant to pending or reasonably anticipated litigation.",
+  featuredImage: {
+    image: {
+      url: "/images/static-blogs/what-is-spoliation-of-evidence-in-florida-law.webp",
+    },
+    altText:
+      "Cracked smartphone inside an evidence bag beside a hard drive, camera, gavel, and scales of justice on a desk.",
+    title: "What Is Spoliation of Evidence in Florida & Why It Matters",
+    description:
+      "Learn what spoliation of evidence means under Florida personal injury law, how destroying or altering proof impacts your lawsuit, and the legal penalties involved.",
+    caption:
+      "Understand the legal consequences of spoliation of evidence in Florida personal injury cases.",
+  },
+};
+
 export const staticBlogPosts = [
   floridaStatuteReposeBlog,
   dashcamFootagePersonalInjuryClaimBlog,
@@ -456,6 +483,7 @@ export const staticBlogPosts = [
   blackBoxDataProvesFaultFloridaCarAccidentBlog,
   howToRespondIfAnInsuranceCompanyRequestsARecordedStatementBlog,
   whatDocumentsShouldYouNeverSignAfterAPersonalInjuryAccidentBlog,
+  spoliationOfEvidenceMatterBlog,
 ];
 
 
