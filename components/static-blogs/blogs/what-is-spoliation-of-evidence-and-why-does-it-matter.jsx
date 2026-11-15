@@ -27,7 +27,7 @@ const evidenceExamples = [
 const evidenceTableHeaders = [
   "Category",
   "Examples",
-  "Primary Spoliation Risks",
+  "Primary Spoliation Risks ",
 ];
 
 const evidenceTableRows = [
@@ -144,16 +144,14 @@ const EvidenceTable = ({ headers, rows }) => (
           {rows.map((row, idx) => (
             <tr
               key={idx}
-              className={`border-t border-[#e5e7eb] ${
-                idx % 2 === 0 ? "bg-[#f9fafb]" : "bg-white"
-              }`}
+              className={`border-t border-[#e5e7eb] ${idx % 2 === 0 ? "bg-[#f9fafb]" : "bg-white"
+                }`}
             >
               {row.map((cell, cIdx) => (
                 <td
                   key={cIdx}
-                  className={`px-4 py-3 align-top text-[#323232] text-left ${
-                    cIdx === 0 ? "font-bold" : ""
-                  }`}
+                  className={`px-4 py-3 align-top text-[#323232] text-left ${cIdx === 0 ? "font-bold" : ""
+                    }`}
                 >
                   {cell}
                 </td>
@@ -184,9 +182,8 @@ const SeveritySpectrumTable = ({ rows }) => (
           {rows.map((row, idx) => (
             <tr
               key={row.level}
-              className={`border-t border-[#e5e7eb] ${
-                idx % 2 === 0 ? "bg-[#f9fafb]" : "bg-white"
-              }`}
+              className={`border-t border-[#e5e7eb] ${idx % 2 === 0 ? "bg-[#f9fafb]" : "bg-white"
+                }`}
             >
               <td className="px-4 py-3 align-top font-bold text-[#323232] text-left">
                 {row.level}
@@ -200,11 +197,10 @@ const SeveritySpectrumTable = ({ rows }) => (
                     {Array.from({ length: 10 }).map((_, blockIdx) => (
                       <span
                         key={blockIdx}
-                        className={`inline-block h-3.5 w-2.5 ${
-                          blockIdx < row.filledCount
+                        className={`inline-block h-3.5 w-2.5 ${blockIdx < row.filledCount
                             ? "bg-[#1e5a96]"
                             : "bg-[#dce6f2]"
-                        }`}
+                          }`}
                       />
                     ))}
                   </div>
